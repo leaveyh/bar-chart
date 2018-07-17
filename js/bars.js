@@ -99,8 +99,8 @@ d3.select("#change3").on("click", function() {
 d3.select("#change4").on("click", function() {
         whichChart = 4;
         wChart.data = EarnData;
-        eduY.title = "Average Earnings";
         eduY.tickFormat = '$,f';
+        eduY.title = "Average Earnings";
         buttonClick1();
         wChart.draw(1000);
         wChart.draw(1000);
@@ -225,7 +225,13 @@ function collapse1() {
         document.getElementById("Collapse5").style.display="none";
         document.getElementById("Collapse6").style.display="none";
         
-        
+        document.getElementById("Title1").style.display="inline";
+        document.getElementById("Title2").style.display="none";
+        document.getElementById("Title3").style.display="none";
+        document.getElementById("Title4").style.display="none";
+        document.getElementById("Title5").style.display="none";
+    
+    
         drawAll();
         
     }
@@ -236,6 +242,12 @@ function collapse2() {
         document.getElementById("Collapse4").style.display="none";
         document.getElementById("Collapse5").style.display="none";
         document.getElementById("Collapse6").style.display="none";
+    
+        document.getElementById("Title1").style.display="none";
+        document.getElementById("Title2").style.display="inline";
+        document.getElementById("Title3").style.display="none";
+        document.getElementById("Title4").style.display="none";
+        document.getElementById("Title5").style.display="none";
         
         
         drawAll();
@@ -248,6 +260,12 @@ function collapse3() {
         document.getElementById("Collapse4").style.display="inline";
         document.getElementById("Collapse5").style.display="none";
         document.getElementById("Collapse6").style.display="none";
+    
+        document.getElementById("Title1").style.display="none";
+        document.getElementById("Title2").style.display="none";
+        document.getElementById("Title3").style.display="inline";
+        document.getElementById("Title4").style.display="none";
+        document.getElementById("Title5").style.display="none";
         
         
         drawAll();
@@ -260,6 +278,12 @@ function collapse4() {
         document.getElementById("Collapse4").style.display="none";
         document.getElementById("Collapse5").style.display="inline";
         document.getElementById("Collapse6").style.display="none";
+    
+        document.getElementById("Title1").style.display="none";
+        document.getElementById("Title2").style.display="none";
+        document.getElementById("Title3").style.display="none";
+        document.getElementById("Title4").style.display="inline";
+        document.getElementById("Title5").style.display="none";
         
         
         drawAll();
@@ -272,6 +296,12 @@ function collapse5() {
         document.getElementById("Collapse4").style.display="none";
         document.getElementById("Collapse5").style.display="none";
         document.getElementById("Collapse6").style.display="inline";
+    
+        document.getElementById("Title1").style.display="none";
+        document.getElementById("Title2").style.display="none";
+        document.getElementById("Title3").style.display="none";
+        document.getElementById("Title4").style.display="none";
+        document.getElementById("Title5").style.display="inline";
         
         
         drawAll();
