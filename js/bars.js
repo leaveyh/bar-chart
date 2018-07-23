@@ -103,7 +103,7 @@ d3.select("#change4").on("click", function() {
         whichChart = 4;
         wChart.data = EarnData;
         eduY.tickFormat = '$,f';
-        eduY.title = "Average Earnings";
+        eduY.title = "Median Earnings";
         buttonClick1();
         wChart.draw(1000);
         
