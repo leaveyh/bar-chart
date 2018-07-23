@@ -1,10 +1,11 @@
 var togNum = 1;
 var togNum1 = 1;
-    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTA0sYVEpeavusV8KKN5NmbdrptBSvKhGnTZ36S2pe9AQJvaFFxHnrhjqL-SVkDa5jrUCJRERyLDvPs/pub?gid=1905050396&single=true&output=csv", function (data) {
+    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vR1Q9fhFrs5XauK9EVMw3CLNNeqNuFiDwku5-Nb5sOVhyjiWak9EIMVa1AQ6rJcuveuRT6v2qzjpnBs/pub?output=csv", function (data) {
 
                 //chart 3 
                 
                 var svg3 = dimple.newSvg("#Chart3", "100%", 400);
+        
         
                 //whichChart tells program which chart is displayed for change purposes
                 //1 = grad
@@ -16,17 +17,17 @@ var togNum1 = 1;
                 var whichChart = 1;
                 var chartCheck;
                
-                            
+                            data1 = dimple.filterData(data, "Year", "2016")
         
-                            gradData = dimple.filterData(data, "Measure", "Graduation Rate");
+                            gradData = dimple.filterData(data1, "Measure", "Graduation Rate");
         
-                            empData = dimple.filterData(data, "Measure", "Employment Rate");
+                            empData = dimple.filterData(data1, "Measure", "Employment Rate");
         
-                            retData = dimple.filterData(data, "Measure", "Retention");
+                            retData = dimple.filterData(data1, "Measure", "Retention");
         
-                            EarnData = dimple.filterData(data, "Measure", "Earnings");
+                            EarnData = dimple.filterData(data1, "Measure", "Earnings");
         
-                            transData = dimple.filterData(data, "Measure", "Inter-college Transfer Rate (Including dual enroll and online enroll)");
+                            transData = dimple.filterData(data1, "Measure", "Inter-college Transfer Rate (Including dual enroll and online enroll)");
         
         
 
@@ -36,7 +37,7 @@ var togNum1 = 1;
         
                             var wChart = new dimple.chart(svg3, gradData);
                             wChart.setBounds("11%", "12%", "85%", "65%")
-                            var edX = wChart.addCategoryAxis("x", ["Year", "College"]);
+                            var edX = wChart.addCategoryAxis("x", ["College", "Program"]);
                             var eduY = wChart.addMeasureAxis("y", "Value");
                            var edSeries = wChart.addSeries("Program", dimple.plot.bar);
                             eduY.title = "Graduation Rates";
@@ -51,7 +52,7 @@ var togNum1 = 1;
                      // var edLegend = wChart.addLegend("0%", "83%", "50%", "70%", "right");
         
                             //edSeries.lineWeight = 0;
-                            eduY.tickFormat = '%.2f';
+                            eduY.tickFormat = '.1%';
                             
                             wChart.draw();
         
@@ -73,7 +74,7 @@ d3.select("#change1").on("click", function() {
         whichChart = 1;
         wChart.data = gradData;
         eduY.title = "Graduation Rates";
-        eduY.tickFormat = '%.2f';
+        eduY.tickFormat = '.1%';
         buttonClick1();
         wChart.draw(1000);
     });
@@ -82,7 +83,7 @@ d3.select("#change2").on("click", function() {
         whichChart = 2;
         wChart.data = empData;
         eduY.title = "Employment Rates";
-        eduY.tickFormat = '%.2f';
+        eduY.tickFormat = '.1%';
         buttonClick1();
         wChart.draw(1000);
     });
@@ -91,26 +92,30 @@ d3.select("#change3").on("click", function() {
         whichChart = 3;
         wChart.data = retData;
         eduY.title = "Retention Rates";
-        eduY.tickFormat = '%.2f';
+        eduY.tickFormat = '.1%';
         buttonClick1();
         wChart.draw(1000);
     });
         
 d3.select("#change4").on("click", function() {
+       
+            
         whichChart = 4;
         wChart.data = EarnData;
         eduY.tickFormat = '$,f';
         eduY.title = "Average Earnings";
         buttonClick1();
         wChart.draw(1000);
-        wChart.draw(1000);
+        
+        
+       
     });
         
 d3.select("#change5").on("click", function() {
         whichChart = 5;
         wChart.data = transData;
         eduY.title = "Inter-college Transfer Rates";
-        eduY.tickFormat = '%.2f';
+        eduY.tickFormat = '.1%  ';
         buttonClick1();
         wChart.draw(1000);
     });
@@ -307,3 +312,94 @@ function collapse5() {
         drawAll();
         
     }
+
+function color1(){
+    document.getElementById("change1").style.background="#c4c4c4";
+   
+    
+    document.getElementById("change2").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    
+    document.getElementById("change3").style.background="linear-gradient(to top, #cbcbcb, white)";
+   
+    
+    document.getElementById("change4").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    
+    document.getElementById("change5").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    
+    
+}
+
+function color2(){
+    document.getElementById("change1").style.background="linear-gradient(to top, #cbcbcb, white)";
+   
+    
+    document.getElementById("change2").style.background="#c4c4c4";
+    
+    
+    document.getElementById("change3").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    
+    document.getElementById("change4").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    
+    document.getElementById("change5").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    
+}
+
+function color3(){
+    document.getElementById("change1").style.background="linear-gradient(to top, #cbcbcb, white)";
+   
+    
+    document.getElementById("change2").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    
+    document.getElementById("change3").style.background="#c4c4c4";
+    
+    
+    document.getElementById("change4").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    
+    document.getElementById("change5").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    
+}
+
+function color4(){
+    document.getElementById("change1").style.background="linear-gradient(to top, #cbcbcb, white)";
+   
+    
+    document.getElementById("change2").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    
+    document.getElementById("change3").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    
+    document.getElementById("change4").style.background="#c4c4c4";
+    
+    
+    document.getElementById("change5").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    
+}
+
+function color5(){
+    document.getElementById("change1").style.background="linear-gradient(to top, #cbcbcb, white)";
+   
+    
+    document.getElementById("change2").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    
+    document.getElementById("change3").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    
+    document.getElementById("change4").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    
+    document.getElementById("change5").style.background="#c4c4c4";
+    
+    
+}

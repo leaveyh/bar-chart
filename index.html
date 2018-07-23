@@ -25,23 +25,23 @@
     <div class="sidebutton">
                 
                 <div class="dropdown">
-            <button class="button" id="change1" onclick="collapse1()">Graduation Rate</button>
+            <button class="button" id="change1" onclick="collapse1();color1()">Graduation Rate</button>
                     </div>
                 
             <div class="dropdown">    
                 
-            <button class="button" id="change2" style="padding-left: 10%; padding-right: 12.5%" onclick="collapse2()">Employment Rate</button>
+            <button class="button" id="change2" style="padding-left: 10%; padding-right: 12.5%" onclick="collapse2();color2()">Employment Rate</button>
         </div>
                 <div class="dropdown">    
-                <button class="button" id="change3" style="padding-left: 10%; padding-right: 17%" onclick="collapse3()">Retention Rate</button>
+                <button class="button" id="change3" style="padding-left: 10%; padding-right: 17%" onclick="collapse3();color3()">Retention Rate</button>
                 </div>
             <div class="dropdown">    
-            <button class="button" id="change4" style="padding-left: 10%; padding-right: 1%;" onclick="collapse4()">Earnings
+            <button class="button" id="change4" style="padding-left: 10%; padding-right: 1%;" onclick="collapse4();color4()">Earnings
  </button>
                 
                 </div>
         <div class="dropdown">    
-            <button class="button" id="change5" style="padding-left: 1%; padding-right: 1%;" onclick="collapse5()">Inter-College Transfer Rate
+            <button class="button" id="change5" style="padding-left: 1%; padding-right: 1%;" onclick="collapse5();color5()">Inter-College Transfer Rate
  </button>
                 
                 </div>
@@ -423,7 +423,7 @@
         var csvData = [];
 
         $.ajax({
-            url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTA0sYVEpeavusV8KKN5NmbdrptBSvKhGnTZ36S2pe9AQJvaFFxHnrhjqL-SVkDa5jrUCJRERyLDvPs/pub?gid=1905050396&single=true&output=csv",
+            url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vR1Q9fhFrs5XauK9EVMw3CLNNeqNuFiDwku5-Nb5sOVhyjiWak9EIMVa1AQ6rJcuveuRT6v2qzjpnBs/pub?output=csv",
             async: false,
             success: function (csvd) {
                 csvData = $.csv.toArrays(csvd);
