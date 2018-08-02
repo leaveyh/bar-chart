@@ -466,7 +466,7 @@ function list1(){
     var x = document.querySelectorAll('.l1');
     var y = document.querySelectorAll('.l2');
     var i;
-    alert("list1 activate!");
+    //alert("list1 activate!");
     
     for (i = 0; i < x.length; i++){
         x[i].style.display = "inline";
@@ -494,7 +494,7 @@ function list2(){
     var x = document.querySelectorAll('.l1');
     var y = document.querySelectorAll('.l2');
     var i;
-    alert("list2 activate!");
+    //alert("list2 activate!");
     
     for (i = 0; i < x.length; i++){
         x[i].style.display = "none";
