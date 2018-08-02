@@ -1,6 +1,6 @@
 var togNum = 1;
 var togNum1 = 1;
-    d3.csv("../data/data1.csv", function (data) {
+    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRz13z_lskZMYTvN_p6vt1dvYE9knTdXd4sYW9TPBOwpFaG5xYqVN8ZbMu3jqfQXyWE8hAs2qNlYlpB/pub?gid=2566351&single=true&output=csv", function (data) {
 
                 //chart 3 
                 

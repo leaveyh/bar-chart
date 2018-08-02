@@ -284,11 +284,22 @@
     display: block;
 }
             
-            
+td:nth-child(1){
+    font-weight: bold;
+    
+
+}
 
             
-            tr:nth-child(even){background-color: #D3DFEF}
-            tr:nth-child(odd){background-color: #FFFFFF}
+tr:nth-child(even){
+    background-color: #D3DFEF
+}
+tr:nth-child(odd){
+    background-color: #FFFFFF
+}
+
+
+
 
 @page {
        
