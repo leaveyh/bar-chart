@@ -1,10 +1,10 @@
 var togNum = 1;
 var togNum1 = 1;
-    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vR1Q9fhFrs5XauK9EVMw3CLNNeqNuFiDwku5-Nb5sOVhyjiWak9EIMVa1AQ6rJcuveuRT6v2qzjpnBs/pub?output=csv", function (data) {
+    d3.csv("../data/data1.csv", function (data) {
 
                 //chart 3 
                 
-                var svg3 = dimple.newSvg("#Chart3", "100%", 400);
+                var svg3 = dimple.newSvg("#Chart3", "100%", 600);
         
         
                 //whichChart tells program which chart is displayed for change purposes
@@ -17,35 +17,35 @@ var togNum1 = 1;
                 var whichChart = 1;
                 var chartCheck;
                
-                            data1 = dimple.filterData(data, "Year", "2016")
+                           
         
-                            gradData = dimple.filterData(data1, "Measure", "Graduation Rate");
+                            gradData = dimple.filterData(data, "Measure", "Graduation Rate");
         
-                            empData = dimple.filterData(data1, "Measure", "Employment Rate");
+                            empData = dimple.filterData(data, "Measure", "Employment Rate");
         
-                            retData = dimple.filterData(data1, "Measure", "Retention");
+                            retData = dimple.filterData(data, "Measure", "Retention");
         
-                            EarnData = dimple.filterData(data1, "Measure", "Earnings");
+                            EarnData = dimple.filterData(data, "Measure", "Earnings");
         
-                            transData = dimple.filterData(data1, "Measure", "Inter-college Transfer Rate (Including dual enroll and online enroll)");
+                            transData = dimple.filterData(data, "Measure", "Inter-college Transfer Rate (Including dual enroll and online enroll)");
         
-        
+                            gradData1 = dimple.filterData(gradData, "Program", ["Associate of Applied Science in Information System Security", "Associate of Applied Science in Cybersecurity"]);
 
                             
 
                         
         
-                            var wChart = new dimple.chart(svg3, gradData);
-                            wChart.setBounds("11%", "12%", "85%", "65%")
+                            var wChart = new dimple.chart(svg3, gradData1);
+                            wChart.setBounds("11%", "32%", "85%", "55%")
                             var edX = wChart.addCategoryAxis("x", ["College", "Program"]);
-                            var eduY = wChart.addMeasureAxis("y", "Value");
+                            var eduY = wChart.addMeasureAxis("y", "Totals");
                            var edSeries = wChart.addSeries("Program", dimple.plot.bar);
                             eduY.title = "Graduation Rates";
                             edX.title = " ";
         
-                            edX.addOrderRule("College A", "College B", "College C");
+                            edX.addOrderRule("Montgomery College", "University of Baltimore", "Baltimore Community College");
         
-                            var qLegend = wChart.addLegend("65%", "5%", "40%", "95%");
+                            var qLegend = wChart.addLegend("15%", "15%", "40%", "95%");
                             
         
                        //     edX.addOrderRule(["Less than high school graduate", "High school graduate (includes equivalency)", "Some college or associate's degree", "Bachelor's degree or higher"]);
@@ -58,12 +58,50 @@ var togNum1 = 1;
         
 d3.select("#btn3").on("change", function() {
   
-  
-	buttonClick1();
+    list();
+	//buttonClick1();
    
  });                             
         
+d3.select("#btn4").on("click", function() {
+  
+  
+	buttonClick2();
+   
+ });
+        
+        
 d3.select("#btn4").on("change", function() {
+  
+  
+	buttonClick2();
+   
+ });
+        
+d3.select("#btn5").on("click", function() {
+  
+  
+	buttonClick2();
+   
+ });
+        
+        
+d3.select("#btn5").on("change", function() {
+  
+  
+	buttonClick2();
+   
+ });
+        
+d3.select("#btn6").on("click", function() {
+  
+  
+	buttonClick2();
+   
+ });
+        
+        
+d3.select("#btn6").on("change", function() {
   
   
 	buttonClick2();
@@ -75,7 +113,7 @@ d3.select("#change1").on("click", function() {
         wChart.data = gradData;
         eduY.title = "Graduation Rates";
         eduY.tickFormat = '.1%';
-        buttonClick1();
+        buttonClick2();
         wChart.draw(1000);
     });
         
@@ -84,7 +122,7 @@ d3.select("#change2").on("click", function() {
         wChart.data = empData;
         eduY.title = "Employment Rates";
         eduY.tickFormat = '.1%';
-        buttonClick1();
+        buttonClick2();
         wChart.draw(1000);
     });
         
@@ -93,7 +131,7 @@ d3.select("#change3").on("click", function() {
         wChart.data = retData;
         eduY.title = "Retention Rates";
         eduY.tickFormat = '.1%';
-        buttonClick1();
+        buttonClick2();
         wChart.draw(1000);
     });
         
@@ -103,8 +141,8 @@ d3.select("#change4").on("click", function() {
         whichChart = 4;
         wChart.data = EarnData;
         eduY.tickFormat = '$,f';
-        eduY.title = "Median Earnings";
-        buttonClick1();
+        eduY.title = "Median Annual Earnings";
+        buttonClick2();
         wChart.draw(1000);
         
         
@@ -116,7 +154,7 @@ d3.select("#change5").on("click", function() {
         wChart.data = transData;
         eduY.title = "Inter-college Transfer Rates";
         eduY.tickFormat = '.1%  ';
-        buttonClick1();
+        buttonClick2();
         wChart.draw(1000);
     });
         
@@ -146,8 +184,11 @@ d3.select("#change5").on("click", function() {
       
       
   }
+       
         
-  function buttonClick1(){
+    //selectable college
+
+  /*function buttonClick1(){
       
       var e3 = document.getElementById("btn3");
   var strUser3 = e3.options[e3.selectedIndex].value;
@@ -175,37 +216,32 @@ d3.select("#change5").on("click", function() {
       
        wChart.draw(1000);
       
-  }
+  }*/
         
   function buttonClick2(){
       
-      var e3 = document.getElementById("btn3");
-  var strUser3 = e3.options[e3.selectedIndex].value;
       
       var e4 = document.getElementById("btn4");
-  var strUser4 = e4.options[e4.selectedIndex].value;
+      var strUser4 = e4.options[e4.selectedIndex].value;
+      
+      //as above, so below
+      var e5 = document.getElementById("btn5");
+      var strUser5 = e5.options[e5.selectedIndex].value;
+      
+      var e6 = document.getElementById("btn6");
+      var strUser6 = e6.options[e6.selectedIndex].value;
     
   
-   var chartChange = dimple.filterData(whichCheck(), "Program", strUser4);
+   var chartChange = dimple.filterData(whichCheck(), "Program", [strUser4, strUser5, strUser6]);
     
     wChart.data = chartChange;
     
-    if(strUser4 == "All Programs" && strUser3 == "All Colleges"){
-        wChart.data = whichCheck();
-    }
+    
       
-    if(strUser3 != "All Colleges"){
-        var chartChange1 = dimple.filterData(chartChange, "College", strUser3);
-        wChart.data = chartChange1;
-    }
-      
-    if(strUser3 != "All Colleges" && strUser4 == "All Programs"){
-        buttonClick1();
-    }
         
      wChart.draw(1000);
      
-  }
+  };
         
                            
 
@@ -220,6 +256,10 @@ window.drawAll = function(){
                       
                         drawAll();
                     };
+        
+        
+        
+        
         
     });
 
@@ -403,3 +443,73 @@ function color5(){
     
     
 }
+
+function list(){
+    var X = document.getElementById("btn3");
+   var x1 = X.options[X.selectedIndex].value;
+    
+    if(x1 == 1){
+        list1();
+    } else {
+        list2();
+    }
+    
+    
+}
+
+function list1(){
+    var X1 = document.getElementById("btn4");
+    var X2 = document.getElementById("btn5");
+    var X3 = document.getElementById("btn6");
+   
+    
+    var x = document.querySelectorAll('.l1');
+    var y = document.querySelectorAll('.l2');
+    var i;
+    alert("list1 activate!");
+    
+    for (i = 0; i < x.length; i++){
+        x[i].style.display = "inline";
+        
+        
+    }
+    
+    for (i = 0; i < y.length; i++){
+        
+        y[i].style.display = "none";
+        
+    }
+    
+    X1.selectedIndex = 0;
+    X2.selectedIndex = 0;
+    X3.selectedIndex = 0;
+}
+
+function list2(){
+    var X1 = document.getElementById("btn4");
+    var X2 = document.getElementById("btn5");
+    var X3 = document.getElementById("btn6");
+   
+    
+    var x = document.querySelectorAll('.l1');
+    var y = document.querySelectorAll('.l2');
+    var i;
+    alert("list2 activate!");
+    
+    for (i = 0; i < x.length; i++){
+        x[i].style.display = "none";
+        
+        
+    }
+    
+    for (i = 0; i < y.length; i++){
+        
+        y[i].style.display = "inline";
+        
+    }
+    
+    X1.selectedIndex = 10;
+    X2.selectedIndex = 10;
+    X3.selectedIndex = 10;
+}
+

@@ -6,7 +6,9 @@
         
         <style>
             
-            
+            .l2{
+                display: none;
+            }
             
         </style> 
         
@@ -69,30 +71,185 @@
             
             <div class="ChartTitle">
                 <div class="buttons">
-                    <p> College: 
-                        <select id="btn3">
-                            <option value="All Colleges" selected="selected">All</option>
-                            <option value="Montgomery College">Montgomery College</option>
-                            <option value="Baltimore Community College">Baltimore Community College</option>
-                            <option value="University of Baltimore" >University of Baltimore</option>
+                   <p id="Title1">Graduation Rates</p>
+                <p id="Title2" style="display: none;">Employment Rates</p>
+                <p id="Title3" style="display: none;">Retention Rates</p>
+                <p id="Title4" style="display: none;">Median Annual Earnings</p>
+                <p id="Title5" style="display: none;">Inter-college Transfer Rate</p>
+                    <p> Credential Type: 
+                        <select id="btn3" onselect="list()">
+                            <option value="1">Associate Degree</option>
+                            <option value="2">Certificate</option>
                         </select>            
                     </p>
                     <p>
-                        Program: 
+                        Program 1: 
                         <select id="btn4"> 
-                            <option value="All Programs">All Programs</option>
-                            <option value="Cyber Security">Cyber Security</option>
-                            <option value="Accounting">Accounting</option>
-                            <option value="Management">Management</option>
-                        </select>            
+                        
+                        <!-- list 1 associates -->
+                        <option value="Associate of Applied Science in Information System Security" class="l1">Associate of Applied Science in Information System Security</option>
+                        
+                        <option value="Associate of Applied Science in Network Technology Degree - Information Technology Support Option" class="l1">Associate of Applied Science in Network Technology Degree - Information Technology Support Option</option>
+                        
+                        <option value="Associate of Applied Science in Network Technology Degree -Cisco Option" class="l1">Associate of Applied Science in Network Technology Degree -Cisco Option</option>
+                        
+                        <option value="Associate of Applied Science in Network Technology Degree -Microsoft Option" class="l1">Associate of Applied Science in Network Technology Degree -Microsoft Option</option>
+                        
+                        <option value="Associate of Applied Science in Network Technology Degree -Red Hat Linux Option" class="l1">Associate of Applied Science in Network Technology Degree -Red Hat Linux Option</option>
+                        
+                        <option value="Associate of Applied Science in Network Technology Degree-General Option" class="l1">Associate of Applied Science in Network Technology Degree-General Option</option>
+                        
+                        <option value="Associate of Applied Science in Cybersecurity" class="l1">Associate of Applied Science in Cybersecurity</option>
+                        
+                        
+                        <option value="Computer Science/Cybersecurity/Information Systems Preparation for Transfer" class="l1">Computer Science/Cybersecurity/Information Systems Preparation for Transfer</option>
+                        <option value="Computer Technology Two-Year Career Program Preparation for Employment - Cybersecurity" class="l1">Computer Technology Two-Year Career Program Preparation for Employment - Cybersecurity</option>
+                        <option value="Business & Information Technology : Network Administration Concentration" class="l1">Business & Information Technology : Network Administration Concentration</option>
+                        
+                        <!-- list 2  certs-->
+                        
+                        <option value="A+ Certificate" class="l2">A+ Certificate</option>
+                        
+                        <option value="A+ Certification" class="l2">A+ Certification</option>
+                        
+                        <option value="A+ Enhanced Certification" class="l2">A+ Enhanced Certification</option>
+                        
+                       <option value="Advanced Network Security" class="l2"> Advanced Network Security</option>
+                       
+                        <option value="Advanced Network Security Certificate" class="l2">Advanced Network Security Certificate</option>
+                        
+                        <option value="Capstone" class="l2">Capstone</option>
+                        
+                        <option value="CISCO" class="l2">CISCO</option>
+                        
+                        <option value="Cisco CCNA Preparation" class="l2">Cisco CCNA Preparation</option>
+                        
+                        <option value="Cisco Certified Network Associate + Security Preparation Certificate" class="l2">Cisco Certified Network Associate + Security Preparation Certificate</option>
+                        
+                        <option value="Computer Information Security" class="l2">Computer Information Security</option>
+
+                        
+                        
+                        
+
+
+                        </select> 
+                                   
+                    </p>
+                    <p>
+                       Program 2:
+                        <select id="btn5"> 
+                        
+                        <!-- list 1 associates -->
+                        <option value="Associate of Applied Science in Information System Security" class="l1">Associate of Applied Science in Information System Security</option>
+                        
+                        <option value="Associate of Applied Science in Network Technology Degree - Information Technology Support Option" class="l1">Associate of Applied Science in Network Technology Degree - Information Technology Support Option</option>
+                        
+                        <option value="Associate of Applied Science in Network Technology Degree -Cisco Option" class="l1">Associate of Applied Science in Network Technology Degree -Cisco Option</option>
+                        
+                        <option value="Associate of Applied Science in Network Technology Degree -Microsoft Option" class="l1">Associate of Applied Science in Network Technology Degree -Microsoft Option</option>
+                        
+                        <option value="Associate of Applied Science in Network Technology Degree -Red Hat Linux Option" class="l1">Associate of Applied Science in Network Technology Degree -Red Hat Linux Option</option>
+                        
+                        <option value="Associate of Applied Science in Network Technology Degree-General Option" class="l1">Associate of Applied Science in Network Technology Degree-General Option</option>
+                        
+                        <option value="Associate of Applied Science in Cybersecurity" class="l1">Associate of Applied Science in Cybersecurity</option>
+                        
+                        
+                        <option value="Computer Science/Cybersecurity/Information Systems Preparation for Transfer" class="l1">Computer Science/Cybersecurity/Information Systems Preparation for Transfer</option>
+                        <option value="Computer Technology Two-Year Career Program Preparation for Employment - Cybersecurity" class="l1">Computer Technology Two-Year Career Program Preparation for Employment - Cybersecurity</option>
+                        <option value="Business & Information Technology : Network Administration Concentration" class="l1">Business & Information Technology : Network Administration Concentration</option>
+                        
+                        <!-- list 2  certs-->
+                        
+                        <option value="A+ Certificate" class="l2">A+ Certificate</option>
+                        
+                        <option value="A+ Certification" class="l2">A+ Certification</option>
+                        
+                        <option value="A+ Enhanced Certification" class="l2">A+ Enhanced Certification</option>
+                        
+                       <option value="Advanced Network Security" class="l2"> Advanced Network Security</option>
+                       
+                        <option value="Advanced Network Security Certificate" class="l2">Advanced Network Security Certificate</option>
+                        
+                        <option value="Capstone" class="l2">Capstone</option>
+                        
+                        <option value="CISCO" class="l2">CISCO</option>
+                        
+                        <option value="Cisco CCNA Preparation" class="l2">Cisco CCNA Preparation</option>
+                        
+                        <option value="Cisco Certified Network Associate + Security Preparation Certificate" class="l2">Cisco Certified Network Associate + Security Preparation Certificate</option>
+                        
+                        <option value="Computer Information Security" class="l2">Computer Information Security</option>
+
+                        
+                        
+                        
+
+
+                        </select>         
+                        
+                        
+                    </p>
+                    <!-- list 3-->
+                    <p>
+                       Program 3:
+                        <select id="btn6"> 
+                        
+                        <!-- list 1 associates -->
+                        <option value="Associate of Applied Science in Information System Security" class="l1">Associate of Applied Science in Information System Security</option>
+                        
+                        <option value="Associate of Applied Science in Network Technology Degree - Information Technology Support Option" class="l1">Associate of Applied Science in Network Technology Degree - Information Technology Support Option</option>
+                        
+                        <option value="Associate of Applied Science in Network Technology Degree -Cisco Option" class="l1">Associate of Applied Science in Network Technology Degree -Cisco Option</option>
+                        
+                        <option value="Associate of Applied Science in Network Technology Degree -Microsoft Option" class="l1">Associate of Applied Science in Network Technology Degree -Microsoft Option</option>
+                        
+                        <option value="Associate of Applied Science in Network Technology Degree -Red Hat Linux Option" class="l1">Associate of Applied Science in Network Technology Degree -Red Hat Linux Option</option>
+                        
+                        <option value="Associate of Applied Science in Network Technology Degree-General Option" class="l1">Associate of Applied Science in Network Technology Degree-General Option</option>
+                        
+                        <option value="Associate of Applied Science in Cybersecurity" class="l1">Associate of Applied Science in Cybersecurity</option>
+                        
+                        
+                        <option value="Computer Science/Cybersecurity/Information Systems Preparation for Transfer" class="l1">Computer Science/Cybersecurity/Information Systems Preparation for Transfer</option>
+                        <option value="Computer Technology Two-Year Career Program Preparation for Employment - Cybersecurity" class="l1">Computer Technology Two-Year Career Program Preparation for Employment - Cybersecurity</option>
+                        <option value="Business & Information Technology : Network Administration Concentration" class="l1">Business & Information Technology : Network Administration Concentration</option>
+                        
+                        <!-- list 2  certs-->
+                        
+                        <option value="A+ Certificate" class="l2">A+ Certificate</option>
+                        
+                        <option value="A+ Certification" class="l2">A+ Certification</option>
+                        
+                        <option value="A+ Enhanced Certification" class="l2">A+ Enhanced Certification</option>
+                        
+                       <option value="Advanced Network Security" class="l2"> Advanced Network Security</option>
+                       
+                        <option value="Advanced Network Security Certificate" class="l2">Advanced Network Security Certificate</option>
+                        
+                        <option value="Capstone" class="l2">Capstone</option>
+                        
+                        <option value="CISCO" class="l2">CISCO</option>
+                        
+                        <option value="Cisco CCNA Preparation" class="l2">Cisco CCNA Preparation</option>
+                        
+                        <option value="Cisco Certified Network Associate + Security Preparation Certificate" class="l2">Cisco Certified Network Associate + Security Preparation Certificate</option>
+                        
+                        <option value="Computer Information Security" class="l2">Computer Information Security</option>
+
+                        
+                        
+                        
+
+
+                        </select>         
+                        
+                        
                     </p>
                 </div>
                 
-                <p id="Title1">Graduation Rates</p>
-                <p id="Title2" style="display: none;">Employment Rates</p>
-                <p id="Title3" style="display: none;">Retention Rates</p>
-                <p id="Title4" style="display: none;">Average Earnings</p>
-                <p id="Title5" style="display: none;">Inter-college Transfer Rate </p>
+                
             </div>
             
             <div class="ChartDiv">
@@ -110,7 +267,7 @@
 
                         </script>
                         <p></p>
-                    </div>
+                    </  div>
                 
                 
 
@@ -118,6 +275,10 @@
             </div>
             <div id="Collapse2">
             <div class="Table">
+                           
+                           
+                           
+                           
                             <table id ="table3">
                     <tr class="HeadRow" style="background-color: white;">
                         <th>Graduation Rates 2016: </th>
@@ -172,6 +333,9 @@
                 
                 
             </div>
+                
+                
+                <p class="notes">TECHNICAL NOTES FOR GRADUATION RATES GO HERE</p>
                 </div>
                 
         <div id="Collapse3" style="display: none;">
@@ -230,6 +394,8 @@
                 
                 
             </div>
+            
+                <p class="notes">TECHNICAL NOTES FOR EMPLOYMENT RATES GO HERE</p>
                 </div>
                 
             <div id="Collapse4" style="display: none;">
@@ -288,13 +454,25 @@
                 
                 
             </div>
+                <p class="notes">TECHNICAL NOTES FOR RETENTION RATES GO HERE</p>
                 </div>
                 
             <div id="Collapse5" style="display: none;">
             <div class="Table">
+                           
+                           <table id="tabletest">
+                             <tr class="HeadRow">
+                              <th>College</th>
+                              <th>Program</th>
+                              <th>Credential Type</th>
+                              <th>Totals</th>
+                            </tr>
+                               
+                               
+                           </table>
                             <table id ="table6">
                     <tr class="HeadRow" style="background-color: white;">
-                        <th>Average Earnings 2016: </th>
+                        <th>Median Annual Earnings 2016: </th>
                         <th>Cyber Security</th>
                         <th>Accounting</th>
                         <th>Management</th>
@@ -346,13 +524,14 @@
                 
                 
             </div>
+                <p class="notes">TECHNICAL NOTES FOR MEDIAN ANNUAL EARNINGS GO HERE</p>
                 </div>
                 
                 <div id="Collapse6" style="display: none;">
             <div class="Table">
                             <table id ="table7">
                     <tr class="HeadRow" style="background-color: white;">
-                        <th>Inter-college Transfer Rate (Including dual enroll and online enroll) 2016: </th>
+                        <th>Inter-college Transfer Rate 2016: </th>
                         <th>Cyber Security</th>
                         <th>Accounting</th>
                         <th>Management</th>
@@ -404,6 +583,7 @@
                 
                 
             </div>
+                <p class="notes">TECHNICAL NOTES FOR INTER COLLEGE TRANSFER RATES GO HERE<br />(Including dual enroll and online enroll)</p>
                 </div>
                 
                
@@ -416,7 +596,23 @@
            
         </div>
    
-    
+<script type="text/javascript"charset="utf-8">
+            d3.text("data/earningsdata.csv", function(data) {
+                var parsedCSV = d3.csv.parseRows(data);
+
+                var container = d3.select("#tabletest")
+                    //.append("table")
+
+                    .selectAll("tr")
+                        .data(parsedCSV).enter()
+                        .append("tr")
+
+                    .selectAll("td")
+                        .data(function(d) { return d; }).enter()
+                        .append("td")
+                        .text(function(d) { return d; });
+            });
+        </script>
                 
 <script type="text/javascript">
         //table script   
