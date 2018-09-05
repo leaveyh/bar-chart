@@ -4,7 +4,7 @@ var togNum1 = 1;
 
                 //chart 3 
                 
-                var svg3 = dimple.newSvg("#Chart3", "100%", 320);
+                var svg3 = dimple.newSvg("#Chart3", "100%", 275);
         
         
                 //whichChart tells program which chart is displayed for change purposes
@@ -45,7 +45,7 @@ var togNum1 = 1;
         
                             edX.addOrderRule("Montgomery College", "University of Baltimore", "Baltimore Community College");
         
-                            var qLegend = wChart.addLegend("15%", "80%", "40%", "85%");
+                            var qLegend = wChart.addLegend("15%", "70%", "40%", "75%");
                             
         
                        //     edX.addOrderRule(["Less than high school graduate", "High school graduate (includes equivalency)", "Some college or associate's degree", "Bachelor's degree or higher"]);
