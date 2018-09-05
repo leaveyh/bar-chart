@@ -26,9 +26,10 @@
                 margin:auto;
                 width: 91%;
                 border-bottom-style: double;
-                font-size: 30px;
+                font-size: 16px;
                 color:darkblue;
                 border-bottom-color: black;
+                font-weight: bold;
                 
             }
             
@@ -37,6 +38,7 @@
                 width: 90%;
                 color:darkblue;
                 font-weight: bold;
+                font-size: 10px;
             }
 
             #Chart0{
@@ -234,11 +236,11 @@
             }
 
             .dimple-custom-axis-title {
-                font-size: 15pt !important;
+                font-size: 12pt !important;
             }
             
             text.dimple-tooltip {
-                font-size: 15pt !important;
+                font-size: 10pt !important;
             }
 
             .dimple-custom-legend-label{
@@ -247,7 +249,7 @@
 
 .sidebutton{
                 margin-top: 7.5px;
-    height: 80%;
+    height: 55%;
     width: 10%;
     position: fixed;
     z-index: 1;
@@ -255,16 +257,16 @@
     left: 1;
     background-color: gray;
     overflow-x: hidden;
-    padding-top: 15px;
+    padding-top: 3px;
             }
 
 .button {
     padding: 10px 10% 10px 10%;
-    margin: 10px 5px 0px 10px;
+    margin: 5px 1px 0px 7px;
     width: 90%;
     align-items: center;
     text-decoration: none;
-    font-size: 13.5px;
+    font-size: 11px;
     text-align: center;
     color: #2196F3;
     display:flex;

@@ -4,7 +4,7 @@ var togNum1 = 1;
 
                 //chart 3 
                 
-                var svg3 = dimple.newSvg("#Chart3", "100%", 600);
+                var svg3 = dimple.newSvg("#Chart3", "100%", 320);
         
         
                 //whichChart tells program which chart is displayed for change purposes
@@ -36,7 +36,7 @@ var togNum1 = 1;
                         
         
                             var wChart = new dimple.chart(svg3, gradData1);
-                            wChart.setBounds("11%", "32%", "85%", "55%")
+                            wChart.setBounds("11%", "5%", "85%", "60%")
                             var edX = wChart.addCategoryAxis("x", ["College", "Program"]);
                             var eduY = wChart.addMeasureAxis("y", "Totals");
                            var edSeries = wChart.addSeries("Program", dimple.plot.bar);
@@ -45,7 +45,7 @@ var togNum1 = 1;
         
                             edX.addOrderRule("Montgomery College", "University of Baltimore", "Baltimore Community College");
         
-                            var qLegend = wChart.addLegend("15%", "15%", "40%", "95%");
+                            var qLegend = wChart.addLegend("15%", "80%", "40%", "95%");
                             
         
                        //     edX.addOrderRule(["Less than high school graduate", "High school graduate (includes equivalency)", "Some college or associate's degree", "Bachelor's degree or higher"]);
