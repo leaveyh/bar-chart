@@ -1,6 +1,6 @@
 var togNum = 1;
 var togNum1 = 1;
-    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRz13z_lskZMYTvN_p6vt1dvYE9knTdXd4sYW9TPBOwpFaG5xYqVN8ZbMu3jqfQXyWE8hAs2qNlYlpB/pub?gid=2566351&single=true&output=csv", function (data) {
+    d3.csv("../data/collegedemo1.csv", function (data) {
 
                 //chart 3 
                 
@@ -19,24 +19,26 @@ var togNum1 = 1;
                
                            
         
-                            gradData = dimple.filterData(data, "Measure", "Graduation Rate");
+                            gradData = dimple.filterData(data, "Measure", "graduationRate");
         
-                            empData = dimple.filterData(data, "Measure", "Employment Rate");
+                            empData = dimple.filterData(data, "Measure", "employmentRate");
         
-                            retData = dimple.filterData(data, "Measure", "Retention");
+                            retData = dimple.filterData(data, "Measure", "retentionRate");
         
-                            EarnData = dimple.filterData(data, "Measure", "Earnings");
+                            EarnData = dimple.filterData(data, "Measure", "medianEarning");
         
-                            transData = dimple.filterData(data, "Measure", "Inter-college Transfer Rate (Including dual enroll and online enroll)");
+                            transData = dimple.filterData(data, "Measure", "meanEarning");
         
-                            gradData1 = dimple.filterData(gradData, "Program", ["Associate of Applied Science in Information System Security", "Associate of Applied Science in Cybersecurity"]);
+                            
+        
+                            gradData1 = dimple.filterData(gradData, "Program", ["A+ Certification", "CERT.CYBR", "A.A.S. Information Systems Security"]);
 
                             
 
                         
         
                             var wChart = new dimple.chart(svg3, gradData1);
-                            wChart.setBounds("11%", "5%", "85%", "55%")
+                            wChart.setBounds("14%", "5%", "75%", "55%")
                             var edX = wChart.addCategoryAxis("x", ["College", "Program"]);
                             var eduY = wChart.addMeasureAxis("y", "Totals");
                            var edSeries = wChart.addSeries("Program", dimple.plot.bar);
@@ -108,6 +110,58 @@ d3.select("#btn6").on("change", function() {
    
  });
         
+d3.select("#btn3").on("change", function() {
+  
+    list();
+	//buttonClick1();
+   
+ });                             
+        
+d3.select("#btn41").on("click", function() {
+  
+  
+	buttonClick2();
+   
+ });
+        
+        
+d3.select("#btn41").on("change", function() {
+  
+  
+	buttonClick2();
+   
+ });
+        
+d3.select("#btn51").on("click", function() {
+  
+  
+	buttonClick2();
+   
+ });
+        
+        
+d3.select("#btn51").on("change", function() {
+  
+  
+	buttonClick2();
+   
+ });
+        
+d3.select("#btn61").on("click", function() {
+  
+  
+	buttonClick2();
+   
+ });
+        
+        
+d3.select("#btn61").on("change", function() {
+  
+  
+	buttonClick2();
+   
+ });
+        
 d3.select("#change1").on("click", function() {
         whichChart = 1;
         wChart.data = gradData;
@@ -152,8 +206,8 @@ d3.select("#change4").on("click", function() {
 d3.select("#change5").on("click", function() {
         whichChart = 5;
         wChart.data = transData;
-        eduY.title = "Inter-college Transfer Rates";
-        eduY.tickFormat = '.1%  ';
+        eduY.title = "Mean Annual Earnings";
+        eduY.tickFormat = '$,f';
         buttonClick2();
         wChart.draw(1000);
     });
@@ -162,6 +216,7 @@ d3.select("#change5").on("click", function() {
   function whichCheck(){
       if(whichChart == 1){
          var chartCheck = gradData;
+          
       }
       
       if(whichChart == 2){
@@ -219,16 +274,29 @@ d3.select("#change5").on("click", function() {
   }*/
         
   function buttonClick2(){
+      var X = document.getElementById("btn3");
+      var x1 = X.options[X.selectedIndex].value;
       
       
-      var e4 = document.getElementById("btn4");
+      if(x1 == 1){
+       var a1 = "btn4";
+       var b1 = "btn5";
+       var c1 = "btn6";
+      }
+      if(x1 == 2){
+       var a1 = "btn41";
+       var b1 = "btn51";
+       var c1 = "btn61";
+      }
+      
+      var e4 = document.getElementById(a1);
       var strUser4 = e4.options[e4.selectedIndex].value;
       
       //as above, so below
-      var e5 = document.getElementById("btn5");
+      var e5 = document.getElementById(b1);
       var strUser5 = e5.options[e5.selectedIndex].value;
       
-      var e6 = document.getElementById("btn6");
+      var e6 = document.getElementById(c1);
       var strUser6 = e6.options[e6.selectedIndex].value;
     
   
@@ -461,55 +529,50 @@ function list1(){
     var X1 = document.getElementById("btn4");
     var X2 = document.getElementById("btn5");
     var X3 = document.getElementById("btn6");
+    var X4 = document.getElementById("btn41");
+    var X5 = document.getElementById("btn51");
+    var X6 = document.getElementById("btn61");
    
     
-    var x = document.querySelectorAll('.l1');
-    var y = document.querySelectorAll('.l2');
-    var i;
-    //alert("list1 activate!");
+    X1.style.display = "inline";
+    X2.style.display = "inline";
+    X3.style.display = "inline";
+    X4.style.display = "none";
+    X5.style.display = "none";
+    X6.style.display = "none";
     
-    for (i = 0; i < x.length; i++){
-        x[i].style.display = "inline";
-        
-        
-    }
-    
-    for (i = 0; i < y.length; i++){
-        
-        y[i].style.display = "none";
-        
-    }
     
     X1.selectedIndex = 0;
     X2.selectedIndex = 0;
     X3.selectedIndex = 0;
+    X4.selectedIndex = 0;
+    X5.selectedIndex = 0;
+    X6.selectedIndex = 0;
+    
 }
 
 function list2(){
     var X1 = document.getElementById("btn4");
     var X2 = document.getElementById("btn5");
     var X3 = document.getElementById("btn6");
+    var X4 = document.getElementById("btn41");
+    var X5 = document.getElementById("btn51");
+    var X6 = document.getElementById("btn61");
    
     
-    var x = document.querySelectorAll('.l1');
-    var y = document.querySelectorAll('.l2');
-    var i;
-    //alert("list2 activate!");
+    X1.style.display = "none";
+    X2.style.display = "none";
+    X3.style.display = "none";
+    X4.style.display = "inline";
+    X5.style.display = "inline";
+    X6.style.display = "inline";
     
-    for (i = 0; i < x.length; i++){
-        x[i].style.display = "none";
-        
-        
-    }
     
-    for (i = 0; i < y.length; i++){
-        
-        y[i].style.display = "inline";
-        
-    }
-    
-    X1.selectedIndex = 10;
-    X2.selectedIndex = 10;
-    X3.selectedIndex = 10;
+    X1.selectedIndex = 0;
+    X2.selectedIndex = 0;
+    X3.selectedIndex = 0;
+    X4.selectedIndex = 0;
+    X5.selectedIndex = 0;
+    X6.selectedIndex = 0;
 }
 

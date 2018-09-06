@@ -1,0 +1,336 @@
+College,Program,Credential_level,Measure,Totals
+BCCC,A+ Certification,Certificate (less than one year),employmentRate,0.5714286
+BCCC,A+ certification ,Certificate (less than one year),employmentRate,0.7677419
+BCCC,Network+ certification,Certificate (less than one year),employmentRate,1
+BCCC,A+ Certification,Certificate (less than one year),retentionRate,0.4285714
+BCCC,A+ certification ,Certificate (less than one year),retentionRate,0.2
+BCCC,Network+ certification,Certificate (less than one year),retentionRate,1
+BCCC,A+ Certification,Certificate (less than one year),medianEarning,17451.5
+BCCC,A+ certification ,Certificate (less than one year),medianEarning,36344.33
+BCCC,Network+ certification,Certificate (less than one year),medianEarning,29168
+BCCC,A+ Certification,Certificate (less than one year),meanEarning,21148.38
+BCCC,A+ certification ,Certificate (less than one year),meanEarning,39951.71
+BCCC,Network+ certification,Certificate (less than one year),meanEarning,29168
+BCCC,A+ Certification,Certificate (less than one year),graduationRate,0.7857143
+BCCC,A+ certification ,Certificate (less than one year),graduationRate,1
+BCCC,Network+ certification,Certificate (less than one year),graduationRate,1
+CCBC,Network Technology,Certificate (more than one year),employmentRate,1
+CCBC,Network Technology,Certificate (more than one year),retentionRate,1
+CCBC,Network Technology,Certificate (more than one year),medianEarning,31294.4
+CCBC,Network Technology,Certificate (more than one year),meanEarning,31294.4
+CCBC,Network Technology,Certificate (more than one year),graduationRate,1
+CCBC,A.A.S. Information Systems Security,Degree,employmentRate,1
+CCBC,Information Systems Security,Degree,employmentRate,0.3333333
+CCBC,A.A.S. Information Systems Security,Degree,retentionRate,1
+CCBC,Information Systems Security,Degree,retentionRate,0.0666667
+CCBC,A.A.S. Information Systems Security,Degree,medianEarning,32494.67
+CCBC,Information Systems Security,Degree,medianEarning,10424
+CCBC,A.A.S. Information Systems Security,Degree,meanEarning,32494.67
+CCBC,Information Systems Security,Degree,meanEarning,16793.23
+CCBC,A.A.S. Information Systems Security,Degree,graduationRate,1
+CCBC,Information Systems Security,Degree,graduationRate,0.5333334
+CCBC,Information System Security,Didnt Apply for Credential,employmentRate,0.6
+CCBC,Information Systems Security,Didnt Apply for Credential,employmentRate,0.6315789
+CCBC,Network Technology,Didnt Apply for Credential,employmentRate,0.625
+CCBC,Information System Security,Didnt Apply for Credential,retentionRate,0.4
+CCBC,Information Systems Security,Didnt Apply for Credential,retentionRate,0.0526316
+CCBC,Network Technology,Didnt Apply for Credential,retentionRate,0.375
+CCBC,Information System Security,Didnt Apply for Credential,medianEarning,9738.4
+CCBC,Information Systems Security,Didnt Apply for Credential,medianEarning,22196
+CCBC,Network Technology,Didnt Apply for Credential,medianEarning,30502.67
+CCBC,Information System Security,Didnt Apply for Credential,meanEarning,15328.06
+CCBC,Information Systems Security,Didnt Apply for Credential,meanEarning,25815.16
+CCBC,Network Technology,Didnt Apply for Credential,meanEarning,33989.27
+CCBC,Information System Security,Didnt Apply for Credential,graduationRate,1
+CCBC,Information Systems Security,Didnt Apply for Credential,graduationRate,1
+CCBC,Network Technology,Didnt Apply for Credential,graduationRate,1
+CCC,Continuing Education Certificate for Computer Support Technician,Certificate (less than one year),employmentRate,1
+CCC,Continuing Education Certificate in A+ Certification (Small Certificate),Certificate (less than one year),employmentRate,1
+CCC,Continuing Education Certificate in Computer Support Technician,Certificate (less than one year),employmentRate,0.3809524
+CCC,Continuing Education Certificate in IT Fundamentals with Academic Skills Enhancement,Certificate (less than one year),employmentRate,0.4545455
+CCC,Continuing Education Certificate in Installing Windows Server 2012,Certificate (less than one year),employmentRate,1
+CCC,Continuing Education Certificate in Microsoft Windows Server 2012,Certificate (less than one year),employmentRate,1
+CCC,Continuing Education Certificate for Computer Support Technician,Certificate (less than one year),retentionRate,1
+CCC,Continuing Education Certificate in A+ Certification (Small Certificate),Certificate (less than one year),retentionRate,1
+CCC,Continuing Education Certificate in Computer Support Technician,Certificate (less than one year),retentionRate,0.3809524
+CCC,Continuing Education Certificate in IT Fundamentals with Academic Skills Enhancement,Certificate (less than one year),retentionRate,0.4545455
+CCC,Continuing Education Certificate in Installing Windows Server 2012,Certificate (less than one year),retentionRate,1
+CCC,Continuing Education Certificate in Microsoft Windows Server 2012,Certificate (less than one year),retentionRate,1
+CCC,Continuing Education Certificate for Computer Support Technician,Certificate (less than one year),medianEarning,104991.6
+CCC,Continuing Education Certificate in A+ Certification (Small Certificate),Certificate (less than one year),medianEarning,25688.4
+CCC,Continuing Education Certificate in Computer Support Technician,Certificate (less than one year),medianEarning,43332.95
+CCC,Continuing Education Certificate in IT Fundamentals with Academic Skills Enhancement,Certificate (less than one year),medianEarning,26786.95
+CCC,Continuing Education Certificate in Installing Windows Server 2012,Certificate (less than one year),medianEarning,104991.6
+CCC,Continuing Education Certificate in Microsoft Windows Server 2012,Certificate (less than one year),medianEarning,38756
+CCC,Continuing Education Certificate for Computer Support Technician,Certificate (less than one year),meanEarning,104991.6
+CCC,Continuing Education Certificate in A+ Certification (Small Certificate),Certificate (less than one year),meanEarning,25688.4
+CCC,Continuing Education Certificate in Computer Support Technician,Certificate (less than one year),meanEarning,44461.52
+CCC,Continuing Education Certificate in IT Fundamentals with Academic Skills Enhancement,Certificate (less than one year),meanEarning,26920.68
+CCC,Continuing Education Certificate in Installing Windows Server 2012,Certificate (less than one year),meanEarning,104991.6
+CCC,Continuing Education Certificate in Microsoft Windows Server 2012,Certificate (less than one year),meanEarning,38756
+CCC,Continuing Education Certificate for Computer Support Technician,Certificate (less than one year),graduationRate,1
+CCC,Continuing Education Certificate in A+ Certification (Small Certificate),Certificate (less than one year),graduationRate,1
+CCC,Continuing Education Certificate in Computer Support Technician,Certificate (less than one year),graduationRate,1
+CCC,Continuing Education Certificate in IT Fundamentals with Academic Skills Enhancement,Certificate (less than one year),graduationRate,1
+CCC,Continuing Education Certificate in Installing Windows Server 2012,Certificate (less than one year),graduationRate,1
+CCC,Continuing Education Certificate in Microsoft Windows Server 2012,Certificate (less than one year),graduationRate,1
+CCC,CERT.CYBR,Certificate (more than one year),employmentRate,0.2916667
+CCC,CERT.CYBR,Certificate (more than one year),retentionRate,0.0833333
+CCC,CERT.CYBR,Certificate (more than one year),medianEarning,15606.67
+CCC,CERT.CYBR,Certificate (more than one year),meanEarning,26154.06
+CCC,CERT.CYBR,Certificate (more than one year),graduationRate,1
+CCC,CERT.CYBR1,Didnt Apply for Credential,employmentRate,0.4615385
+CCC,CERT.CYBR1,Didnt Apply for Credential,retentionRate,0.0769231
+CCC,CERT.CYBR1,Didnt Apply for Credential,medianEarning,24584
+CCC,CERT.CYBR1,Didnt Apply for Credential,meanEarning,24584
+CCC,CERT.CYBR1,Didnt Apply for Credential,graduationRate,1
+CSM,AASCYBERSECUR,Certificate (more than one year),employmentRate,1
+CSM,AASCYBERSECUR,Certificate (more than one year),retentionRate,1
+CSM,AASCYBERSECUR,Certificate (more than one year),medianEarning,18662.4
+CSM,AASCYBERSECUR,Certificate (more than one year),meanEarning,18662.4
+CSM,AASCYBERSECUR,Certificate (more than one year),graduationRate,1
+FCC,IT:SECASS,Certificate (less than one year),employmentRate,0.6666667
+FCC,IT:SECASS,Certificate (less than one year),retentionRate,0.5
+FCC,IT:SECASS,Certificate (less than one year),medianEarning,27896.95
+FCC,IT:SECASS,Certificate (less than one year),meanEarning,31702.45
+FCC,IT:SECASS,Certificate (less than one year),graduationRate,1
+FCC,"AAS, Cybersecurity",Certificate (more than one year),employmentRate,0.6666667
+FCC,"AAS, Cybersecurity",Certificate (more than one year),retentionRate,0.6666667
+FCC,"AAS, Cybersecurity",Certificate (more than one year),medianEarning,28710.17
+FCC,"AAS, Cybersecurity",Certificate (more than one year),meanEarning,28710.17
+FCC,"AAS, Cybersecurity",Certificate (more than one year),graduationRate,1
+FCC,"AAS, Cybersecurity",Degree,employmentRate,0.3333333
+FCC,CYBERSECUR,Degree,employmentRate,0.3870968
+FCC,"AAS, Cybersecurity",Degree,retentionRate,0.3333333
+FCC,CYBERSECUR,Degree,retentionRate,0.1935484
+FCC,"AAS, Cybersecurity",Degree,medianEarning,27133.6
+FCC,CYBERSECUR,Degree,medianEarning,17646
+FCC,"AAS, Cybersecurity",Degree,meanEarning,34323.48
+FCC,CYBERSECUR,Degree,meanEarning,29491.26
+FCC,"AAS, Cybersecurity",Degree,graduationRate,1
+FCC,CYBERSECUR,Degree,graduationRate,1
+GC,Cybersecurity Certificate,Certificate (less than one year),employmentRate,1
+GC,Cybersecurity Certificate,Certificate (less than one year),retentionRate,1
+GC,Cybersecurity Certificate,Certificate (less than one year),medianEarning,27621.14
+GC,Cybersecurity Certificate,Certificate (less than one year),meanEarning,27621.14
+GC,Cybersecurity Certificate,Certificate (less than one year),graduationRate,1
+GC,Cybersecurity AAS,Degree,employmentRate,0.2307692
+GC,Network Administration AAS,Degree,employmentRate,0.4285714
+GC,Cybersecurity AAS,Degree,retentionRate,0.2307692
+GC,Network Administration AAS,Degree,retentionRate,0.2857143
+GC,Cybersecurity AAS,Degree,medianEarning,16925.94
+GC,Network Administration AAS,Degree,medianEarning,7604.8
+GC,Cybersecurity AAS,Degree,meanEarning,17833.83
+GC,Network Administration AAS,Degree,meanEarning,10042.74
+GC,Cybersecurity AAS,Degree,graduationRate,1
+GC,Network Administration AAS,Degree,graduationRate,1
+HagCC,"Advanced Network Security, Certificate",Certificate (less than one year),employmentRate,1
+HagCC,Network Security:CER,Certificate (less than one year),employmentRate,0.5
+HagCC,"Advanced Network Security, Certificate",Certificate (less than one year),retentionRate,1
+HagCC,Network Security:CER,Certificate (less than one year),retentionRate,0.5
+HagCC,"Advanced Network Security, Certificate",Certificate (less than one year),medianEarning,26408
+HagCC,Network Security:CER,Certificate (less than one year),medianEarning,15640.8
+HagCC,"Advanced Network Security, Certificate",Certificate (less than one year),meanEarning,26408
+HagCC,Network Security:CER,Certificate (less than one year),meanEarning,15640.8
+HagCC,"Advanced Network Security, Certificate",Certificate (less than one year),graduationRate,1
+HagCC,Network Security:CER,Certificate (less than one year),graduationRate,0.75
+HagCC,AAS Cybersecurity,Degree,employmentRate,0.1428571
+HagCC,AS Computer Science,Degree,employmentRate,0.5
+HagCC,AS Cybersecurity,Degree,employmentRate,0.6666667
+HagCC,"Advanced Network Security, Certificate",Degree,employmentRate,0.8
+HagCC,Computer Science: AS,Degree,employmentRate,0.3636364
+HagCC,Cybersecurity:AAS,Degree,employmentRate,0.6
+HagCC,Cybersecurity:AS,Degree,employmentRate,0.368421
+HagCC,Network Security:CER,Degree,employmentRate,0.4
+HagCC,Networking Technology Option A: AAS,Degree,employmentRate,1
+HagCC,AAS Cybersecurity,Degree,retentionRate,0.1428571
+HagCC,AS Computer Science,Degree,retentionRate,0.1666667
+HagCC,AS Cybersecurity,Degree,retentionRate,0.3333333
+HagCC,"Advanced Network Security, Certificate",Degree,retentionRate,0.8
+HagCC,Computer Science: AS,Degree,retentionRate,0.1818182
+HagCC,Cybersecurity:AAS,Degree,retentionRate,0.5
+HagCC,Cybersecurity:AS,Degree,retentionRate,0.1052632
+HagCC,Network Security:CER,Degree,retentionRate,0.4
+HagCC,Networking Technology Option A: AAS,Degree,retentionRate,1
+HagCC,AAS Cybersecurity,Degree,medianEarning,7268
+HagCC,AS Computer Science,Degree,medianEarning,9004
+HagCC,AS Cybersecurity,Degree,medianEarning,18469.67
+HagCC,"Advanced Network Security, Certificate",Degree,medianEarning,33577.43
+HagCC,Computer Science: AS,Degree,medianEarning,8070.8
+HagCC,Cybersecurity:AAS,Degree,medianEarning,21803.2
+HagCC,Cybersecurity:AS,Degree,medianEarning,9980
+HagCC,Network Security:CER,Degree,medianEarning,24074
+HagCC,Networking Technology Option A: AAS,Degree,medianEarning,40990.29
+HagCC,AAS Cybersecurity,Degree,meanEarning,7268
+HagCC,AS Computer Science,Degree,meanEarning,11900
+HagCC,AS Cybersecurity,Degree,meanEarning,36724.63
+HagCC,"Advanced Network Security, Certificate",Degree,meanEarning,33478.75
+HagCC,Computer Science: AS,Degree,meanEarning,10676.4
+HagCC,Cybersecurity:AAS,Degree,meanEarning,22321.6
+HagCC,Cybersecurity:AS,Degree,meanEarning,11474.52
+HagCC,Network Security:CER,Degree,meanEarning,21607.55
+HagCC,Networking Technology Option A: AAS,Degree,meanEarning,40990.29
+HagCC,AAS Cybersecurity,Degree,graduationRate,0.8571429
+HagCC,AS Computer Science,Degree,graduationRate,1
+HagCC,AS Cybersecurity,Degree,graduationRate,1
+HagCC,"Advanced Network Security, Certificate",Degree,graduationRate,0.8
+HagCC,Computer Science: AS,Degree,graduationRate,0.5454546
+HagCC,Cybersecurity:AAS,Degree,graduationRate,0.6
+HagCC,Cybersecurity:AS,Degree,graduationRate,0.5789474
+HagCC,Network Security:CER,Degree,graduationRate,0.6666667
+HagCC,Networking Technology Option A: AAS,Degree,graduationRate,1
+HagCC,AS Cybersecurity,Other,employmentRate,1
+HagCC,AS Cybersecurity,Other,retentionRate,1
+HagCC,AS Cybersecurity,Other,medianEarning,36385
+HagCC,AS Cybersecurity,Other,meanEarning,36385
+HagCC,AS Cybersecurity,Other,graduationRate,1
+HarCC,CYBC,Certificate (more than one year),employmentRate,0.3
+HarCC,CYBC,Certificate (more than one year),retentionRate,0.0333333
+HarCC,CYBC,Certificate (more than one year),medianEarning,30544
+HarCC,CYBC,Certificate (more than one year),meanEarning,34576.3
+HarCC,CYBC,Certificate (more than one year),graduationRate,1
+HarCC,IAC,Degree,employmentRate,0.35
+HarCC,IAC,Degree,retentionRate,0.1
+HarCC,IAC,Degree,medianEarning,30544
+HarCC,IAC,Degree,meanEarning,32863.93
+HarCC,IAC,Degree,graduationRate,1
+HowCC,193 - Network Security Administration CP,Certificate (more than one year),employmentRate,1
+HowCC,295 - Computer Forensics CP,Certificate (more than one year),employmentRate,1
+HowCC,303 - Computer Forensics - AA Degree,Certificate (more than one year),employmentRate,1
+HowCC,193 - Network Security Administration CP,Certificate (more than one year),retentionRate,1
+HowCC,295 - Computer Forensics CP,Certificate (more than one year),retentionRate,1
+HowCC,303 - Computer Forensics - AA Degree,Certificate (more than one year),retentionRate,1
+HowCC,193 - Network Security Administration CP,Certificate (more than one year),medianEarning,64597
+HowCC,295 - Computer Forensics CP,Certificate (more than one year),medianEarning,55492.8
+HowCC,303 - Computer Forensics - AA Degree,Certificate (more than one year),medianEarning,45608.57
+HowCC,193 - Network Security Administration CP,Certificate (more than one year),meanEarning,64597
+HowCC,295 - Computer Forensics CP,Certificate (more than one year),meanEarning,55492.8
+HowCC,303 - Computer Forensics - AA Degree,Certificate (more than one year),meanEarning,45608.57
+HowCC,193 - Network Security Administration CP,Certificate (more than one year),graduationRate,1
+HowCC,295 - Computer Forensics CP,Certificate (more than one year),graduationRate,1
+HowCC,303 - Computer Forensics - AA Degree,Certificate (more than one year),graduationRate,1
+HowCC,07 - General Studies - AA Degree,Degree,employmentRate,1
+HowCC,171A - Information Technology - PC/Network Hardware/iNet - AA Degree,Degree,employmentRate,1
+HowCC,171A - Information Technology - PC/Network/iNet AA,Degree,employmentRate,1
+HowCC,171B - Information Technology - Programming AA,Degree,employmentRate,1
+HowCC,231 - Information Technology - Network Security AA,Degree,employmentRate,1
+HowCC,304 - Cybersecurity AA,Degree,employmentRate,0.7894737
+HowCC,90A - Criminal Justice Option - AA Degree,Degree,employmentRate,1
+HowCC,90B - Criminal Justice - Computer Forensics AA,Degree,employmentRate,1
+HowCC,07 - General Studies - AA Degree,Degree,retentionRate,1
+HowCC,171A - Information Technology - PC/Network Hardware/iNet - AA Degree,Degree,retentionRate,1
+HowCC,171A - Information Technology - PC/Network/iNet AA,Degree,retentionRate,0.5
+HowCC,171B - Information Technology - Programming AA,Degree,retentionRate,0.5
+HowCC,231 - Information Technology - Network Security AA,Degree,retentionRate,0.25
+HowCC,304 - Cybersecurity AA,Degree,retentionRate,0.1052632
+HowCC,90A - Criminal Justice Option - AA Degree,Degree,retentionRate,0.5
+HowCC,90B - Criminal Justice - Computer Forensics AA,Degree,retentionRate,1
+HowCC,07 - General Studies - AA Degree,Degree,medianEarning,5349.143
+HowCC,171A - Information Technology - PC/Network Hardware/iNet - AA Degree,Degree,medianEarning,13666
+HowCC,171A - Information Technology - PC/Network/iNet AA,Degree,medianEarning,7191.5
+HowCC,171B - Information Technology - Programming AA,Degree,medianEarning,17948.67
+HowCC,231 - Information Technology - Network Security AA,Degree,medianEarning,17114.67
+HowCC,304 - Cybersecurity AA,Degree,medianEarning,21042.67
+HowCC,90A - Criminal Justice Option - AA Degree,Degree,medianEarning,12838.5
+HowCC,90B - Criminal Justice - Computer Forensics AA,Degree,medianEarning,12412
+HowCC,07 - General Studies - AA Degree,Degree,meanEarning,5349.143
+HowCC,171A - Information Technology - PC/Network Hardware/iNet - AA Degree,Degree,meanEarning,13666
+HowCC,171A - Information Technology - PC/Network/iNet AA,Degree,meanEarning,7191.5
+HowCC,171B - Information Technology - Programming AA,Degree,meanEarning,17948.67
+HowCC,231 - Information Technology - Network Security AA,Degree,meanEarning,21129.5
+HowCC,304 - Cybersecurity AA,Degree,meanEarning,22401.17
+HowCC,90A - Criminal Justice Option - AA Degree,Degree,meanEarning,12838.5
+HowCC,90B - Criminal Justice - Computer Forensics AA,Degree,meanEarning,12412
+HowCC,07 - General Studies - AA Degree,Degree,graduationRate,1
+HowCC,171A - Information Technology - PC/Network Hardware/iNet - AA Degree,Degree,graduationRate,1
+HowCC,171A - Information Technology - PC/Network/iNet AA,Degree,graduationRate,1
+HowCC,171B - Information Technology - Programming AA,Degree,graduationRate,1
+HowCC,231 - Information Technology - Network Security AA,Degree,graduationRate,1
+HowCC,304 - Cybersecurity AA,Degree,graduationRate,1
+HowCC,90A - Criminal Justice Option - AA Degree,Degree,graduationRate,1
+HowCC,90B - Criminal Justice - Computer Forensics AA,Degree,graduationRate,1
+MC,Cyber Advantage,Certificate (less than one year),employmentRate,0.2962963
+MC,Cyber Advantage,Certificate (less than one year),retentionRate,0.1481481
+MC,Cyber Advantage,Certificate (less than one year),medianEarning,30631.67
+MC,Cyber Advantage,Certificate (less than one year),meanEarning,38897.97
+MC,Cyber Advantage,Certificate (less than one year),graduationRate,1
+MC,Network & Wireless Technol - IT Professional+ (CT),Certificate (more than one year),employmentRate,1
+MC,Network & Wireless Technology - IT Professional+ (CT),Certificate (more than one year),employmentRate,1
+MC,Network & Wireless Technol - IT Professional+ (CT),Certificate (more than one year),retentionRate,1
+MC,Network & Wireless Technology - IT Professional+ (CT),Certificate (more than one year),retentionRate,1
+MC,Network & Wireless Technol - IT Professional+ (CT),Certificate (more than one year),medianEarning,45406
+MC,Network & Wireless Technology - IT Professional+ (CT),Certificate (more than one year),medianEarning,13619.2
+MC,Network & Wireless Technol - IT Professional+ (CT),Certificate (more than one year),meanEarning,45406
+MC,Network & Wireless Technology - IT Professional+ (CT),Certificate (more than one year),meanEarning,13619.2
+MC,Network & Wireless Technol - IT Professional+ (CT),Certificate (more than one year),graduationRate,1
+MC,Network & Wireless Technology - IT Professional+ (CT),Certificate (more than one year),graduationRate,1
+MC,Computer Science,Degree,employmentRate,0.5
+MC,Cybersecurity AAS,Degree,employmentRate,0.4769231
+MC,Network & Wireless Tech-Cisco Track (AAS),Degree,employmentRate,0.6
+MC,Network & Wireless Tech-Microsoft Track (AAS),Degree,employmentRate,1
+MC,Computer Science,Degree,retentionRate,0.5
+MC,Cybersecurity AAS,Degree,retentionRate,0.1384615
+MC,Network & Wireless Tech-Cisco Track (AAS),Degree,retentionRate,0.2
+MC,Network & Wireless Tech-Microsoft Track (AAS),Degree,retentionRate,1
+MC,Computer Science,Degree,medianEarning,85616.57
+MC,Cybersecurity AAS,Degree,medianEarning,23740.5
+MC,Network & Wireless Tech-Cisco Track (AAS),Degree,medianEarning,25246
+MC,Network & Wireless Tech-Microsoft Track (AAS),Degree,medianEarning,29753.6
+MC,Computer Science,Degree,meanEarning,85616.57
+MC,Cybersecurity AAS,Degree,meanEarning,25026.92
+MC,Network & Wireless Tech-Cisco Track (AAS),Degree,meanEarning,26760.2
+MC,Network & Wireless Tech-Microsoft Track (AAS),Degree,meanEarning,29753.6
+MC,Computer Science,Degree,graduationRate,1
+MC,Cybersecurity AAS,Degree,graduationRate,1
+MC,Network & Wireless Tech-Cisco Track (AAS),Degree,graduationRate,1
+MC,Network & Wireless Tech-Microsoft Track (AAS),Degree,graduationRate,1
+PGCC,A+ Enhanced Certification Program,Certificate (less than one year),employmentRate,0.2857143
+PGCC,INTRODUCTION TO SECURITY CLEARANCE AND BACKGROUND CHECKS,Certificate (less than one year),employmentRate,0.5384616
+PGCC,Introduction to Security Clearances and Background Checks,Certificate (less than one year),employmentRate,0.3076923
+PGCC,A+ Enhanced Certification Program,Certificate (less than one year),retentionRate,0.2857143
+PGCC,INTRODUCTION TO SECURITY CLEARANCE AND BACKGROUND CHECKS,Certificate (less than one year),retentionRate,0.1794872
+PGCC,Introduction to Security Clearances and Background Checks,Certificate (less than one year),retentionRate,0.0769231
+PGCC,A+ Enhanced Certification Program,Certificate (less than one year),medianEarning,18554.67
+PGCC,INTRODUCTION TO SECURITY CLEARANCE AND BACKGROUND CHECKS,Certificate (less than one year),medianEarning,19018.67
+PGCC,Introduction to Security Clearances and Background Checks,Certificate (less than one year),medianEarning,26460
+PGCC,A+ Enhanced Certification Program,Certificate (less than one year),meanEarning,17505.49
+PGCC,INTRODUCTION TO SECURITY CLEARANCE AND BACKGROUND CHECKS,Certificate (less than one year),meanEarning,28880.28
+PGCC,Introduction to Security Clearances and Background Checks,Certificate (less than one year),meanEarning,27080
+PGCC,A+ Enhanced Certification Program,Certificate (less than one year),graduationRate,1
+PGCC,INTRODUCTION TO SECURITY CLEARANCE AND BACKGROUND CHECKS,Certificate (less than one year),graduationRate,1
+PGCC,Introduction to Security Clearances and Background Checks,Certificate (less than one year),graduationRate,1
+PGCC,A+ Enhanced Certification Program,Other,employmentRate,0.4
+PGCC,A+ Enhanced Certification Program,Other,retentionRate,0.3
+PGCC,A+ Enhanced Certification Program,Other,medianEarning,11518
+PGCC,A+ Enhanced Certification Program,Other,meanEarning,19981.89
+PGCC,A+ Enhanced Certification Program,Other,graduationRate,1
+WWCC,PC Technician Basics,Certificate (less than one year),employmentRate,0.4285714
+WWCC,PC Technician Basics,Certificate (less than one year),retentionRate,0.4285714
+WWCC,PC Technician Basics,Certificate (less than one year),medianEarning,40038
+WWCC,PC Technician Basics,Certificate (less than one year),meanEarning,42643.67
+WWCC,PC Technician Basics,Certificate (less than one year),graduationRate,1
+WWCC,Computer Information Security,Certificate (more than one year),employmentRate,0.8333333
+WWCC,Computer Information Security,Certificate (more than one year),retentionRate,0.5
+WWCC,Computer Information Security,Certificate (more than one year),medianEarning,25610.67
+WWCC,Computer Information Security,Certificate (more than one year),meanEarning,20389.76
+WWCC,Computer Information Security,Certificate (more than one year),graduationRate,1
+WWCC,Computer & Network Support,Degree,employmentRate,0.75
+WWCC,Computer & Network Support Technology,Degree,employmentRate,0.5555556
+WWCC,Computer Network & Support,Degree,employmentRate,1
+WWCC,Program & Internet Technology,Degree,employmentRate,0.6666667
+WWCC,Computer & Network Support,Degree,retentionRate,0.5
+WWCC,Computer & Network Support Technology,Degree,retentionRate,0.1111111
+WWCC,Computer Network & Support,Degree,retentionRate,0.5
+WWCC,Program & Internet Technology,Degree,retentionRate,0.6666667
+WWCC,Computer & Network Support,Degree,medianEarning,25034.22
+WWCC,Computer & Network Support Technology,Degree,medianEarning,33137.33
+WWCC,Computer Network & Support,Degree,medianEarning,11887.6
+WWCC,Program & Internet Technology,Degree,medianEarning,33861.52
+WWCC,Computer & Network Support,Degree,meanEarning,22401.5
+WWCC,Computer & Network Support Technology,Degree,meanEarning,41724.33
+WWCC,Computer Network & Support,Degree,meanEarning,11887.6
+WWCC,Program & Internet Technology,Degree,meanEarning,33861.52
+WWCC,Computer & Network Support,Degree,graduationRate,1
+WWCC,Computer & Network Support Technology,Degree,graduationRate,1
+WWCC,Computer Network & Support,Degree,graduationRate,1
+WWCC,Program & Internet Technology,Degree,graduationRate,1

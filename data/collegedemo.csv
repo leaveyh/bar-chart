@@ -1,0 +1,68 @@
+Colleges,ProgExit,Credential_level,employmentRate,retentionRate,medianEarning,meanEarning,graduationRate
+Baltimore City Community College,A+ Certification,Certificate (less than one year),0.5714286,0.4285714,17451.5,21148.38,0.7857143
+Baltimore City Community College,A+ certification ,Certificate (less than one year),0.7677419,0.2,36344.33,39951.71,1
+Baltimore City Community College,Network+ certification,Certificate (less than one year),1,1,29168,29168,1
+Carroll Community College,CERT.CYBR,Certificate (more than one year),0.2916667,0.0833333,15606.67,26154.06,1
+Carroll Community College,CERT.CYBR,Didnt Apply for Credential,0.4615385,0.0769231,24584,24584,1
+Carroll Community College,Continuing Education Certificate for Computer Support Technician,Certificate (less than one year),1,1,104991.6,104991.6,1
+Carroll Community College,Continuing Education Certificate in A+ Certification (Small Certificate),Certificate (less than one year),1,1,25688.4,25688.4,1
+Carroll Community College,Continuing Education Certificate in Computer Support Technician,Certificate (less than one year),0.3809524,0.3809524,43332.95,44461.52,1
+Carroll Community College,Continuing Education Certificate in IT Fundamentals with Academic Skills Enhancement,Certificate (less than one year),0.4545455,0.4545455,26786.95,26920.68,1
+Carroll Community College,Continuing Education Certificate in Installing Windows Server 2012,Certificate (less than one year),1,1,104991.6,104991.6,1
+Carroll Community College,Continuing Education Certificate in Microsoft Windows Server 2012,Certificate (less than one year),1,1,38756,38756,1
+College of Southern Maryland,AASCYBERSECUR,Certificate (more than one year),1,1,18662.4,18662.4,1
+Community College of Baltimore County,A.A.S. Information Systems Security,Degree,1,1,32494.67,32494.67,1
+Community College of Baltimore County,Information System Security,Didnt Apply for Credential,0.6,0.4,9738.4,15328.06,1
+Community College of Baltimore County,Information Systems Security,Degree,0.3333333,0.0666667,10424,16793.23,0.5333334
+Community College of Baltimore County,Information Systems Security,Didnt Apply for Credential,0.6315789,0.0526316,22196,25815.16,1
+Community College of Baltimore County,Network Technology,Certificate (more than one year),1,1,31294.4,31294.4,1
+Community College of Baltimore County,Network Technology,Didnt Apply for Credential,0.625,0.375,30502.67,33989.27,1
+Frederick Community College,"AAS, Cybersecurity",Certificate (more than one year),0.6666667,0.6666667,28710.17,28710.17,1
+Frederick Community College,"AAS, Cybersecurity",Degree,0.3333333,0.3333333,27133.6,34323.48,1
+Frederick Community College,CYBERSECUR,Degree,0.3870968,0.1935484,17646,29491.26,1
+Frederick Community College,IT:SECASS,Certificate (less than one year),0.6666667,0.5,27896.95,31702.45,1
+Garrett College,Cybersecurity AAS,Degree,0.2307692,0.2307692,16925.94,17833.83,1
+Garrett College,Cybersecurity Certificate,Certificate (less than one year),1,1,27621.14,27621.14,1
+Garrett College,Network Administration AAS,Degree,0.4285714,0.2857143,7604.8,10042.74,1
+Hagerstown Community College,AAS Cybersecurity,Degree,0.1428571,0.1428571,7268,7268,0.8571429
+Hagerstown Community College,AS Computer Science,Degree,0.5,0.1666667,9004,11900,1
+Hagerstown Community College,AS Cybersecurity,Degree,0.6666667,0.3333333,18469.67,36724.63,1
+Hagerstown Community College,AS Cybersecurity,Other,1,1,36385,36385,1
+Hagerstown Community College,"Advanced Network Security, Certificate",Certificate (less than one year),1,1,26408,26408,1
+Hagerstown Community College,"Advanced Network Security, Certificate",Degree,0.8,0.8,33577.43,33478.75,0.8
+Hagerstown Community College,Computer Science: AS,Degree,0.3636364,0.1818182,8070.8,10676.4,0.5454546
+Hagerstown Community College,Cybersecurity:AAS,Degree,0.6,0.5,21803.2,22321.6,0.6
+Hagerstown Community College,Cybersecurity:AS,Degree,0.368421,0.1052632,9980,11474.52,0.5789474
+Hagerstown Community College,Network Security:CER,Certificate (less than one year),0.5,0.5,15640.8,15640.8,0.75
+Hagerstown Community College,Network Security:CER,Degree,0.4,0.4,24074,21607.55,0.6666667
+Hagerstown Community College,Networking Technology Option A: AAS,Degree,1,1,40990.29,40990.29,1
+Harford Community College,CYBC,Certificate (more than one year),0.3,0.0333333,30544,34576.3,1
+Harford Community College,IAC,Degree,0.35,0.1,30544,32863.93,1
+Howard Community College,07 - General Studies - AA Degree,Degree,1,1,5349.143,5349.143,1
+Howard Community College,171A - Information Technology - PC/Network Hardware/iNet - AA Degree,Degree,1,1,13666,13666,1
+Howard Community College,171A - Information Technology - PC/Network/iNet AA,Degree,1,0.5,7191.5,7191.5,1
+Howard Community College,171B - Information Technology - Programming AA,Degree,1,0.5,17948.67,17948.67,1
+Howard Community College,193 - Network Security Administration CP,Certificate (more than one year),1,1,64597,64597,1
+Howard Community College,231 - Information Technology - Network Security AA,Degree,1,0.25,17114.67,21129.5,1
+Howard Community College,295 - Computer Forensics CP,Certificate (more than one year),1,1,55492.8,55492.8,1
+Howard Community College,303 - Computer Forensics - AA Degree,Certificate (more than one year),1,1,45608.57,45608.57,1
+Howard Community College,304 - Cybersecurity AA,Degree,0.7894737,0.1052632,21042.67,22401.17,1
+Howard Community College,90A - Criminal Justice Option - AA Degree,Degree,1,0.5,12838.5,12838.5,1
+Howard Community College,90B - Criminal Justice - Computer Forensics AA,Degree,1,1,12412,12412,1
+Montgomery College,Computer Science,Degree,0.5,0.5,85616.57,85616.57,1
+Montgomery College,Cyber Advantage,Certificate (less than one year),0.2962963,0.1481481,30631.67,38897.97,1
+Montgomery College,Cybersecurity AAS,Degree,0.4769231,0.1384615,23740.5,25026.92,1
+Montgomery College,Network & Wireless Tech-Cisco Track (AAS),Degree,0.6,0.2,25246,26760.2,1
+Montgomery College,Network & Wireless Tech-Microsoft Track (AAS),Degree,1,1,29753.6,29753.6,1
+Montgomery College,Network & Wireless Technol - IT Professional+ (CT),Certificate (more than one year),1,1,45406,45406,1
+Montgomery College,Network & Wireless Technology - IT Professional+ (CT),Certificate (more than one year),1,1,13619.2,13619.2,1
+Prince George's Community College,A+ Enhanced Certification Program,Certificate (less than one year),0.2857143,0.2857143,18554.67,17505.49,1
+Prince George's Community College,A+ Enhanced Certification Program,Other,0.4,0.3,11518,19981.89,1
+Prince George's Community College,INTRODUCTION TO SECURITY CLEARANCE AND BACKGROUND CHECKS,Certificate (less than one year),0.5384616,0.1794872,19018.67,28880.28,1
+Prince George's Community College,Introduction to Security Clearances and Background Checks,Certificate (less than one year),0.3076923,0.0769231,26460,27080,1
+Wor-Wic Community College,Computer & Network Support,Degree,0.75,0.5,25034.22,22401.5,1
+Wor-Wic Community College,Computer & Network Support Technology,Degree,0.5555556,0.1111111,33137.33,41724.33,1
+Wor-Wic Community College,Computer Information Security,Certificate (more than one year),0.8333333,0.5,25610.67,20389.76,1
+Wor-Wic Community College,Computer Network & Support,Degree,1,0.5,11887.6,11887.6,1
+Wor-Wic Community College,PC Technician Basics,Certificate (less than one year),0.4285714,0.4285714,40038,42643.67,1
+Wor-Wic Community College,Program & Internet Technology,Degree,0.6666667,0.6666667,33861.52,33861.52,1
