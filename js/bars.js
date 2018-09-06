@@ -1,6 +1,6 @@
 var togNum = 1;
 var togNum1 = 1;
-    d3.csv("../data/collegedemo1.csv", function (data) {
+    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRfAbrZO7WbG1JAp37q8Gtb9cPoEJgyAtmHKU_aRE80RkoWZaEFwm3TFIAkubrD5hqXE9WDJFEb8vB8/pub?output=csv", function (data) {
 
                 //chart 3 
                 
