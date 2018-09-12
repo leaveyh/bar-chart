@@ -1,6 +1,6 @@
 var togNum = 1;
 var togNum1 = 1;
-    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRfAbrZO7WbG1JAp37q8Gtb9cPoEJgyAtmHKU_aRE80RkoWZaEFwm3TFIAkubrD5hqXE9WDJFEb8vB8/pub?output=csv", function (data) {
+    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS0Edz5Dlb78kF9vXXqot3MpGg_7RnkUUNcvmzv0DBzvru8Fe7vkr8z_gklZ5FF95tpvcdRrtEyPKvb/pub?output=csv", function (data) {
 
                 //chart 3 
                 
@@ -27,11 +27,11 @@ var togNum1 = 1;
         
                             EarnData = dimple.filterData(data, "Measure", "medianEarning");
         
-                            transData = dimple.filterData(data, "Measure", "meanEarning");
+                            transData = dimple.filterData(data, "Measure", "transferRate");
         
                             
         
-                            gradData1 = dimple.filterData(gradData, "Program", ["A+ Certification", "CERT.CYBR", "A.A.S. Information Systems Security"]);
+                            gradData1 = dimple.filterData(gradData, "College", "Carroll Community College");
 
                             
 
@@ -45,7 +45,7 @@ var togNum1 = 1;
                             eduY.title = "Graduation Rates";
                             edX.title = " ";
         
-                            edX.addOrderRule("Montgomery College", "University of Baltimore", "Baltimore Community College");
+                            
         
                             var qLegend = wChart.addLegend("15%", "70%", "40%", "75%");
                             
@@ -58,7 +58,7 @@ var togNum1 = 1;
                             
                             wChart.draw();
         
-d3.select("#btn3").on("change", function() {
+d3.select("#btn4").on("change", function() {
   
     list();
 	//buttonClick1();
@@ -206,8 +206,8 @@ d3.select("#change4").on("click", function() {
 d3.select("#change5").on("click", function() {
         whichChart = 5;
         wChart.data = transData;
-        eduY.title = "Mean Annual Earnings";
-        eduY.tickFormat = '$,f';
+        eduY.title = "Transfer Rate";
+        eduY.tickFormat = '.1%';
         buttonClick2();
         wChart.draw(1000);
     });
@@ -274,20 +274,26 @@ d3.select("#change5").on("click", function() {
   }*/
         
   function buttonClick2(){
-      var X = document.getElementById("btn3");
+      var X = document.getElementById("btn4");
       var x1 = X.options[X.selectedIndex].value;
       
       
-      if(x1 == 1){
+      if(x1 == "Baltimore City Community College"){
        var a1 = "btn4";
        var b1 = "btn5";
        var c1 = "btn6";
       }
-      if(x1 == 2){
-       var a1 = "btn41";
+      if(x1 == "Carroll Community College"){
+       var a1 = "btn4";
        var b1 = "btn51";
        var c1 = "btn61";
       }
+      if(x1 == "Community College of Baltimore County"){
+       var a1 = "btn4";
+       var b1 = "btn52";
+       var c1 = "btn62";
+      }
+      
       
       var e4 = document.getElementById(a1);
       var strUser4 = e4.options[e4.selectedIndex].value;
@@ -300,7 +306,9 @@ d3.select("#change5").on("click", function() {
       var strUser6 = e6.options[e6.selectedIndex].value;
     
   
-   var chartChange = dimple.filterData(whichCheck(), "Program", [strUser4, strUser5, strUser6]);
+   var chartChange = dimple.filterData(whichCheck(), "Program", strUser6);
+   var chartChange1 = dimple.filterData(chartChange, "Credential_level", strUser5);
+   
     
     wChart.data = chartChange;
     
@@ -513,13 +521,15 @@ function color5(){
 }
 
 function list(){
-    var X = document.getElementById("btn3");
+    var X = document.getElementById("btn4");
    var x1 = X.options[X.selectedIndex].value;
     
-    if(x1 == 1){
+    if(x1 == "Baltimore City Community College"){
         list1();
-    } else {
+    } else if (x1 == "Carroll Community College") {
         list2();
+    } else {
+        list3();
     }
     
     

@@ -1,0 +1,19 @@
+Colleges,ProgExit,Credential_level,employmentRate,retentionRate,medianEarning,graduationRate,transferRate
+Baltimore City Community College,A+ Certification,Certificate (less than one year),0.5714286,0.4285714,27879.5,0.7857143,0
+Baltimore City Community College,A+ certification ,Certificate (less than one year),0.7677419,0.2,35347.5,1,0
+Baltimore City Community College,Network+ certification,Certificate (less than one year),1,1,29168,1,0
+Carroll Community College,CERT.CYBR,Certificate (more than one year),0.2916667,0.0833333,29740,1,0.0416667
+Carroll Community College,CERT.CYBR,Didnt Apply for Credential,0.4615385,0.0769231,25523,1,0
+Carroll Community College,Continuing Education Certificate for Computer Support Technician,Certificate (less than one year),1,1,91162,1,0
+Carroll Community College,Continuing Education Certificate in A+ Certification (Small Certificate),Certificate (less than one year),1,1,14521,1,0
+Carroll Community College,Continuing Education Certificate in Computer Support Technician,Certificate (less than one year),0.3809524,0.3809524,37327,1,0
+Carroll Community College,Continuing Education Certificate in IT Fundamentals with Academic Skills Enhancement,Certificate (less than one year),0.4545455,0.4545455,19656.5,1,0
+Carroll Community College,Continuing Education Certificate in Installing Windows Server 2012,Certificate (less than one year),1,1,91162,1,0
+Carroll Community College,Continuing Education Certificate in Microsoft Windows Server 2012,Certificate (less than one year),1,1,27577,1,0
+College of Southern Maryland,AASCYBERSECUR,Certificate (more than one year),1,1,21642,1,1
+Community College of Baltimore County,A.A.S. Information Systems Security,Degree,1,1,29420,1,1
+Community College of Baltimore County,Information System Security,Didnt Apply for Credential,0.6,0.4,23084,1,0.2
+Community College of Baltimore County,Information Systems Security,Degree,0.3333333,0.0666667,5905,0.5333334,0.4
+Community College of Baltimore County,Information Systems Security,Didnt Apply for Credential,0.6315789,0.0526316,34686,1,0.2105263
+Community College of Baltimore County,Network Technology,Certificate (more than one year),1,1,33702,1,0
+Community College of Baltimore County,Network Technology,Didnt Apply for Credential,0.625,0.375,21358,1,0.25

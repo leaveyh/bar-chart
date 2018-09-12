@@ -43,7 +43,7 @@
                 
                 </div>
         <div class="dropdown">    
-            <button class="button" id="change5" style="padding-left: 1%; padding-right: 1%;" onclick="collapse5();color5()">Mean Earnings
+            <button class="button" id="change5" style="padding-left: 1%; padding-right: 1%;" onclick="collapse5();color5()">Transfer Rate
  </button>
                 
                 </div>
@@ -76,47 +76,57 @@
                 <p id="Title3" style="display: none; font-size: 13px;">Retention Rates</p>
                 <p id="Title4" style="display: none; font-size: 13px;">Median Annual Earnings</p>
                 <p id="Title5" style="display: none; font-size: 13px;">Inter-college Transfer Rate</p>
-                    <p> Credential Type: 
-                        <select id="btn3" onselect="list()" style="font-size: 12px">
-                            <option value="1">Certificate (Less than 1 Year)</option>
-                            <option value="2">Certificate (More than One Year)</option>
+                    <p> College: 
+                        <select id="btn4" onselect="list()" style="font-size: 12px">
+                            <option value="Baltimore City Community College">Baltimore City Community College</option>
+                            <option value="Carroll Community College">Carroll Community College</option>
+                            <option value="Community College of Baltimore County">Community College of Baltimore County</option>
                         </select>            
                     </p>
                     <p>
-                        Program 1: 
-                        <select id="btn4" style="font-size: 12px">
+                        Credential: 
+                        <select id="btn5" style="font-size: 12px">
                             
                         </select>
-                        <select id="btn41" style="font-size: 12px; display: none;">
-                            
-                        </select>
+                        
+                        
                         
                                   
                                    
                     </p>
                     <p>
-                       Program 2:
-                        <select id="btn5" style="font-size: 12px">
+                       Program:
+                        <select id="btn6" style="font-size: 12px">
                             
                         </select>     
-                        <select id="btn51" style="font-size: 12px; display: none;">
+                        <select id="btn61" style="font-size: 12px; display: none;">
                             
-                        </select>         
+                        </select>
+                        <select id="btn62" style="font-size: 12px; display: none;">
+                            
+                        </select>    
+                        <select id="btn63" style="font-size: 12px; display: none;">
+                            
+                        </select>   
+                        <select id="btn64" style="font-size: 12px; display: none;">
+                            
+                        </select>   
+                        <select id="btn65" style="font-size: 12px; display: none;">
+                            
+                        </select>  
+                        
+                              <select id="btn66" style="font-size: 12px; display: none;">
+                            
+                        </select>  
+                        
+                              <select id="btn67" style="font-size: 12px; display: none;">
+                            
+                        </select>        
                         
                         
                     </p>
                     <!-- list 3-->
-                    <p>
-                       Program 3:
-                        <select id="btn6" style="font-size: 12px">
-                            
-                        </select>
-                        <select id="btn61" style="font-size: 12px; display: none;">
-                            
-                        </select>           
-                        
-                        
-                    </p>
+                    
                 </div>
                 
                 
@@ -251,10 +261,22 @@
   <script>
       
     
-        
+d3.csv("data/cred.csv", function(error, data) {
+    var select = d3.select("#btn5")
+      
+
+    select.selectAll("option")
+      .data(data)
+      .enter()
+        .append("option")
+        .attr("value", function (d) { return d.value; })
+        .text(function (d) { return d.label; });
+      
+     
+  });
   
-  d3.csv("data/1yrcertlabels.csv", function(error, data) {
-    var select = d3.select("#btn4")
+  d3.csv("data/BCC1yr.csv", function(error, data) {
+    var select = d3.select("#btn6")
       
 
     select.selectAll("option")
@@ -264,30 +286,12 @@
         .attr("value", function (d) { return d.value; })
         .text(function (d) { return d.label; });
       
-      var select = d3.select("#btn5")
-      
-
-    select.selectAll("option")
-      .data(data)
-      .enter()
-        .append("option")
-        .attr("value", function (d) { return d.value; })
-        .text(function (d) { return d.label; });
-      
-      var select = d3.select("#btn6")
-      
-
-    select.selectAll("option")
-      .data(data)
-      .enter()
-        .append("option")
-        .attr("value", function (d) { return d.value; })
-        .text(function (d) { return d.label; });
+     
   });
       
   
-  d3.csv("data/2yrcertlabels.csv", function(error, data) {
-    var select = d3.select("#btn41") 
+  d3.csv("data/CCC1yr.csv", function(error, data) {
+    var select = d3.select("#btn61") 
 
     select.selectAll("option")
       .data(data)
@@ -296,24 +300,85 @@
         .attr("value", function (d) { return d.value; })
         .text(function (d) { return d.label; });
       
-       var select = d3.select("#btn51") 
-
-    select.selectAll("option")
-      .data(data)
-      .enter()
-        .append("option")
-        .attr("value", function (d) { return d.value; })
-        .text(function (d) { return d.label; });
       
-       var select = d3.select("#btn61") 
 
-    select.selectAll("option")
-      .data(data)
-      .enter()
-        .append("option")
-        .attr("value", function (d) { return d.value; })
-        .text(function (d) { return d.label; });
+    
   });
+      
+d3.csv("data/CCCno.csv", function(error, data) {
+    var select = d3.select("#btn62") 
+
+    select.selectAll("option")
+      .data(data)
+      .enter()
+        .append("option")
+        .attr("value", function (d) { return d.value; })
+        .text(function (d) { return d.label; });
+      
+      
+
+    
+  });
+      
+d3.csv("data/CCC2yr.csv", function(error, data) {
+    var select = d3.select("#btn63") 
+
+    select.selectAll("option")
+      .data(data)
+      .enter()
+        .append("option")
+        .attr("value", function (d) { return d.value; })
+        .text(function (d) { return d.label; });
+      
+      
+
+    
+  });
+      
+d3.csv("data/ccbc2yr.csv", function(error, data) {
+    var select = d3.select("#btn64") 
+
+    select.selectAll("option")
+      .data(data)
+      .enter()
+        .append("option")
+        .attr("value", function (d) { return d.value; })
+        .text(function (d) { return d.label; });
+      
+      
+
+    
+  });
+      
+d3.csv("data/ccbcdegree.csv", function(error, data) {
+    var select = d3.select("#btn65") 
+
+    select.selectAll("option")
+      .data(data)
+      .enter()
+        .append("option")
+        .attr("value", function (d) { return d.value; })
+        .text(function (d) { return d.label; });
+      
+      
+
+    
+  });
+      
+d3.csv("data/ccbcno.csv", function(error, data) {
+    var select = d3.select("#btn66") 
+
+    select.selectAll("option")
+      .data(data)
+      .enter()
+        .append("option")
+        .attr("value", function (d) { return d.value; })
+        .text(function (d) { return d.label; });
+      
+      
+
+    
+  });      
    
   </script>
   
