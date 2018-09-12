@@ -77,7 +77,7 @@
                 <p id="Title4" style="display: none; font-size: 13px;">Median Annual Earnings</p>
                 <p id="Title5" style="display: none; font-size: 13px;">Inter-college Transfer Rate</p>
                     <p> College: 
-                        <select id="btn4" onselect="list()" style="font-size: 12px">
+                        <select id="btn4" onchange="list()" style="font-size: 12px">
                             <option value="Baltimore City Community College">Baltimore City Community College</option>
                             <option value="Carroll Community College">Carroll Community College</option>
                             <option value="Community College of Baltimore County">Community College of Baltimore County</option>
@@ -86,6 +86,14 @@
                     <p>
                         Credential: 
                         <select id="btn5" style="font-size: 12px">
+                            
+                        </select>
+                        
+                        <select id="btn51" style="font-size: 12px; display: none;">
+                            
+                        </select>
+                        
+                        <select id="btn52" style="font-size: 12px; display: none;">
                             
                         </select>
                         
@@ -261,8 +269,36 @@
   <script>
       
     
-d3.csv("data/cred.csv", function(error, data) {
+d3.csv("data/BCCcred.csv", function(error, data) {
     var select = d3.select("#btn5")
+      
+
+    select.selectAll("option")
+      .data(data)
+      .enter()
+        .append("option")
+        .attr("value", function (d) { return d.value; })
+        .text(function (d) { return d.label; });
+      
+     
+  });
+      
+d3.csv("data/CCCcred.csv", function(error, data) {
+    var select = d3.select("#btn51")
+      
+
+    select.selectAll("option")
+      .data(data)
+      .enter()
+        .append("option")
+        .attr("value", function (d) { return d.value; })
+        .text(function (d) { return d.label; });
+      
+     
+  });
+      
+d3.csv("data/ccbccred.csv", function(error, data) {
+    var select = d3.select("#btn52")
       
 
     select.selectAll("option")

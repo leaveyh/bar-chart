@@ -299,18 +299,18 @@ d3.select("#change5").on("click", function() {
       var strUser4 = e4.options[e4.selectedIndex].value;
       
       //as above, so below
-    /**  var e5 = document.getElementById(b1);
+      var e5 = document.getElementById(b1);
       var strUser5 = e5.options[e5.selectedIndex].value; 
       
       var e6 = document.getElementById(c1);
-      var strUser6 = e6.options[e6.selectedIndex].value; **/
+      var strUser6 = e6.options[e6.selectedIndex].value;
     
   
    var chartChange = dimple.filterData(whichCheck(), "College", strUser4);
-  // var chartChange1 = dimple.filterData(chartChange, "Credential_level", strUser5);
+   var chartChange1 = dimple.filterData(chartChange, "Credential_level", strUser5);
    
     
-    wChart.data = chartChange;
+    wChart.data = chartChange1;
     
     
       
@@ -521,12 +521,15 @@ function color5(){
 }
 
 function list(){
-    var X = document.getElementById("btn4");
+   var X = document.getElementById("btn4");
    var x1 = X.options[X.selectedIndex].value;
     
-    if(x1 == "Baltimore City Community College"){
+    var c1 = "Baltimore City Community College";
+    var c2 = "Carroll Community College";
+    
+    if(x1 == c1){
         list1();
-    } else if (x1 == "Carroll Community College") {
+    } else if (x1 == c2) {
         list2();
     } else {
         list3();
@@ -536,53 +539,80 @@ function list(){
 }
 
 function list1(){
-    var X1 = document.getElementById("btn4");
-    var X2 = document.getElementById("btn5");
-    var X3 = document.getElementById("btn6");
-    var X4 = document.getElementById("btn41");
-    var X5 = document.getElementById("btn51");
-    var X6 = document.getElementById("btn61");
+    var X1 = document.getElementById("btn5");
+    
+    
+    var X2 = document.getElementById("btn51");
+    
+    
+    var X3 = document.getElementById("btn52");
    
     
     X1.style.display = "inline";
-    X2.style.display = "inline";
-    X3.style.display = "inline";
-    X4.style.display = "none";
-    X5.style.display = "none";
-    X6.style.display = "none";
+    X2.style.display = "none";
+    X3.style.display = "none";
+   
+    
     
     
     X1.selectedIndex = 0;
     X2.selectedIndex = 0;
     X3.selectedIndex = 0;
-    X4.selectedIndex = 0;
-    X5.selectedIndex = 0;
-    X6.selectedIndex = 0;
+    
     
 }
 
 function list2(){
-    var X1 = document.getElementById("btn4");
-    var X2 = document.getElementById("btn5");
-    var X3 = document.getElementById("btn6");
-    var X4 = document.getElementById("btn41");
-    var X5 = document.getElementById("btn51");
-    var X6 = document.getElementById("btn61");
+    var X1 = document.getElementById("btn5");
+    
+    
+    var X2 = document.getElementById("btn51");
+    
+    
+    var X3 = document.getElementById("btn52");
+   
+    
+    
+    
+    
+    
    
     
     X1.style.display = "none";
-    X2.style.display = "none";
+    X2.style.display = "inline";
     X3.style.display = "none";
-    X4.style.display = "inline";
-    X5.style.display = "inline";
-    X6.style.display = "inline";
+   
+    
     
     
     X1.selectedIndex = 0;
     X2.selectedIndex = 0;
     X3.selectedIndex = 0;
-    X4.selectedIndex = 0;
-    X5.selectedIndex = 0;
-    X6.selectedIndex = 0;
 }
-
+function list3(){
+    var X1 = document.getElementById("btn5");
+    
+    
+    var X2 = document.getElementById("btn51");
+    
+    
+    var X3 = document.getElementById("btn52");
+   
+    
+    
+    
+    
+    
+   
+    
+    X1.style.display = "none";
+    X2.style.display = "none";
+    X3.style.display = "inline";
+   
+    
+    
+    
+    X1.selectedIndex = 0;
+    X2.selectedIndex = 0;
+    X3.selectedIndex = 0;
+}
