@@ -299,15 +299,15 @@ d3.select("#change5").on("click", function() {
       var strUser4 = e4.options[e4.selectedIndex].value;
       
       //as above, so below
-      var e5 = document.getElementById(b1);
-      var strUser5 = e5.options[e5.selectedIndex].value;
+    /**  var e5 = document.getElementById(b1);
+      var strUser5 = e5.options[e5.selectedIndex].value; 
       
       var e6 = document.getElementById(c1);
-      var strUser6 = e6.options[e6.selectedIndex].value;
+      var strUser6 = e6.options[e6.selectedIndex].value; **/
     
   
-   var chartChange = dimple.filterData(whichCheck(), "Program", strUser6);
-   var chartChange1 = dimple.filterData(chartChange, "Credential_level", strUser5);
+   var chartChange = dimple.filterData(whichCheck(), "College", strUser4);
+  // var chartChange1 = dimple.filterData(chartChange, "Credential_level", strUser5);
    
     
     wChart.data = chartChange;
