@@ -315,9 +315,12 @@ d3.select("#change5").on("click", function() {
    var chartChange = dimple.filterData(whichCheck(), "College", strUser4);
    var chartChange1 = dimple.filterData(chartChange, "Credential_level", strUser5);
    
-    
-    wChart.data = chartChange1;
-    
+      wChart.data = chartChange1;
+    if(strUser5 == "All"){
+    wChart.data = chartChange;
+    } else {
+        wChart.data = chartChange1;
+    };
     
       
         
@@ -526,13 +529,28 @@ function color5(){
     
 }
 
-/*
+
 function list(){
    var X = document.getElementById("btn4");
    var x1 = X.options[X.selectedIndex].value;
     
     var c1 = "Baltimore City Community College";
     var c2 = "Carroll Community College";
+    var c3 = "Allegany Community College"
+    var c4 = "Baltimore City Community College"
+    var c5 = "Carroll Community College"
+    var c6 = "College of Southern Maryland"
+    var c7 = "Community College of Baltimore County"
+    var c8 = "Frederick Community College"
+    var c9 = "Garrett College"
+    var c10 = "Hagerstown Community College"
+    var c11 = "Harford Community College"
+    var c12 = "Howard Community College"
+    var c13 = "Montgomery College"
+    var c14 = "Prince George's Community College"
+    var c15 = "Training"
+    var c16 = "Wor-Wic Community College"
+
     
     if(x1 == c1){
         list1();
@@ -546,7 +564,7 @@ function list(){
     }
     
     
-}*/
+}
 
 function list1(){
     var X1 = document.getElementById("btn5");

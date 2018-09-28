@@ -1,6 +1,8 @@
 value,label
-Certificate (less than one year),Certificate (less than one year)
+All,All
 Certificate (more than one year),Certificate (more than one year)
+Certificate (less than one year),Certificate (less than one year)
 Degree,Degree
 Didnt Apply for Credential,Didnt Apply for Credential
 Not Specified,Not Specified
+Other,Other
