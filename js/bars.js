@@ -316,7 +316,7 @@ d3.select("#change5").on("click", function() {
    var chartChange1 = dimple.filterData(chartChange, "Credential_level", strUser5);
    
     
-    wChart.data = chartChange;
+    wChart.data = chartChange1;
     
     
       
