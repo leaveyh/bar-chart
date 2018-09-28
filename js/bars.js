@@ -2,7 +2,7 @@ var togNum = 1;
 var togNum1 = 1;
 var colnum = 0;
 var prognum = 0;
-    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQlwoj8Ws-ycu2Hq6EiFlimvzfWSEIUdH45ybq_LaeTd-9XPohdzISGFjHj5SAzqZ7ELQ_BNL3SzjHl/pub?output=csv", function (data) {
+    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTXHH3kTvugLQDELWUl4Hdml8yO6ng4sEgOOVFiQBH7LHUrzcnVXaatPLIh8C3kAue7EQ8J90nGyCmt/pub?output=csv", function (data) {
 
                 //chart 3 
                 
@@ -42,9 +42,9 @@ var prognum = 0;
         
                             var wChart = new dimple.chart(svg3, gradData1);
                             wChart.setBounds("14%", "5%", "75%", "55%")
-                            var edX = wChart.addCategoryAxis("x", ["College", "Program"]);
+                            var edX = wChart.addCategoryAxis("x", ["College Initials", "Program"]);
                             var eduY = wChart.addMeasureAxis("y", "Totals");
-                           var edSeries = wChart.addSeries(["Program"], dimple.plot.bar);
+                           var edSeries = wChart.addSeries(["College","Program"], dimple.plot.bar);
                             //wChart.addSeries(["Credential_level"], dimple.plot.bar);
                         
                             //edSeries.addOrderRule([""])
