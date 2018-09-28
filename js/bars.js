@@ -6,7 +6,7 @@ var prognum = 0;
 
                 //chart 3 
                 
-                var svg3 = dimple.newSvg("#Chart3", "100%", 275);
+                var svg3 = dimple.newSvg("#Chart3", "100%", 375);
         
         
                 //whichChart tells program which chart is displayed for change purposes
