@@ -533,28 +533,35 @@ function color5(){
 function list(){
    var X = document.getElementById("btn4");
    var x1 = X.options[X.selectedIndex].value;
+   var numberDrop = document.getElementsByName("btn5");
     
-    var c1 = "Baltimore City Community College";
-    var c2 = "Carroll Community College";
-    var c3 = "Allegany Community College"
-    var c4 = "Baltimore City Community College"
-    var c5 = "Carroll Community College"
-    var c6 = "College of Southern Maryland"
-    var c7 = "Community College of Baltimore County"
-    var c8 = "Frederick Community College"
-    var c9 = "Garrett College"
-    var c10 = "Hagerstown Community College"
-    var c11 = "Harford Community College"
-    var c12 = "Howard Community College"
-    var c13 = "Montgomery College"
-    var c14 = "Prince George's Community College"
-    var c15 = "Training"
-    var c16 = "Wor-Wic Community College"
+   
+    var c1 = "Allegany Community College"
+    var c2 = "Baltimore City Community College"
+    var c3 = "Carroll Community College"
+    var c4 = "College of Southern Maryland"
+    var c5 = "Community College of Baltimore County"
+    var c6 = "Frederick Community College"
+    var c7 = "Garrett College"
+    var c8 = "Hagerstown Community College"
+    var c9 = "Harford Community College"
+    var c10 = "Howard Community College"
+    var c11 = "Montgomery College"
+    var c12 = "Prince George's Community College"
+    var c13 = "Training"
+    var c14 = "Wor-Wic Community College"
 
+    for(var i = 1; i < numberDrop.length; i++){
+        numberDrop[i].style.display = "hidden";
+    }
     
     if(x1 == c1){
-        list1();
-        prognum = 0;
+        numberDrop[0].style.display = "block";
+        numberDrop[1].style.display = "block";
+        numberDrop[3].style.display = "block";
+        numberDrop[5].style.display = "block";
+        
+        
     } else if (x1 == c2) {
         list2();
         prognum = 1;
