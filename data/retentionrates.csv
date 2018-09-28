@@ -1,29 +1,122 @@
-BCCC,A+ Certification,Certificate (less than one year),42.9%
-BCCC,A+ certification ,Certificate (less than one year),20.0%
-BCCC,Network+ certification,Certificate (less than one year),100.0%
-CCBC,Network Technology,Certificate (more than one year),100.0%
-CCC,Continuing Education Certificate for Computer Support Technician,Certificate (less than one year),100.0%
-CCC,Continuing Education Certificate in A+ Certification (Small Certificate),Certificate (less than one year),100.0%
-CCC,Continuing Education Certificate in Computer Support Technician,Certificate (less than one year),38.1%
-CCC,Continuing Education Certificate in IT Fundamentals with Academic Skills Enhancement,Certificate (less than one year),45.5%
-CCC,Continuing Education Certificate in Installing Windows Server 2012,Certificate (less than one year),100.0%
-CCC,Continuing Education Certificate in Microsoft Windows Server 2012,Certificate (less than one year),100.0%
-CCC,CERT.CYBR,Certificate (more than one year),8.3%
-CSM,AASCYBERSECUR,Certificate (more than one year),100.0%
-FCC,IT:SECASS,Certificate (less than one year),50.0%
-FCC,"AAS, Cybersecurity",Certificate (more than one year),66.7%
-GC,Cybersecurity Certificate,Certificate (less than one year),100.0%
-HagCC,"Advanced Network Security, Certificate",Certificate (less than one year),100.0%
-HagCC,Network Security:CER,Certificate (less than one year),50.0%
-HarCC,CYBC,Certificate (more than one year),3.3%
-HowCC,193 - Network Security Administration CP,Certificate (more than one year),100.0%
-HowCC,295 - Computer Forensics CP,Certificate (more than one year),100.0%
-HowCC,303 - Computer Forensics - AA Degree,Certificate (more than one year),100.0%
-MC,Cyber Advantage,Certificate (less than one year),14.8%
-MC,Network & Wireless Technol - IT Professional+ (CT),Certificate (more than one year),100.0%
-MC,Network & Wireless Technology - IT Professional+ (CT),Certificate (more than one year),100.0%
-PGCC,A+ Enhanced Certification Program,Certificate (less than one year),28.6%
-PGCC,INTRODUCTION TO SECURITY CLEARANCE AND BACKGROUND CHECKS,Certificate (less than one year),17.9%
-PGCC,Introduction to Security Clearances and Background Checks,Certificate (less than one year),7.7%
-WWCC,PC Technician Basics,Certificate (less than one year),42.9%
-WWCC,Computer Information Security,Certificate (more than one year),50.0%
+College,Program/(Credential Level),Totals
+Allegany Community College,CPAM Certificate >1y (Certificate >1y) [No Data],N/A
+Allegany Community College,CPAM Certificate >1y (Not Specified) [No Data],N/A
+Allegany Community College,CPAM Degree AAS (Degree) [No Data],N/A
+Allegany Community College,CPAM Degree AAS (Not Specified),4.0%
+Allegany Community College,CPAM Degree AS (Degree) [No Data],N/A
+Allegany Community College,CPAM Degree AS (Not Specified) [No Data],N/A
+Baltimore City Community College,CPAM Non-credit Certificate (Certificate <1 y),23.0%
+Baltimore City Community College,CPAM Non-credit Certificate (Not Specified) [No Data],N/A
+Carroll Community College,CPAM Certificate <1y (Certificate <1y) [No Data],N/A
+Carroll Community College,CPAM Certificate <1y (Didnt Apply for Credential),7.0%
+Carroll Community College,CPAM Certificate <1y (Not Specified) [No Data],N/A
+Carroll Community College,CPAM Certificate >1y (Certificate >1y),8.0%
+Carroll Community College,CPAM Certificate >1y (Certificate >1y) [No Data],N/A
+Carroll Community College,CPAM Degree AAS (Degree) [No Data],N/A
+Carroll Community College,CPAM Degree AAS (Not Specified) [No Data],N/A
+Carroll Community College,CPAM Degree AS (Not Specified) [No Data],N/A
+Carroll Community College,CPAM Non-credit Certificate (Certificate <1 y),38.0%
+Carroll Community College,CPAM Non-credit Certificate (Not Specified),48.0%
+Carroll Community College,Non-CPAM Certificate <1y (Not Specified) [No Data],N/A
+Carroll Community College,Non-CPAM Degree (Not Specified),12.0%
+Carroll Community College,Not Specified (Certificate <1y) [No Data],N/A
+Carroll Community College,Not Specified,40.0%
+College of Southern Maryland,CPAM Certificate <1y (Certificate <1y) [No Data],N/A
+College of Southern Maryland,CPAM Certificate <1y (Certificate <1y) [No Data],N/A
+College of Southern Maryland,CPAM Certificate >1y (Certificate >1y),50.0%
+College of Southern Maryland,CPAM Degree AAS (Not Specified) [No Data],N/A
+College of Southern Maryland,CPAM Degree AS (Degree) [No Data],N/A
+College of Southern Maryland, CPAM Non-credit Certificate (Not Specified) [No Data],N/A
+College of Southern Maryland,Non-CPAM Degree (Not Specified) [No Data],N/A
+College of Southern Maryland,Not Specified [No Data],N/A
+Community College of Baltimore County,CPAM Certificate <1y (Didnt Apply for Credential),17.0%
+Community College of Baltimore County,CPAM Certificate <1y (Not Specified),7.0%
+Community College of Baltimore County,CPAM Certificate >1y (Certificate >1y),100.0%
+Community College of Baltimore County,CPAM Degree AAS (Degree),33.0%
+Community College of Baltimore County,CPAM Degree AAS (Not Specified) [No Data],N/A
+Community College of Baltimore County,CPAM Degree AS (Degree),4.0%
+Community College of Baltimore County,CPAM Non-credit Certificate (Not Specified) [No Data],N/A
+Frederick Community College,CPAM Certificate <1y (Certificate <1y),29.0%
+Frederick Community College,CPAM Certificate <1y (Not Specified) [No Data],N/A
+Frederick Community College,CPAM Certificate >1y (Certificate >1y),6.0%
+Frederick Community College,CPAM Degree AAS (Degree),22.0%
+Frederick Community College,CPAM Degree AAS (Not Specified),13.0%
+Frederick Community College,CPAM Degree AS (Degree),8.0%
+Garrett College,CPAM Certificate <1y (Certificate <1y),25.0%
+Garrett College,CPAM Certificate <1y (Not Specified) [No Data],N/A
+Garrett College,CPAM Degree AAS (Degree),23.0%
+Garrett College,CPAM Degree AAS (Not Specified),33.0%
+Garrett College,CPAM Non-credit Certificate (Certificate <1y) [No Data],N/A
+Garrett College,CPAM Non-credit Certificate (Other) [No Data],N/A
+Garrett College,Non-CPAM Degree (Degree) [No Data],N/A
+Garrett College,Non-CPAM Degree (Not Specified),40.0%
+Hagerstown Community College,CPAM Certificate <1y (Certificate <1y),80.0%
+Hagerstown Community College,CPAM Certificate <1y (Not Specified),50.0%
+Hagerstown Community College,CPAM Certificate >1y (Certificate >1y) [No Data],N/A
+Hagerstown Community College,CPAM Degree AAS (Degree),42.0%
+Hagerstown Community College,CPAM Degree AAS (Not Specified),43.0%
+Hagerstown Community College,CPAM Degree AS (Degree),28.0%
+Hagerstown Community College,CPAM Degree AS (Other),100.0%
+Hagerstown Community College,CPAM Degree AS (Not Specified),33.0%
+Hagerstown Community College,Non-CPAM Degree (Degree)[No Data],N/A
+Hagerstown Community College,Non-CPAM Degree (Not Specified),50.0%
+Hagerstown Community College,Not Specified (Degree),23.0%
+Hagerstown Community College,Not Specified [No Data],N/A
+Harford Community College,CPAM Certificate <1y (Certificate <1y) [No Data],N/A
+Harford Community College,CPAM Certificate <1y (Certificate <1y) [No Data],N/A
+Harford Community College,CPAM Certificate <1y (Not Specified),13.0%
+Harford Community College,CPAM Certificate >1y (Certificate >1y),3.0%
+Harford Community College,CPAM Degree AS (Degree),10.0%
+Harford Community College,Non-CPAM Certificate <1y (Not Specified) [No Data],N/A
+Harford Community College,Non-CPAM Degree (Degree) [No Data],N/A
+Harford Community College,Non-CPAM Degree (Not Specified) [No Data],N/A
+Harford Community College,Not Specified [No Data],N/A
+Howard Community College,CPAM Certificate <1y (Not Specified),33.0%
+Howard Community College,CPAM Certificate >1y (Certificate >1y),100.0%
+Howard Community College,CPAM Certificate >1y (Not Specified),50.0%
+Howard Community College,CPAM Degree AA (Certificate >1y),100.0%
+Howard Community College,CPAM Degree AA (Degree),18.0%
+Howard Community College,CPAM Degree AA (Not Specified),47.0%
+Howard Community College,CPAM Degree AAS (Degree) [No Data],N/A
+Howard Community College,CPAM Degree AAS (Not Specified) [No Data],N/A
+Howard Community College,CPAM Non-credit Certificate (Not Specified) [No Data],N/A
+Howard Community College,Non-CPAM Certificate <1y (Not Specified) [No Data],N/A
+Howard Community College,Non-CPAM Degree (Degree),60.0%
+Howard Community College,Non-CPAM Degree (Not Specified),31.0%
+Howard Community College,Not Specified,40.0%
+Howard Community College ,CPAM Certificate <1y (Not Specified) [No Data],N/A
+Howard Community College ,CPAM Degree AAS (Not Specified) [No Data],N/A
+Howard Community College ,Non-CPAM Degree (Not Specified) [No Data],N/A
+Montgomery College,CPAM Certificate <1y (Certificate <1y),14.0%
+Montgomery College,CPAM Certificate <1y (Not Specified) [No Data],N/A
+Montgomery College,CPAM Certificate >1y (Certificate >1y),60.0%
+Montgomery College,CPAM Degree AA (Degree) [No Data],N/A
+Montgomery College,CPAM Degree AAS (Degree),13.0%
+Montgomery College,CPAM Degree AAS (Other) [No Data],N/A
+Montgomery College,CPAM Degree AAS (Not Specified) [No Data],N/A
+Montgomery College,CPAM Degree AS (Degree),35.0%
+Montgomery College,Non-CPAM Certificate <1y (Certificate <1y) [No Data],N/A
+Montgomery College,Non-CPAM Certificate <1y (Not Specified) [No Data],N/A
+Montgomery College,Non-CPAM Degree (Degree) [No Data],N/A
+Montgomery College,Non-CPAM Degree (Not Specified) [No Data],N/A
+Montgomery College,Not Specified (Degree),50.0%
+Montgomery College,Not Specified (Other) [No Data],N/A
+Montgomery College,Not Specified [No Data],N/A
+Prince George's Community College,CPAM Non-credit Certificate (Certificate <1 y),18.0%
+Prince George's Community College,CPAM Non-credit Certificate (Other),27.0%
+Prince George's Community College,CPAM Non-credit Certificate (Not Specified),14.0%
+Training,CPAM Certificate <1y (Certificate <1y) [No Data],N/A
+Training,CPAM Certificate >1y (Certificate >1y) [No Data],N/A
+Training,Not Specified [No Data],N/A
+Wor-Wic Community College,CPAM Certificate <1y (Certificate <1y),43.0%
+Wor-Wic Community College,CPAM Certificate <1y (Not Specified),47.0%
+Wor-Wic Community College,CPAM Certificate >1y (Certificate >1y),38.0%
+Wor-Wic Community College,CPAM Certificate >1y (Not Specified) [No Data],N/A
+Wor-Wic Community College,CPAM Degree AAS (Degree) [No Data],N/A
+Wor-Wic Community College,CPAM Degree AAS (Not Specified),100.0%
+Wor-Wic Community College,CPAM Degree AS (Degree),24.0%
+Wor-Wic Community College,CPAM Degree AS (Not Specified),22.0%
+Wor-Wic Community College,Non-CPAM Degree (Degree) [No Data],N/A
+Wor-Wic Community College,Non-CPAM Degree (Not Specified) [No Data],N/A
+Wor-Wic Community College,Not Specified (Degree) [No Data],N/A
+Wor-Wic Community College,Not Specified,28.0%

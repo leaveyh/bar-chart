@@ -1,6 +1,8 @@
 var togNum = 1;
 var togNum1 = 1;
-    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vS0Edz5Dlb78kF9vXXqot3MpGg_7RnkUUNcvmzv0DBzvru8Fe7vkr8z_gklZ5FF95tpvcdRrtEyPKvb/pub?output=csv", function (data) {
+var colnum = 0;
+var prognum = 0;
+    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQlwoj8Ws-ycu2Hq6EiFlimvzfWSEIUdH45ybq_LaeTd-9XPohdzISGFjHj5SAzqZ7ELQ_BNL3SzjHl/pub?output=csv", function (data) {
 
                 //chart 3 
                 
@@ -30,8 +32,9 @@ var togNum1 = 1;
                             transData = dimple.filterData(data, "Measure", "transferRate");
         
                             
-        
-                            gradData1 = dimple.filterData(gradData, "College", "Carroll Community College");
+                            
+                            gradData1 = dimple.filterData(gradData, "College", "Allegany Community College");
+                            //gradData1 = dimple.filterData(gradData1, "Blank", "Not Blank");
 
                             
 
@@ -41,13 +44,16 @@ var togNum1 = 1;
                             wChart.setBounds("14%", "5%", "75%", "55%")
                             var edX = wChart.addCategoryAxis("x", ["College", "Program"]);
                             var eduY = wChart.addMeasureAxis("y", "Totals");
-                           var edSeries = wChart.addSeries("Program", dimple.plot.bar);
+                           var edSeries = wChart.addSeries(["Program"], dimple.plot.bar);
+                            //wChart.addSeries(["Credential_level"], dimple.plot.bar);
+                        
+                            //edSeries.addOrderRule([""])
                             eduY.title = "Graduation Rates";
                             edX.title = " ";
         
                             
         
-                            var qLegend = wChart.addLegend("15%", "70%", "40%", "75%");
+                            var qLegend = wChart.addLegend("15%", "70%", "90%", "75%");
                             
         
                        //     edX.addOrderRule(["Less than high school graduate", "High school graduate (includes equivalency)", "Some college or associate's degree", "Bachelor's degree or higher"]);
@@ -278,39 +284,39 @@ d3.select("#change5").on("click", function() {
       var x1 = X.options[X.selectedIndex].value;
       
       
-      if(x1 == "Baltimore City Community College"){
+    /*  if(x1 == "Baltimore City Community College"){
        var a1 = "btn4";
        var b1 = "btn5";
        var c1 = "btn6";
+       colnum = 0;
       }
       if(x1 == "Carroll Community College"){
        var a1 = "btn4";
        var b1 = "btn51";
        var c1 = "btn61";
+        colnum = 1;
       }
       if(x1 == "Community College of Baltimore County"){
        var a1 = "btn4";
        var b1 = "btn52";
        var c1 = "btn62";
-      }
+          colnum = 2;
+      }*/
       
       
-      var e4 = document.getElementById(a1);
+      var e4 = document.getElementById("btn4");
       var strUser4 = e4.options[e4.selectedIndex].value;
       
       //as above, so below
-      var e5 = document.getElementById(b1);
+      var e5 = document.getElementById("btn5");
       var strUser5 = e5.options[e5.selectedIndex].value; 
-      
-      var e6 = document.getElementById(c1);
-      var strUser6 = e6.options[e6.selectedIndex].value;
     
-  
+   //var prechartChange = dimple.filterData(whichCheck(), "Blank", "Not Blank");
    var chartChange = dimple.filterData(whichCheck(), "College", strUser4);
    var chartChange1 = dimple.filterData(chartChange, "Credential_level", strUser5);
    
     
-    wChart.data = chartChange1;
+    wChart.data = chartChange;
     
     
       
@@ -520,6 +526,7 @@ function color5(){
     
 }
 
+/*
 function list(){
    var X = document.getElementById("btn4");
    var x1 = X.options[X.selectedIndex].value;
@@ -529,14 +536,17 @@ function list(){
     
     if(x1 == c1){
         list1();
+        prognum = 0;
     } else if (x1 == c2) {
         list2();
+        prognum = 1;
     } else {
         list3();
+        prognum = 3;
     }
     
     
-}
+}*/
 
 function list1(){
     var X1 = document.getElementById("btn5");
@@ -593,10 +603,10 @@ function list3(){
     var X1 = document.getElementById("btn5");
     
     
-    var X2 = document.getElementById("btn51");
+    //var X2 = document.getElementById("btn51");
     
     
-    var X3 = document.getElementById("btn52");
+    //var X3 = document.getElementById("btn52");
    
     
     
@@ -606,13 +616,43 @@ function list3(){
    
     
     X1.style.display = "none";
-    X2.style.display = "none";
-    X3.style.display = "inline";
+    //X2.style.display = "none";
+    //X3.style.display = "inline";
    
     
     
     
     X1.selectedIndex = 0;
-    X2.selectedIndex = 0;
-    X3.selectedIndex = 0;
+   // X2.selectedIndex = 0;
+   // X3.selectedIndex = 0;
+}
+
+function list4(){
+    
+    
+    var X1 = document.getElementById("btn5");
+    
+    
+    var X2 = document.getElementById("btn51");
+    
+    
+    //var X3 = document.getElementById("btn52");
+   
+    
+    
+    
+    
+    
+   
+    
+    X1.style.display = "none";
+    //X2.style.display = "none";
+    //X3.style.display = "inline";
+   
+    
+    
+    
+    X1.selectedIndex = 0;
+   // X2.selectedIndex = 0;
+    //X3.selectedIndex = 0;
 }

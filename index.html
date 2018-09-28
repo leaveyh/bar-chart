@@ -77,62 +77,24 @@
                 <p id="Title4" style="display: none; font-size: 13px;">Median Annual Earnings</p>
                 <p id="Title5" style="display: none; font-size: 13px;">Inter-college Transfer Rate</p>
                     <p> College: 
-                        <select id="btn4" onchange="list()" style="font-size: 12px">
-                            <option value="Baltimore City Community College">Baltimore City Community College</option>
-                            <option value="Carroll Community College">Carroll Community College</option>
-                            <option value="Community College of Baltimore County">Community College of Baltimore County</option>
+                        <select id="btn4" style="font-size: 12px">
+                            
                         </select>            
                     </p>
-                    <p>
+                    <p style="display: none">
                         Credential: 
                         <select id="btn5" style="font-size: 12px">
                             
                         </select>
                         
-                        <select id="btn51" style="font-size: 12px; display: none;">
-                            
-                        </select>
                         
-                        <select id="btn52" style="font-size: 12px; display: none;">
-                            
-                        </select>
                         
                         
                         
                                   
                                    
                     </p>
-                    <p>
-                       Program:
-                        <select id="btn6" style="font-size: 12px">
-                            
-                        </select>     
-                        <select id="btn61" style="font-size: 12px; display: none;">
-                            
-                        </select>
-                        <select id="btn62" style="font-size: 12px; display: none;">
-                            
-                        </select>    
-                        <select id="btn63" style="font-size: 12px; display: none;">
-                            
-                        </select>   
-                        <select id="btn64" style="font-size: 12px; display: none;">
-                            
-                        </select>   
-                        <select id="btn65" style="font-size: 12px; display: none;">
-                            
-                        </select>  
-                        
-                              <select id="btn66" style="font-size: 12px; display: none;">
-                            
-                        </select>  
-                        
-                              <select id="btn67" style="font-size: 12px; display: none;">
-                            
-                        </select>        
-                        
-                        
-                    </p>
+                    
                     <!-- list 3-->
                     
                 </div>
@@ -170,9 +132,9 @@
                             <table id ="table3">
                     <tr class="HeadRow">
                               <th>College</th>
-                              <th>Program</th>
-                              <th>Credential Type</th>
-                              <th>Totals</th>
+                              <th>Program/(Credential Level)</th>
+                              <th>Graduation Rates</th>
+                              
                             </tr>
                 </table>
                 
@@ -187,10 +149,9 @@
             <div class="Table">
                             <table id ="table4">
                     <tr class="HeadRow">
-                              <th>College</th>
-                              <th>Program</th>
-                              <th>Credential Type</th>
-                              <th>Totals</th>
+                               <th>College</th>
+                              <th>Program/(Credential Level)</th>
+                              <th>Employment Rates</th>
                             </tr>
                 </table>
                 
@@ -204,10 +165,9 @@
             <div class="Table">
                             <table id ="table5">
                     <tr class="HeadRow">
-                              <th>College</th>
-                              <th>Program</th>
-                              <th>Credential Type</th>
-                              <th>Totals</th>
+                               <th>College</th>
+                              <th>Program/(Credential Level)</th>
+                              <th>Retention Rates</th>
                             </tr>
                 </table>
                 
@@ -221,10 +181,9 @@
                            
                            <table id="table6">
                              <tr class="HeadRow">
-                              <th>College</th>
-                              <th>Program</th>
-                              <th>Credential Type</th>
-                              <th>Totals</th>
+                               <th>College</th>
+                              <th>Program/(Credential Level)</th>
+                              <th>Median Annual Earnings</th>
                             </tr>
                                
                                
@@ -240,10 +199,9 @@
             <div class="Table">
                             <table id ="table7">
                     <tr class="HeadRow">
-                              <th>College</th>
-                              <th>Program</th>
-                              <th>Credential Type</th>
-                              <th>Totals</th>
+                               <th>College</th>
+                              <th>Program/(Credential Level)</th>
+                              <th>Transfer Rates</th>
                             </tr>
                                
                                
@@ -267,9 +225,23 @@
 <!-- table scripts -->
  <script src="https://d3js.org/d3.v3.js"></script>
   <script>
+
+d3.csv("data/collegelist.csv", function(error, data) {
+    var select = d3.select("#btn4")
+      
+
+    select.selectAll("option")
+      .data(data)
+      .enter()
+        .append("option")
+        .attr("value", function (d) { return d.value; })
+        .text(function (d) { return d.label; });
+      
+     
+  });
       
     
-d3.csv("data/BCCcred.csv", function(error, data) {
+d3.csv("data/credlevel1.csv", function(error, data) {
     var select = d3.select("#btn5")
       
 
@@ -311,110 +283,7 @@ d3.csv("data/ccbccred.csv", function(error, data) {
      
   });
   
-  d3.csv("data/BCC1yr.csv", function(error, data) {
-    var select = d3.select("#btn6")
-      
-
-    select.selectAll("option")
-      .data(data)
-      .enter()
-        .append("option")
-        .attr("value", function (d) { return d.value; })
-        .text(function (d) { return d.label; });
-      
-     
-  });
-      
   
-  d3.csv("data/CCC1yr.csv", function(error, data) {
-    var select = d3.select("#btn61") 
-
-    select.selectAll("option")
-      .data(data)
-      .enter()
-        .append("option")
-        .attr("value", function (d) { return d.value; })
-        .text(function (d) { return d.label; });
-      
-      
-
-    
-  });
-      
-d3.csv("data/CCCno.csv", function(error, data) {
-    var select = d3.select("#btn62") 
-
-    select.selectAll("option")
-      .data(data)
-      .enter()
-        .append("option")
-        .attr("value", function (d) { return d.value; })
-        .text(function (d) { return d.label; });
-      
-      
-
-    
-  });
-      
-d3.csv("data/CCC2yr.csv", function(error, data) {
-    var select = d3.select("#btn63") 
-
-    select.selectAll("option")
-      .data(data)
-      .enter()
-        .append("option")
-        .attr("value", function (d) { return d.value; })
-        .text(function (d) { return d.label; });
-      
-      
-
-    
-  });
-      
-d3.csv("data/ccbc2yr.csv", function(error, data) {
-    var select = d3.select("#btn64") 
-
-    select.selectAll("option")
-      .data(data)
-      .enter()
-        .append("option")
-        .attr("value", function (d) { return d.value; })
-        .text(function (d) { return d.label; });
-      
-      
-
-    
-  });
-      
-d3.csv("data/ccbcdegree.csv", function(error, data) {
-    var select = d3.select("#btn65") 
-
-    select.selectAll("option")
-      .data(data)
-      .enter()
-        .append("option")
-        .attr("value", function (d) { return d.value; })
-        .text(function (d) { return d.label; });
-      
-      
-
-    
-  });
-      
-d3.csv("data/ccbcno.csv", function(error, data) {
-    var select = d3.select("#btn66") 
-
-    select.selectAll("option")
-      .data(data)
-      .enter()
-        .append("option")
-        .attr("value", function (d) { return d.value; })
-        .text(function (d) { return d.label; });
-      
-      
-
-    
-  });      
    
   </script>
   
@@ -493,7 +362,7 @@ d3.csv("data/ccbcno.csv", function(error, data) {
         </script>
                
 <script type="text/javascript"charset="utf-8">
-            d3.text("data/meanEarnings.csv", function(data) {
+            d3.text("data/transferRates.csv", function(data) {
                 var parsedCSV = d3.csv.parseRows(data);
 
                 var container = d3.select("#table7")

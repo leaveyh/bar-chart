@@ -1,29 +1,122 @@
-BCCC,A+ Certification,Certificate (less than one year)," $17,451.50 "
-BCCC,A+ certification ,Certificate (less than one year)," $36,344.33 "
-BCCC,Network+ certification,Certificate (less than one year)," $29,168.00 "
-CCBC,Network Technology,Certificate (more than one year)," $31,294.40 "
-CCC,Continuing Education Certificate for Computer Support Technician,Certificate (less than one year)," $104,991.60 "
-CCC,Continuing Education Certificate in A+ Certification (Small Certificate),Certificate (less than one year)," $25,688.40 "
-CCC,Continuing Education Certificate in Computer Support Technician,Certificate (less than one year)," $43,332.95 "
-CCC,Continuing Education Certificate in IT Fundamentals with Academic Skills Enhancement,Certificate (less than one year)," $26,786.95 "
-CCC,Continuing Education Certificate in Installing Windows Server 2012,Certificate (less than one year)," $104,991.60 "
-CCC,Continuing Education Certificate in Microsoft Windows Server 2012,Certificate (less than one year)," $38,756.00 "
-CCC,CERT.CYBR,Certificate (more than one year)," $15,606.67 "
-CSM,AASCYBERSECUR,Certificate (more than one year)," $18,662.40 "
-FCC,IT:SECASS,Certificate (less than one year)," $27,896.95 "
-FCC,"AAS, Cybersecurity",Certificate (more than one year)," $28,710.17 "
-GC,Cybersecurity Certificate,Certificate (less than one year)," $27,621.14 "
-HagCC,"Advanced Network Security, Certificate",Certificate (less than one year)," $26,408.00 "
-HagCC,Network Security:CER,Certificate (less than one year)," $15,640.80 "
-HarCC,CYBC,Certificate (more than one year)," $30,544.00 "
-HowCC,193 - Network Security Administration CP,Certificate (more than one year)," $64,597.00 "
-HowCC,295 - Computer Forensics CP,Certificate (more than one year)," $55,492.80 "
-HowCC,303 - Computer Forensics - AA Degree,Certificate (more than one year)," $45,608.57 "
-MC,Cyber Advantage,Certificate (less than one year)," $30,631.67 "
-MC,Network & Wireless Technol - IT Professional+ (CT),Certificate (more than one year)," $45,406.00 "
-MC,Network & Wireless Technology - IT Professional+ (CT),Certificate (more than one year)," $13,619.20 "
-PGCC,A+ Enhanced Certification Program,Certificate (less than one year)," $18,554.67 "
-PGCC,INTRODUCTION TO SECURITY CLEARANCE AND BACKGROUND CHECKS,Certificate (less than one year)," $19,018.67 "
-PGCC,Introduction to Security Clearances and Background Checks,Certificate (less than one year)," $26,460.00 "
-WWCC,PC Technician Basics,Certificate (less than one year)," $40,038.00 "
-WWCC,Computer Information Security,Certificate (more than one year)," $25,610.67 "
+College,Program/(Credential Level), Totals 
+Allegany Community College,CPAM Certificate >1y (Certificate >1y) [No Data], N/A 
+Allegany Community College,CPAM Certificate >1y (Not Specified) [No Data], N/A 
+Allegany Community College,CPAM Degree AAS (Degree) [No Data], N/A 
+Allegany Community College,CPAM Degree AAS (Not Specified)," $29,709 "
+Allegany Community College,CPAM Degree AS (Degree) [No Data], N/A 
+Allegany Community College,CPAM Degree AS (Not Specified) [No Data], N/A 
+Baltimore City Community College,CPAM Non-credit Certificate (Certificate <1 y)," $32,925 "
+Baltimore City Community College,CPAM Non-credit Certificate (Not Specified) [No Data], N/A 
+Carroll Community College,CPAM Certificate <1y (Certificate <1y) [No Data], N/A 
+Carroll Community College,CPAM Certificate <1y (Didnt Apply for Credential)," $25,523 "
+Carroll Community College,CPAM Certificate <1y (Not Specified) [No Data], N/A 
+Carroll Community College,CPAM Certificate >1y (Certificate >1y)," $29,740 "
+Carroll Community College,CPAM Certificate >1y (Certificate >1y) [No Data], N/A 
+Carroll Community College,CPAM Degree AAS (Degree) [No Data], N/A 
+Carroll Community College,CPAM Degree AAS (Not Specified) [No Data], N/A 
+Carroll Community College,CPAM Degree AS (Not Specified) [No Data], N/A 
+Carroll Community College,CPAM Non-credit Certificate (Certificate <1 y)," $33,438 "
+Carroll Community College,CPAM Non-credit Certificate (Not Specified)," $32,475 "
+Carroll Community College,Non-CPAM Certificate <1y (Not Specified) [No Data], N/A 
+Carroll Community College,Non-CPAM Degree (Not Specified)," $29,902 "
+Carroll Community College,Not Specified (Certificate <1y) [No Data], N/A 
+Carroll Community College,Not Specified," $34,754 "
+College of Southern Maryland,CPAM Certificate <1y (Certificate <1y) [No Data], N/A 
+College of Southern Maryland,CPAM Certificate <1y (Certificate <1y) [No Data], N/A 
+College of Southern Maryland,CPAM Certificate >1y (Certificate >1y)," $21,642 "
+College of Southern Maryland,CPAM Degree AAS (Not Specified) [No Data], N/A 
+College of Southern Maryland,CPAM Degree AS (Degree)," $10,019 "
+College of Southern Maryland, CPAM Non-credit Certificate (Not Specified) [No Data], N/A 
+College of Southern Maryland,Non-CPAM Degree (Not Specified) [No Data], N/A 
+College of Southern Maryland,Not Specified [No Data], N/A 
+Community College of Baltimore County,CPAM Certificate <1y (Didnt Apply for Credential)," $28,022 "
+Community College of Baltimore County,CPAM Certificate <1y (Not Specified)," $6,837 "
+Community College of Baltimore County,CPAM Certificate >1y (Certificate >1y)," $33,702 "
+Community College of Baltimore County,CPAM Degree AAS (Degree)," $29,420 "
+Community College of Baltimore County,CPAM Degree AAS (Not Specified) [No Data], N/A 
+Community College of Baltimore County,CPAM Degree AS (Degree)," $5,905 "
+Community College of Baltimore County,CPAM Non-credit Certificate (Not Specified) [No Data], N/A 
+Frederick Community College,CPAM Certificate <1y (Certificate <1y)," $29,734 "
+Frederick Community College,CPAM Certificate <1y (Not Specified) [No Data], N/A 
+Frederick Community College,CPAM Certificate >1y (Certificate >1y)," $25,204 "
+Frederick Community College,CPAM Degree AAS (Degree)," $26,203 "
+Frederick Community College,CPAM Degree AAS (Not Specified)," $19,439 "
+Frederick Community College,CPAM Degree AS (Degree)," $11,663 "
+Garrett College,CPAM Certificate <1y (Certificate <1y)," $27,950 "
+Garrett College,CPAM Certificate <1y (Not Specified) [No Data], N/A 
+Garrett College,CPAM Degree AAS (Degree)," $9,665 "
+Garrett College,CPAM Degree AAS (Not Specified)," $16,271 "
+Garrett College,CPAM Non-credit Certificate (Certificate <1y) [No Data], N/A 
+Garrett College,CPAM Non-credit Certificate (Other) [No Data], N/A 
+Garrett College,Non-CPAM Degree (Degree)," $4,212 "
+Garrett College,Non-CPAM Degree (Not Specified)," $13,467 "
+Hagerstown Community College,CPAM Certificate <1y (Certificate <1y)," $14,639 "
+Hagerstown Community College,CPAM Certificate <1y (Not Specified)," $57,878 "
+Hagerstown Community College,CPAM Certificate >1y (Certificate >1y) [No Data], N/A 
+Hagerstown Community College,CPAM Degree AAS (Degree)," $20,791 "
+Hagerstown Community College,CPAM Degree AAS (Not Specified)," $25,357 "
+Hagerstown Community College,CPAM Degree AS (Degree)," $26,121 "
+Hagerstown Community College,CPAM Degree AS (Other) [No Data], N/A 
+Hagerstown Community College,CPAM Degree AS (Not Specified)," $48,656 "
+Hagerstown Community College,Non-CPAM Degree (Degree)[No Data], N/A 
+Hagerstown Community College,Non-CPAM Degree (Not Specified)," $22,385 "
+Hagerstown Community College,Not Specified (Degree) [No Data], N/A 
+Hagerstown Community College,Not Specified [No Data], N/A 
+Harford Community College,CPAM Certificate <1y (Certificate <1y) [No Data], N/A 
+Harford Community College,CPAM Certificate <1y (Certificate <1y) [No Data], N/A 
+Harford Community College,CPAM Certificate <1y (Not Specified)," $31,136 "
+Harford Community College,CPAM Certificate >1y (Certificate >1y)," $97,081 "
+Harford Community College,CPAM Degree AS (Degree)," $23,935 "
+Harford Community College,Non-CPAM Certificate <1y (Not Specified) [No Data], N/A 
+Harford Community College,Non-CPAM Degree (Degree) [No Data], N/A 
+Harford Community College,Non-CPAM Degree (Not Specified) [No Data], N/A 
+Harford Community College,Not Specified [No Data], N/A 
+Howard Community College,CPAM Certificate <1y (Not Specified)," $64,027 "
+Howard Community College,CPAM Certificate >1y (Certificate >1y)," $54,612 "
+Howard Community College,CPAM Certificate >1y (Not Specified)," $19,344 "
+Howard Community College,CPAM Degree AA (Certificate >1y)," $41,797 "
+Howard Community College,CPAM Degree AA (Degree)," $24,672 "
+Howard Community College,CPAM Degree AA (Not Specified)," $39,875 "
+Howard Community College,CPAM Degree AAS (Degree) [No Data], N/A 
+Howard Community College,CPAM Degree AAS (Not Specified) [No Data], N/A 
+Howard Community College,CPAM Non-credit Certificate (Not Specified) [No Data], N/A 
+Howard Community College,Non-CPAM Certificate <1y (Not Specified) [No Data], N/A 
+Howard Community College,Non-CPAM Degree (Degree)," $6,848 "
+Howard Community College,Non-CPAM Degree (Not Specified)," $18,287 "
+Howard Community College,Not Specified," $44,148 "
+Howard Community College ,CPAM Certificate <1y (Not Specified) [No Data], N/A 
+Howard Community College ,CPAM Degree AAS (Not Specified) [No Data], N/A 
+Howard Community College ,Non-CPAM Degree (Not Specified) [No Data], N/A 
+Montgomery College,CPAM Certificate <1y (Certificate <1y)," $35,067 "
+Montgomery College,CPAM Certificate <1y (Not Specified) [No Data], N/A 
+Montgomery College,CPAM Certificate >1y (Certificate >1y)," $40,268 "
+Montgomery College,CPAM Degree AA (Degree) [No Data], N/A 
+Montgomery College,CPAM Degree AAS (Degree)," $40,034 "
+Montgomery College,CPAM Degree AAS (Other) [No Data], N/A 
+Montgomery College,CPAM Degree AAS (Not Specified) [No Data], N/A 
+Montgomery College,CPAM Degree AS (Degree)," $38,784 "
+Montgomery College,Non-CPAM Certificate <1y (Certificate <1y) [No Data], N/A 
+Montgomery College,Non-CPAM Certificate <1y (Not Specified) [No Data], N/A 
+Montgomery College,Non-CPAM Degree (Degree) [No Data], N/A 
+Montgomery College,Non-CPAM Degree (Not Specified) [No Data], N/A 
+Montgomery College,Not Specified (Degree)," $79,469 "
+Montgomery College,Not Specified (Other) [No Data], N/A 
+Montgomery College,Not Specified [No Data], N/A 
+Prince George's Community College,CPAM Non-credit Certificate (Certificate <1 y)," $29,030 "
+Prince George's Community College,CPAM Non-credit Certificate (Other)," $37,022 "
+Prince George's Community College,CPAM Non-credit Certificate (Not Specified) [No Data], N/A 
+Training,CPAM Certificate <1y (Certificate <1y) [No Data], N/A 
+Training,CPAM Certificate >1y (Certificate >1y) [No Data], N/A 
+Training,Not Specified [No Data], N/A 
+Wor-Wic Community College,CPAM Certificate <1y (Certificate <1y)," $40,038 "
+Wor-Wic Community College,CPAM Certificate <1y (Not Specified)," $26,973 "
+Wor-Wic Community College,CPAM Certificate >1y (Certificate >1y)," $24,961 "
+Wor-Wic Community College,CPAM Certificate >1y (Not Specified) [No Data], N/A 
+Wor-Wic Community College,CPAM Degree AAS (Degree) [No Data], N/A 
+Wor-Wic Community College,CPAM Degree AAS (Not Specified)," $37,518 "
+Wor-Wic Community College,CPAM Degree AS (Degree)," $24,954 "
+Wor-Wic Community College,CPAM Degree AS (Not Specified)," $25,012 "
+Wor-Wic Community College,Non-CPAM Degree (Degree) [No Data], N/A 
+Wor-Wic Community College,Non-CPAM Degree (Not Specified) [No Data], N/A 
+Wor-Wic Community College,Not Specified (Degree) [No Data], N/A 
+Wor-Wic Community College,Not Specified," $21,960 "
