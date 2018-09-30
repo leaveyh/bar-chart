@@ -38,12 +38,18 @@
                 <button class="button" id="change3" style="padding-left: 10%; padding-right: 17%" onclick="collapse3();color3()">Retention Rate</button>
                 </div>
             <div class="dropdown">    
-            <button class="button" id="change4" style="padding-left: 10%; padding-right: 1%;" onclick="collapse4();color4()">Median Earnings
+            <button class="button" id="change4" style="padding-left: 10%; padding-right: 17%;" onclick="collapse4();color4()">Median Earnings
  </button>
                 
                 </div>
         <div class="dropdown">    
-            <button class="button" id="change5" style="padding-left: 1%; padding-right: 1%;" onclick="collapse5();color5()">Transfer Rate
+            <button class="button" id="change5" style="padding-left: 10%; padding-right: 1%;" onclick="collapse5();color5()">Transfer Rate
+ </button>
+                
+                </div>
+                
+             <div class="dropdown">    
+            <button class="button" id="change6" style="padding-left: 10%; padding-right: 10%;" onclick="collapse6();color6()">Technical Notes
  </button>
                 
                 </div>
@@ -51,7 +57,9 @@
     
     <div id="Wrapper">
         <div class="content">
-            
+            <div class="ChartTitle">
+                <p id="Title6" style="font-size: 13px; display: none;">Technical Notes</p>
+            </div>
     
             <!--
             <div class="County">
@@ -66,7 +74,7 @@
             
             
             
-            <div id="collapse1">
+            <div id="Collapse1">
             
             
             <div class="ChartTitle">
@@ -77,15 +85,20 @@
                 <p id="Title4" style="display: none; font-size: 13px;">Median Annual Earnings</p>
                 <p id="Title5" style="display: none; font-size: 13px;">Inter-college Transfer Rate</p>
                     <p> College: 
-                        <select id="btn4" style="font-size: 12px">
-                           <option value="All">All</option>
+                        <select id="btn4" style="font-size: 12px" onchange="list()">
+                           
                             
                         </select>            
                     </p>
                     <p>
                         Credential: 
-                        <select id="btn5" style="font-size: 12px">
+                        <select id="btn5" style="font-size: 12px" >
                            <option value="All">All</option>
+                           <option value="Certificate">Certificate</option>
+                           <option value="Non-credit Certificate">Non-credit Certificate</option>
+                           <option value="AAS Degree">AAS Degree</option>
+                           <option value="Associate Degree">Associate Degree</option>
+                           <option value="Not Specified">Not Specified</option>
                             
                         </select>
                         
@@ -194,7 +207,9 @@
                 
                 
             </div>
-                <p class="notes">Average annual earnings —the median value of a specified group of completers’ total earnings from the first four consecutive earning quarters. An earning quarter is a quarter in which an employee is reported with positive earnings.  A year has four quarters: the first quarter includes January through March; the second quarter includes April through June; the third quarter includes July through September, and the last quarter includes October through December.  Completers are those who were reported to have exited the programs. 
+                <p class="notes">Average annual earnings —the median value of a specified group of completers’ total earnings from the first four consecutive earning quarters. An earning quarter is a quarter in which an employee is reported with positive earnings.  A year has four quarters: the first quarter includes January through March; the second quarter includes April through June; the third quarter includes July through September, and the last quarter includes October through December.  Completers are those who were reported to have exited the programs. </p>
+                
+                </div> 
                 
                 <div id="Collapse6" style="display: none;">
             <div class="Table">
@@ -223,6 +238,53 @@
            
         </div>
         
+    <div id="Collapse7">
+        <div id="ChartDiv">
+        <div class="Table">
+                           
+                           
+                           
+                           
+                            <table>
+                    <tr class="HeadRow">
+                              <th>Credentials</th>
+                              <th>Students</th>
+                              <th>Exiters</th>
+                              
+                            </tr>
+                            <tr>
+                                <td>Certificate</td>
+                                <td>1,497</td>
+                                <td>470</td>
+                            </tr>
+                            <tr>
+                                <td>Non-credit Certificate</td>
+                                <td>480</td>
+                                <td>319</td>
+                            </tr>
+                            <tr>
+                                <td>AAS Degree</td>
+                                <td>776</td>
+                                <td>288</td>
+                            </tr>
+                            <tr>
+                                <td>Associate Degree</td>
+                                <td>1,450</td>
+                                <td>380</td>
+                            </tr>
+                            <tr>
+                                <td>Not Specified</td>
+                                <td>621</td>
+                                <td>79</td>
+                            </tr>
+                </table>
+                
+                
+            </div>
+        
+        </div>
+    </div>
+        
 <!-- table scripts -->
  <script src="https://d3js.org/d3.v3.js"></script>
   <script>
@@ -242,7 +304,7 @@ d3.csv("data/collegelist.csv", function(error, data) {
   });
       
     
-d3.csv("data/credlevel1.csv", function(error, data) {
+/*d3.csv("data/credlevel1.csv", function(error, data) {
     var select = d3.select("#btn5")
       
 
@@ -254,7 +316,7 @@ d3.csv("data/credlevel1.csv", function(error, data) {
         .text(function (d) { return d.label; });
       
      
-  });
+  });*/
       
 d3.csv("data/CCCcred.csv", function(error, data) {
     var select = d3.select("#btn51")

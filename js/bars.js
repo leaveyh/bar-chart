@@ -2,7 +2,7 @@ var togNum = 1;
 var togNum1 = 1;
 var colnum = 0;
 var prognum = 0;
-    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQ5MiVpVO_8wwkSbhljMNCfce9UTH6SADhz7NwEBMFZBXCWX3xpH1S4VOHQAgal72PElq0phr8E9GfO/pub?output=csv", function (data) {
+    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vR4bR4tW03PFSOdWxC8AuCHClDIgosZ7ghII-eded9u1V3Dw9DuIAN3qPyQ_o_8oDwKEG9l5ShctsS9/pub?output=csv", function (data) {
 
                 //chart 3 
                 
@@ -364,11 +364,15 @@ function collapse1() {
         document.getElementById("Collapse5").style.display="none";
         document.getElementById("Collapse6").style.display="none";
         
+        document.getElementById("Collapse1").style.display="inline";
+document.getElementById("Collapse7").style.display="none";
         document.getElementById("Title1").style.display="inline";
         document.getElementById("Title2").style.display="none";
         document.getElementById("Title3").style.display="none";
         document.getElementById("Title4").style.display="none";
         document.getElementById("Title5").style.display="none";
+    
+        document.getElementById("Title6").style.display="none";
     
     
         drawAll();
@@ -382,12 +386,16 @@ function collapse2() {
         document.getElementById("Collapse5").style.display="none";
         document.getElementById("Collapse6").style.display="none";
     
+        document.getElementById("Collapse1").style.display="inline";
+document.getElementById("Collapse7").style.display="none";
+    
         document.getElementById("Title1").style.display="none";
         document.getElementById("Title2").style.display="inline";
         document.getElementById("Title3").style.display="none";
         document.getElementById("Title4").style.display="none";
         document.getElementById("Title5").style.display="none";
         
+     document.getElementById("Title6").style.display="none";
         
         drawAll();
         
@@ -400,11 +408,16 @@ function collapse3() {
         document.getElementById("Collapse5").style.display="none";
         document.getElementById("Collapse6").style.display="none";
     
+        document.getElementById("Collapse1").style.display="inline";
+document.getElementById("Collapse7").style.display="none";
+    
         document.getElementById("Title1").style.display="none";
         document.getElementById("Title2").style.display="none";
         document.getElementById("Title3").style.display="inline";
         document.getElementById("Title4").style.display="none";
         document.getElementById("Title5").style.display="none";
+    
+     document.getElementById("Title6").style.display="none";
         
         
         drawAll();
@@ -418,11 +431,16 @@ function collapse4() {
         document.getElementById("Collapse5").style.display="inline";
         document.getElementById("Collapse6").style.display="none";
     
+        document.getElementById("Collapse1").style.display="inline";
+document.getElementById("Collapse7").style.display="none";
+    
         document.getElementById("Title1").style.display="none";
         document.getElementById("Title2").style.display="none";
         document.getElementById("Title3").style.display="none";
         document.getElementById("Title4").style.display="inline";
         document.getElementById("Title5").style.display="none";
+    
+     document.getElementById("Title6").style.display="none";
         
         
         drawAll();
@@ -436,11 +454,42 @@ function collapse5() {
         document.getElementById("Collapse5").style.display="none";
         document.getElementById("Collapse6").style.display="inline";
     
+        document.getElementById("Collapse1").style.display="inline";
+document.getElementById("Collapse7").style.display="none";
+    
         document.getElementById("Title1").style.display="none";
         document.getElementById("Title2").style.display="none";
         document.getElementById("Title3").style.display="none";
         document.getElementById("Title4").style.display="none";
         document.getElementById("Title5").style.display="inline";
+    
+     document.getElementById("Title6").style.display="none";
+        
+        
+        drawAll();
+        
+    }
+
+function collapse6() {
+    
+        document.getElementById("Collapse1").style.display="none";
+        document.getElementById("Collapse2").style.display="none";
+        document.getElementById("Collapse3").style.display="none";
+        document.getElementById("Collapse4").style.display="none";
+        document.getElementById("Collapse5").style.display="none";
+        document.getElementById("Collapse6").style.display="none";
+    
+        document.getElementById("Collapse7").style.display="inline";
+    
+        document.getElementById("Title1").style.display="none";
+        document.getElementById("Title2").style.display="none";
+        document.getElementById("Title3").style.display="none";
+        document.getElementById("Title4").style.display="none";
+        document.getElementById("Title5").style.display="none";
+    
+        document.getElementById("Title6").style.display="inline";
+    
+        
         
         
         drawAll();
@@ -462,6 +511,8 @@ function color1(){
     
     document.getElementById("change5").style.background="linear-gradient(to top, #cbcbcb, white)";
     
+    document.getElementById("change6").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
     
     
 }
@@ -481,6 +532,8 @@ function color2(){
     
     document.getElementById("change5").style.background="linear-gradient(to top, #cbcbcb, white)";
     
+    document.getElementById("change6").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
     
 }
 
@@ -498,6 +551,8 @@ function color3(){
     
     
     document.getElementById("change5").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    document.getElementById("change6").style.background="linear-gradient(to top, #cbcbcb, white)";
     
     
 }
@@ -517,6 +572,7 @@ function color4(){
     
     document.getElementById("change5").style.background="linear-gradient(to top, #cbcbcb, white)";
     
+    document.getElementById("change6").style.background="linear-gradient(to top, #cbcbcb, white)";
     
 }
 
@@ -535,6 +591,28 @@ function color5(){
     
     document.getElementById("change5").style.background="#c4c4c4";
     
+     document.getElementById("change6").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    
+}
+
+function color6(){
+    document.getElementById("change1").style.background="linear-gradient(to top, #cbcbcb, white)";
+   
+    
+    document.getElementById("change2").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    
+    document.getElementById("change3").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    
+    document.getElementById("change4").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    
+    document.getElementById("change5").style.background="linear-gradient(to top, #cbcbcb, white)";
+    
+    document.getElementById("change6").style.background="#c4c4c4";
+    
     
 }
 
@@ -542,7 +620,9 @@ function color5(){
 function list(){
    var X = document.getElementById("btn4");
    var x1 = X.options[X.selectedIndex].value;
-   var numberDrop = document.getElementsByName("btn5");
+    
+    
+   
     
    
     var c0 = "All";
@@ -560,133 +640,100 @@ function list(){
     var c12 = "Prince George's Community College";
     var c13 = "Wor-Wic Community College";
 
-    for(var i = 1; i < numberDrop.length; i++){
-        numberDrop[i].style.display = "hidden";
-    }
+    //0 = all
+    //1 = cert
+    //2 = non cert
+    //3 = aas degree
+    //4 = as degree
+    //5 = not speci
     
     if(x1 == c1){
-        numberDrop[0].style.display = "block";
-        numberDrop[1].style.display = "block";
-        numberDrop[3].style.display = "block";
-        numberDrop[5].style.display = "block";
-        
-        
-    } else if (x1 == c2) {
-        list2();
-        prognum = 1;
-    } else {
-        list3();
-        prognum = 3;
+        document.getElementById("btn5").options[1].disabled = false;
+        document.getElementById("btn5").options[2].disabled = true;
+        document.getElementById("btn5").options[3].disabled = false;
+        document.getElementById("btn5").options[4].disabled = false;
+        document.getElementById("btn5").options[5].disabled = true;
+    } else if(x1 == c2){
+        document.getElementById("btn5").options[1].disabled = true;
+        document.getElementById("btn5").options[2].disabled = false;
+        document.getElementById("btn5").options[3].disabled = true;
+        document.getElementById("btn5").options[4].disabled = true;
+        document.getElementById("btn5").options[5].disabled = true;
+    } else if(x1 == c3){
+        document.getElementById("btn5").options[1].disabled = false;
+        document.getElementById("btn5").options[2].disabled = false;
+        document.getElementById("btn5").options[3].disabled = false;
+        document.getElementById("btn5").options[4].disabled = false;
+        document.getElementById("btn5").options[5].disabled = false;
+    } else if(x1 == c4){
+        document.getElementById("btn5").options[1].disabled = false;
+        document.getElementById("btn5").options[2].disabled = true;
+        document.getElementById("btn5").options[3].disabled = true;
+        document.getElementById("btn5").options[4].disabled = false;
+        document.getElementById("btn5").options[5].disabled = false;
+    } else if(x1 == c5){//
+        document.getElementById("btn5").options[1].disabled = false;
+        document.getElementById("btn5").options[2].disabled = true;
+        document.getElementById("btn5").options[3].disabled = false;
+        document.getElementById("btn5").options[4].disabled = false;
+        document.getElementById("btn5").options[5].disabled = true;
+    } else if(x1 == c6){//
+        document.getElementById("btn5").options[1].disabled = false;
+        document.getElementById("btn5").options[2].disabled = true;
+        document.getElementById("btn5").options[3].disabled = false;
+        document.getElementById("btn5").options[4].disabled = false;
+        document.getElementById("btn5").options[5].disabled = true;
+    } else if(x1 == c7){//
+        document.getElementById("btn5").options[1].disabled = false;
+        document.getElementById("btn5").options[2].disabled = true;
+        document.getElementById("btn5").options[3].disabled = false;
+        document.getElementById("btn5").options[4].disabled = false;
+        document.getElementById("btn5").options[5].disabled = true;
+    } else if(x1 == c8){//
+        document.getElementById("btn5").options[1].disabled = false;
+        document.getElementById("btn5").options[2].disabled = true;
+        document.getElementById("btn5").options[3].disabled = false;
+        document.getElementById("btn5").options[4].disabled = false;
+        document.getElementById("btn5").options[5].disabled = false;
+    } else if(x1 == c9){//
+        document.getElementById("btn5").options[1].disabled = false;
+        document.getElementById("btn5").options[2].disabled = true;
+        document.getElementById("btn5").options[3].disabled = true;
+        document.getElementById("btn5").options[4].disabled = false;
+        document.getElementById("btn5").options[5].disabled = false;
+    } else if(x1 == c10){//
+        document.getElementById("btn5").options[1].disabled = false;
+        document.getElementById("btn5").options[2].disabled = true;
+        document.getElementById("btn5").options[3].disabled = false;
+        document.getElementById("btn5").options[4].disabled = false;
+        document.getElementById("btn5").options[5].disabled = false;
+    } else if(x1 == c11){//
+        document.getElementById("btn5").options[1].disabled = false;
+        document.getElementById("btn5").options[2].disabled = true;
+        document.getElementById("btn5").options[3].disabled = false;
+        document.getElementById("btn5").options[4].disabled = false;
+        document.getElementById("btn5").options[5].disabled = false;
+    } else if(x1 == c12){//
+        document.getElementById("btn5").options[1].disabled = true;
+        document.getElementById("btn5").options[2].disabled = false;
+        document.getElementById("btn5").options[3].disabled = true;
+        document.getElementById("btn5").options[4].disabled = true;
+        document.getElementById("btn5").options[5].disabled = true;
+    } else if(x1 == c13){
+        document.getElementById("btn5").options[1].disabled = false;
+        document.getElementById("btn5").options[2].disabled = true;
+        document.getElementById("btn5").options[3].disabled = false;
+        document.getElementById("btn5").options[4].disabled = false;
+        document.getElementById("btn5").options[5].disabled = false;
+    } else if (x1 == c0){
+        for(var i = 0; i < 6; i++){
+            document.getElementById("btn5").options[i].disabled = false;
+        }
     }
     
     
-}
-
-function list1(){
-    var X1 = document.getElementById("btn5");
-    
-    
-    var X2 = document.getElementById("btn51");
-    
-    
-    var X3 = document.getElementById("btn52");
-   
-    
-    X1.style.display = "inline";
-    X2.style.display = "none";
-    X3.style.display = "none";
-   
-    
-    
-    
-    X1.selectedIndex = 0;
-    X2.selectedIndex = 0;
-    X3.selectedIndex = 0;
     
     
 }
 
-function list2(){
-    var X1 = document.getElementById("btn5");
-    
-    
-    var X2 = document.getElementById("btn51");
-    
-    
-    var X3 = document.getElementById("btn52");
-   
-    
-    
-    
-    
-    
-   
-    
-    X1.style.display = "none";
-    X2.style.display = "inline";
-    X3.style.display = "none";
-   
-    
-    
-    
-    X1.selectedIndex = 0;
-    X2.selectedIndex = 0;
-    X3.selectedIndex = 0;
-}
-function list3(){
-    var X1 = document.getElementById("btn5");
-    
-    
-    //var X2 = document.getElementById("btn51");
-    
-    
-    //var X3 = document.getElementById("btn52");
-   
-    
-    
-    
-    
-    
-   
-    
-    X1.style.display = "none";
-    //X2.style.display = "none";
-    //X3.style.display = "inline";
-   
-    
-    
-    
-    X1.selectedIndex = 0;
-   // X2.selectedIndex = 0;
-   // X3.selectedIndex = 0;
-}
 
-function list4(){
-    
-    
-    var X1 = document.getElementById("btn5");
-    
-    
-    var X2 = document.getElementById("btn51");
-    
-    
-    //var X3 = document.getElementById("btn52");
-   
-    
-    
-    
-    
-    
-   
-    
-    X1.style.display = "none";
-    //X2.style.display = "none";
-    //X3.style.display = "inline";
-   
-    
-    
-    
-    X1.selectedIndex = 0;
-   // X2.selectedIndex = 0;
-    //X3.selectedIndex = 0;
-}
