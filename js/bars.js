@@ -2,7 +2,7 @@ var togNum = 1;
 var togNum1 = 1;
 var colnum = 0;
 var prognum = 0;
-    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTXHH3kTvugLQDELWUl4Hdml8yO6ng4sEgOOVFiQBH7LHUrzcnVXaatPLIh8C3kAue7EQ8J90nGyCmt/pub?output=csv", function (data) {
+    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQ5MiVpVO_8wwkSbhljMNCfce9UTH6SADhz7NwEBMFZBXCWX3xpH1S4VOHQAgal72PElq0phr8E9GfO/pub?output=csv", function (data) {
 
                 //chart 3 
                 
@@ -42,9 +42,9 @@ var prognum = 0;
         
                             var wChart = new dimple.chart(svg3, gradData1);
                             wChart.setBounds("14%", "5%", "75%", "55%")
-                            var edX = wChart.addCategoryAxis("x", ["College Initials", "Program"]);
+                            var edX = wChart.addCategoryAxis("x", ["College Initials", "Credential_level"]);
                             var eduY = wChart.addMeasureAxis("y", "Totals");
-                           var edSeries = wChart.addSeries(["College","Program"], dimple.plot.bar);
+                           var edSeries = wChart.addSeries("Credential_level", dimple.plot.bar);
                             //wChart.addSeries(["Credential_level"], dimple.plot.bar);
                         
                             //edSeries.addOrderRule([""])
@@ -313,6 +313,7 @@ d3.select("#change5").on("click", function() {
     
    //var prechartChange = dimple.filterData(whichCheck(), "Blank", "Not Blank");
    var chartChange = dimple.filterData(whichCheck(), "College", strUser4);
+      
    var chartChange1 = dimple.filterData(chartChange, "Credential_level", strUser5);
    
       wChart.data = chartChange1;
@@ -321,6 +322,14 @@ d3.select("#change5").on("click", function() {
     } else {
         wChart.data = chartChange1;
     };
+      
+    if(strUser4 == "All" && strUser5 == "All"){
+        wChart.data = whichCheck();
+    }
+      
+    if(strUser4 == "All" && strUser5 != "All"){
+        wChart.data = dimple.filterData(whichCheck(), "Credential_level", strUser5);
+    }
     
       
         
@@ -536,20 +545,20 @@ function list(){
    var numberDrop = document.getElementsByName("btn5");
     
    
-    var c1 = "Allegany Community College"
-    var c2 = "Baltimore City Community College"
-    var c3 = "Carroll Community College"
-    var c4 = "College of Southern Maryland"
-    var c5 = "Community College of Baltimore County"
-    var c6 = "Frederick Community College"
-    var c7 = "Garrett College"
-    var c8 = "Hagerstown Community College"
-    var c9 = "Harford Community College"
-    var c10 = "Howard Community College"
-    var c11 = "Montgomery College"
-    var c12 = "Prince George's Community College"
-    var c13 = "Training"
-    var c14 = "Wor-Wic Community College"
+    var c0 = "All";
+    var c1 = "Allegany Community College";
+    var c2 = "Baltimore City Community College";
+    var c3 = "Carroll Community College";
+    var c4 = "College of Southern Maryland";
+    var c5 = "Community College of Baltimore County";
+    var c6 = "Frederick Community College";
+    var c7 = "Garrett College";
+    var c8 = "Hagerstown Community College";
+    var c9 = "Harford Community College";
+    var c10 = "Howard Community College";
+    var c11 = "Montgomery College";
+    var c12 = "Prince George's Community College";
+    var c13 = "Wor-Wic Community College";
 
     for(var i = 1; i < numberDrop.length; i++){
         numberDrop[i].style.display = "hidden";

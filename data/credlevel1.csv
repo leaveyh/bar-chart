@@ -1,8 +1,7 @@
 value,label
 All,All
-Certificate (more than one year),Certificate (more than one year)
-Certificate (less than one year),Certificate (less than one year)
-Degree,Degree
-Didnt Apply for Credential,Didnt Apply for Credential
+Certificate ,Certificate 
+Non-credit Certificate,Non-credit Certificate
+AAS Degree ,AAS Degree 
+Associate Degree,Associate Degree
 Not Specified,Not Specified
-Other,Other
