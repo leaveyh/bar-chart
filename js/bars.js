@@ -53,7 +53,7 @@ var prognum = 0;
         
                             
         
-                            var qLegend = wChart.addLegend("15%", "70%", "90%", "75%");
+                            var qLegend = wChart.addLegend("25%", "70%", "90%", "75%");
                             
         
                        //     edX.addOrderRule(["Less than high school graduate", "High school graduate (includes equivalency)", "Some college or associate's degree", "Bachelor's degree or higher"]);
