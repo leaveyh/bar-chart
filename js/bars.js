@@ -41,7 +41,7 @@ var prognum = 0;
                         
         
                             var wChart = new dimple.chart(svg3, gradData1);
-                            wChart.setBounds("14%", "5%", "75%", "55%")
+                            wChart.setBounds("14%", "5%", "80%", "55%")
                             var edX = wChart.addCategoryAxis("x", ["College Initials", "Credential_level"]);
                             var eduY = wChart.addMeasureAxis("y", "Totals");
                            var edSeries = wChart.addSeries("Credential_level", dimple.plot.bar);
