@@ -2,7 +2,7 @@ var togNum = 1;
 var togNum1 = 1;
 var colnum = 0;
 var prognum = 0;
-    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vR4bR4tW03PFSOdWxC8AuCHClDIgosZ7ghII-eded9u1V3Dw9DuIAN3qPyQ_o_8oDwKEG9l5ShctsS9/pub?output=csv", function (data) {
+    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTsEab4dXm1ngBDOgliN3wTUFSEAvAlcxGpN-PRyqSg6uVGsVtn5aaIX2JhL0X81-s-DijMtS8q6eBM/pub?output=csv", function (data) {
 
                 //chart 3 
                 
@@ -324,11 +324,11 @@ d3.select("#change5").on("click", function() {
     };
       
     if(strUser4 == "All" && strUser5 == "All"){
-        wChart.data = whichCheck();
+        wChart.data = chartChange;
     }
       
     if(strUser4 == "All" && strUser5 != "All"){
-        wChart.data = dimple.filterData(whichCheck(), "Credential_level", strUser5);
+       wChart.data = chartChange1;
     }
     
       

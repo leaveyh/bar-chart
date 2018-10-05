@@ -7,21 +7,21 @@ Carroll Community College,CCC,Certificate,employmentRate,0.357,N
 Carroll Community College,CCC,Non-credit Certificate,employmentRate,0.455,N
 Carroll Community College,CCC,AAS Degree,employmentRate,0.333,N
 Carroll Community College,CCC,Associate Degree,employmentRate,0.553,N
-Carroll Community College,CCC,Not Specified,employmentRate,0.800,N
-College of Southern Maryland,CoSM,Certificate,employmentRate,0.500,N
-College of Southern Maryland,CoSM,Non-credit Certificate [No Data],employmentRate,0.050,Y
-College of Southern Maryland,CoSM,AAS Degree [No Data],employmentRate,0.050,Y
-College of Southern Maryland,CoSM,Associate Degree [No Data],employmentRate,0.050,Y
-College of Southern Maryland,CoSM,Not Specified [No Data],employmentRate,0.050,Y
+Carroll Community College,CCC,Not Specified,employmentRate,0.8,N
+College of Southern Maryland,CoSM,Certificate,employmentRate,0.5,N
+College of Southern Maryland,CoSM,Non-credit Certificate,employmentRate,0,Y
+College of Southern Maryland,CoSM,AAS Degree,employmentRate,0,Y
+College of Southern Maryland,CoSM,Associate Degree,employmentRate,0,Y
+College of Southern Maryland,CoSM,Not Specified,employmentRate,0,Y
 Community College of Baltimore County,CCBC,Certificate,employmentRate,0.588,N
-Community College of Baltimore County,CCBC,Non-credit Certificate [No Data],employmentRate,0.050,Y
+Community College of Baltimore County,CCBC,Non-credit Certificate,employmentRate,0,Y
 Community College of Baltimore County,CCBC,AAS Degree,employmentRate,0.167,N
 Community College of Baltimore County,CCBC,Associate Degree,employmentRate,0.481,N
 Frederick Community College,FCC,Certificate,employmentRate,0.566,N
 Frederick Community College,FCC,AAS Degree,employmentRate,0.235,N
 Frederick Community College,FCC,Associate Degree,employmentRate,0.315,N
 Garrett College,GC,Certificate,employmentRate,0.429,N
-Garrett College,GC,Non-credit Certificate [No Data],employmentRate,0.050,Y
+Garrett College,GC,Non-credit Certificate,employmentRate,0,Y
 Garrett College,GC,AAS Degree,employmentRate,0.405,N
 Garrett College,GC,Associate Degree,employmentRate,0.667,N
 Hagerstown Community College,HagCC,Certificate,employmentRate,0.455,N
@@ -30,12 +30,12 @@ Hagerstown Community College,HagCC,Associate Degree,employmentRate,0.535,N
 Hagerstown Community College,HagCC,Not Specified,employmentRate,0.438,N
 Harford Community College,HarCC,Certificate,employmentRate,0.511,N
 Harford Community College,HarCC,Associate Degree,employmentRate,0.444,N
-Harford Community College,HarCC,Not Specified,employmentRate,0.500,N
-Howard Community College,HowCC,Certificate,employmentRate,1.000,N
-Howard Community College,HowCC,Non-credit Certificate [No Data],employmentRate,0.050,Y
-Howard Community College,HowCC,AAS Degree,employmentRate,0.500,N
+Harford Community College,HarCC,Not Specified,employmentRate,0.5,N
+Howard Community College,HowCC,Certificate,employmentRate,1,N
+Howard Community College,HowCC,Non-credit Certificate,employmentRate,0,Y
+Howard Community College,HowCC,AAS Degree,employmentRate,0.5,N
 Howard Community College,HowCC,Associate Degree,employmentRate,0.667,N
-Howard Community College,HowCC,Not Specified,employmentRate,0.400,N
+Howard Community College,HowCC,Not Specified,employmentRate,0.4,N
 Montgomery College,MC,Certificate,employmentRate,0.319,N
 Montgomery College,MC,AAS Degree,employmentRate,0.393,N
 Montgomery College,MC,Associate Degree,employmentRate,0.519,N
@@ -45,43 +45,43 @@ Wor-Wic Community College,WWCC,Certificate,employmentRate,0.723,N
 Wor-Wic Community College,WWCC,AAS Degree,employmentRate,0.667,N
 Wor-Wic Community College,WWCC,Associate Degree,employmentRate,0.568,N
 Wor-Wic Community College,WWCC,Not Specified,employmentRate,0.489,N
-Allegany Community College,ACC,Certificate [No Data],retentionRate,0.050,Y
-Allegany Community College,ACC,AAS Degree,retentionRate,0.020,N
-Allegany Community College,ACC,Associate Degree [No Data],retentionRate,0.050,Y
+Allegany Community College,ACC,Certificate,retentionRate,0,Y
+Allegany Community College,ACC,AAS Degree,retentionRate,0.02,N
+Allegany Community College,ACC,Associate Degree,retentionRate,0,Y
 Baltimore City Community College,BCCC,Non-credit Certificate,retentionRate,0.228,N
 Carroll Community College,CCC,Certificate,retentionRate,0.071,N
 Carroll Community College,CCC,Non-credit Certificate,retentionRate,0.409,N
 Carroll Community College,CCC,AAS Degree,retentionRate,0.024,N
 Carroll Community College,CCC,Associate Degree,retentionRate,0.105,N
-Carroll Community College,CCC,Not Specified,retentionRate,0.400,N
-College of Southern Maryland,CoSM,Certificate,retentionRate,0.500,N
-College of Southern Maryland,CoSM,Non-credit Certificate [No Data],retentionRate,0.050,Y
-College of Southern Maryland,CoSM,AAS Degree [No Data],retentionRate,0.050,Y
-College of Southern Maryland,CoSM,Associate Degree [No Data],retentionRate,0.050,Y
-College of Southern Maryland,CoSM,Not Specified [No Data],retentionRate,0.050,Y
+Carroll Community College,CCC,Not Specified,retentionRate,0.4,N
+College of Southern Maryland,CoSM,Certificate,retentionRate,0.5,N
+College of Southern Maryland,CoSM,Non-credit Certificate,retentionRate,0,Y
+College of Southern Maryland,CoSM,AAS Degree,retentionRate,0,Y
+College of Southern Maryland,CoSM,Associate Degree,retentionRate,0,Y
+College of Southern Maryland,CoSM,Not Specified,retentionRate,0,Y
 Community College of Baltimore County,CCBC,Certificate,retentionRate,0.157,N
-Community College of Baltimore County,CCBC,Non-credit Certificate [No Data],retentionRate,0.050,Y
+Community College of Baltimore County,CCBC,Non-credit Certificate,retentionRate,0,Y
 Community College of Baltimore County,CCBC,AAS Degree,retentionRate,0.167,N
 Community College of Baltimore County,CCBC,Associate Degree,retentionRate,0.037,N
-Frederick Community College,FCC,Certificate,retentionRate,0.160,N
+Frederick Community College,FCC,Certificate,retentionRate,0.16,N
 Frederick Community College,FCC,AAS Degree,retentionRate,0.176,N
 Frederick Community College,FCC,Associate Degree,retentionRate,0.082,N
 Garrett College,GC,Certificate,retentionRate,0.143,N
-Garrett College,GC,Non-credit Certificate [No Data],retentionRate,0.050,Y
+Garrett College,GC,Non-credit Certificate,retentionRate,0,Y
 Garrett College,GC,AAS Degree,retentionRate,0.297,N
-Garrett College,GC,Associate Degree [No Data],retentionRate,0.050,Y
+Garrett College,GC,Associate Degree,retentionRate,0,Y
 Hagerstown Community College,HagCC,Certificate,retentionRate,0.455,N
-Hagerstown Community College,HagCC,AAS Degree,retentionRate,0.410,N
+Hagerstown Community College,HagCC,AAS Degree,retentionRate,0.41,N
 Hagerstown Community College,HagCC,Associate Degree,retentionRate,0.326,N
 Hagerstown Community College,HagCC,Not Specified,retentionRate,0.188,N
 Harford Community College,HarCC,Certificate,retentionRate,0.087,N
 Harford Community College,HarCC,Associate Degree,retentionRate,0.056,N
-Harford Community College,HarCC,Not Specified [No Data],retentionRate,0.050,Y
+Harford Community College,HarCC,Not Specified,retentionRate,0,Y
 Howard Community College,HowCC,Certificate,retentionRate,0.571,N
-Howard Community College,HowCC,Non-credit Certificate [No Data],retentionRate,0.050,Y
-Howard Community College,HowCC,AAS Degree,retentionRate,0.250,N
+Howard Community College,HowCC,Non-credit Certificate,retentionRate,0,Y
+Howard Community College,HowCC,AAS Degree,retentionRate,0.25,N
 Howard Community College,HowCC,Associate Degree,retentionRate,0.304,N
-Howard Community College,HowCC,Not Specified,retentionRate,0.400,N
+Howard Community College,HowCC,Not Specified,retentionRate,0.4,N
 Montgomery College,MC,Certificate,retentionRate,0.165,N
 Montgomery College,MC,AAS Degree,retentionRate,0.124,N
 Montgomery College,MC,Associate Degree,retentionRate,0.259,N
@@ -91,9 +91,9 @@ Wor-Wic Community College,WWCC,Certificate,retentionRate,0.447,N
 Wor-Wic Community College,WWCC,AAS Degree,retentionRate,0.667,N
 Wor-Wic Community College,WWCC,Associate Degree,retentionRate,0.227,N
 Wor-Wic Community College,WWCC,Not Specified,retentionRate,0.234,N
-Allegany Community College,ACC,Certificate [No Data],medianEarning,500,Y
+Allegany Community College,ACC,Certificate,medianEarning,0,Y
 Allegany Community College,ACC,AAS Degree,medianEarning,29709,N
-Allegany Community College,ACC,Associate Degree [No Data],medianEarning,500,Y
+Allegany Community College,ACC,Associate Degree,medianEarning,0,Y
 Baltimore City Community College,BCCC,Non-credit Certificate,medianEarning,32925,N
 Carroll Community College,CCC,Certificate,medianEarning,25523,N
 Carroll Community College,CCC,Non-credit Certificate,medianEarning,33437.5,N
@@ -101,30 +101,30 @@ Carroll Community College,CCC,AAS Degree,medianEarning,4717,N
 Carroll Community College,CCC,Associate Degree,medianEarning,31288.5,N
 Carroll Community College,CCC,Not Specified,medianEarning,34753.5,N
 College of Southern Maryland,CoSM,Certificate,medianEarning,21642,N
-College of Southern Maryland,CoSM,Non-credit Certificate [No Data],medianEarning,500,Y
-College of Southern Maryland,CoSM,AAS Degree [No Data],medianEarning,500,Y
+College of Southern Maryland,CoSM,Non-credit Certificate,medianEarning,0,Y
+College of Southern Maryland,CoSM,AAS Degree,medianEarning,0,Y
 College of Southern Maryland,CoSM,Associate Degree,medianEarning,10019,N
-College of Southern Maryland,CoSM,Not Specified [No Data],medianEarning,500,Y
+College of Southern Maryland,CoSM,Not Specified,medianEarning,0,Y
 Community College of Baltimore County,CCBC,Certificate,medianEarning,27530,N
-Community College of Baltimore County,CCBC,Non-credit Certificate [No Data],medianEarning,500,Y
+Community College of Baltimore County,CCBC,Non-credit Certificate,medianEarning,0,Y
 Community College of Baltimore County,CCBC,AAS Degree,medianEarning,29420,N
 Community College of Baltimore County,CCBC,Associate Degree,medianEarning,5905,N
 Frederick Community College,FCC,Certificate,medianEarning,28473,N
 Frederick Community College,FCC,AAS Degree,medianEarning,25046,N
 Frederick Community College,FCC,Associate Degree,medianEarning,11662.5,N
 Garrett College,GC,Certificate,medianEarning,27950,N
-Garrett College,GC,Non-credit Certificate [No Data],medianEarning,500,Y
+Garrett College,GC,Non-credit Certificate,medianEarning,0,Y
 Garrett College,GC,AAS Degree,medianEarning,12830,N
-Garrett College,GC,Associate Degree [No Data],medianEarning,500,Y
+Garrett College,GC,Associate Degree,medianEarning,0,Y
 Hagerstown Community College,HagCC,Certificate,medianEarning,15215,N
 Hagerstown Community College,HagCC,AAS Degree,medianEarning,21185,N
 Hagerstown Community College,HagCC,Associate Degree,medianEarning,26121,N
-Hagerstown Community College,HagCC,Not Specified [No Data],medianEarning,500,Y
+Hagerstown Community College,HagCC,Not Specified,medianEarning,0,Y
 Harford Community College,HarCC,Certificate,medianEarning,31316,N
 Harford Community College,HarCC,Associate Degree,medianEarning,23934.5,N
-Harford Community College,HarCC,Not Specified [No Data],medianEarning,500,Y
+Harford Community College,HarCC,Not Specified,medianEarning,0,Y
 Howard Community College,HowCC,Certificate,medianEarning,54612,N
-Howard Community College,HowCC,Non-credit Certificate [No Data],medianEarning,500,Y
+Howard Community College,HowCC,Non-credit Certificate,medianEarning,0,Y
 Howard Community College,HowCC,AAS Degree,medianEarning,30720,N
 Howard Community College,HowCC,Associate Degree,medianEarning,24671.5,N
 Howard Community College,HowCC,Not Specified,medianEarning,44148,N
@@ -137,40 +137,40 @@ Wor-Wic Community College,WWCC,Certificate,medianEarning,27078.5,N
 Wor-Wic Community College,WWCC,AAS Degree,medianEarning,37518,N
 Wor-Wic Community College,WWCC,Associate Degree,medianEarning,24954,N
 Wor-Wic Community College,WWCC,Not Specified,medianEarning,21960,N
-Allegany Community College,ACC,Certificate,graduationRate,0.560,N
+Allegany Community College,ACC,Certificate,graduationRate,0.56,N
 Allegany Community College,ACC,AAS Degree,graduationRate,0.531,N
 Allegany Community College,ACC,Associate Degree,graduationRate,0.615,N
 Baltimore City Community College,BCCC,Non-credit Certificate,graduationRate,0.522,N
 Carroll Community College,CCC,Certificate,graduationRate,0.372,N
-Carroll Community College,CCC,Non-credit Certificate,graduationRate,1.000,N
-Carroll Community College,CCC,AAS Degree,graduationRate,0.300,N
+Carroll Community College,CCC,Non-credit Certificate,graduationRate,1,N
+Carroll Community College,CCC,AAS Degree,graduationRate,0.3,N
 Carroll Community College,CCC,Associate Degree,graduationRate,0.717,N
 Carroll Community College,CCC,Not Specified,graduationRate,0.417,N
-College of Southern Maryland,CoSM,Certificate,graduationRate,0.200,N
-College of Southern Maryland,CoSM,Non-credit Certificate [No Data],graduationRate,0.050,Y
-College of Southern Maryland,CoSM,AAS Degree [No Data],graduationRate,0.050,Y
+College of Southern Maryland,CoSM,Certificate,graduationRate,0.2,N
+College of Southern Maryland,CoSM,Non-credit Certificate,graduationRate,0,Y
+College of Southern Maryland,CoSM,AAS Degree,graduationRate,0,Y
 College of Southern Maryland,CoSM,Associate Degree,graduationRate,0.444,N
 College of Southern Maryland,CoSM,Not Specified,graduationRate,0.026,N
 Community College of Baltimore County,CCBC,Certificate,graduationRate,0.221,N
-Community College of Baltimore County,CCBC,Non-credit Certificate [No Data],graduationRate,0.050,Y
-Community College of Baltimore County,CCBC,AAS Degree,graduationRate,1.000,N
+Community College of Baltimore County,CCBC,Non-credit Certificate,graduationRate,0,Y
+Community College of Baltimore County,CCBC,AAS Degree,graduationRate,1,N
 Community College of Baltimore County,CCBC,Associate Degree,graduationRate,0.643,N
 Frederick Community College,FCC,Certificate,graduationRate,0.245,N
-Frederick Community College,FCC,AAS Degree,graduationRate,1.000,N
-Frederick Community College,FCC,Associate Degree,graduationRate,1.000,N
+Frederick Community College,FCC,AAS Degree,graduationRate,1,N
+Frederick Community College,FCC,Associate Degree,graduationRate,1,N
 Garrett College,GC,Certificate,graduationRate,0.467,N
-Garrett College,GC,Non-credit Certificate [No Data],graduationRate,0.050,Y
+Garrett College,GC,Non-credit Certificate,graduationRate,0,Y
 Garrett College,GC,AAS Degree,graduationRate,0.552,N
-Garrett College,GC,Associate Degree,graduationRate,0.500,N
+Garrett College,GC,Associate Degree,graduationRate,0.5,N
 Hagerstown Community College,HagCC,Certificate,graduationRate,0.344,N
 Hagerstown Community College,HagCC,AAS Degree,graduationRate,0.258,N
 Hagerstown Community College,HagCC,Associate Degree,graduationRate,0.283,N
 Hagerstown Community College,HagCC,Not Specified,graduationRate,0.258,N
-Harford Community College,HarCC,Certificate,graduationRate,0.350,N
+Harford Community College,HarCC,Certificate,graduationRate,0.35,N
 Harford Community College,HarCC,Associate Degree,graduationRate,0.545,N
 Harford Community College,HarCC,Not Specified,graduationRate,0.182,N
 Howard Community College,HowCC,Certificate,graduationRate,0.059,N
-Howard Community College,HowCC,Non-credit Certificate [No Data],graduationRate,0.050,Y
+Howard Community College,HowCC,Non-credit Certificate,graduationRate,0,Y
 Howard Community College,HowCC,AAS Degree,graduationRate,0.048,N
 Howard Community College,HowCC,Associate Degree,graduationRate,0.081,N
 Howard Community College,HowCC,Not Specified,graduationRate,0.019,N
@@ -179,44 +179,44 @@ Montgomery College,MC,AAS Degree,graduationRate,0.464,N
 Montgomery College,MC,Associate Degree,graduationRate,0.267,N
 Montgomery College,MC,Not Specified,graduationRate,0.017,N
 Prince George's Community College,PGCC,Non-credit Certificate,graduationRate,0.989,N
-Wor-Wic Community College,WWCC,Certificate,graduationRate,0.470,N
-Wor-Wic Community College,WWCC,AAS Degree,graduationRate,0.750,N
+Wor-Wic Community College,WWCC,Certificate,graduationRate,0.47,N
+Wor-Wic Community College,WWCC,AAS Degree,graduationRate,0.75,N
 Wor-Wic Community College,WWCC,Associate Degree,graduationRate,0.587,N
-Wor-Wic Community College,WWCC,Not Specified,graduationRate,0.870,N
-Allegany Community College,ACC,Certificate [No Data],transferRate,0.050,Y
-Allegany Community College,ACC,AAS Degree [No Data],transferRate,0.050,Y
-Allegany Community College,ACC,Associate Degree [No Data],transferRate,0.050,Y
-Baltimore City Community College,BCCC,Non-credit Certificate [No Data],transferRate,0.050,Y
+Wor-Wic Community College,WWCC,Not Specified,graduationRate,0.87,N
+Allegany Community College,ACC,Certificate,transferRate,0,Y
+Allegany Community College,ACC,AAS Degree,transferRate,0,Y
+Allegany Community College,ACC,Associate Degree,transferRate,0,Y
+Baltimore City Community College,BCCC,Non-credit Certificate,transferRate,0,Y
 Carroll Community College,CCC,Certificate,transferRate,0.009,N
-Carroll Community College,CCC,Non-credit Certificate [No Data],transferRate,0.050,Y
-Carroll Community College,CCC,AAS Degree [No Data],transferRate,0.050,Y
-Carroll Community College,CCC,Associate Degree [No Data],transferRate,0.050,Y
-Carroll Community College,CCC,Not Specified [No Data],transferRate,0.050,Y
-College of Southern Maryland,CoSM,Certificate,transferRate,0.900,N
-College of Southern Maryland,CoSM,Non-credit Certificate [No Data],transferRate,0.050,Y
+Carroll Community College,CCC,Non-credit Certificate,transferRate,0,Y
+Carroll Community College,CCC,AAS Degree,transferRate,0,Y
+Carroll Community College,CCC,Associate Degree,transferRate,0,Y
+Carroll Community College,CCC,Not Specified,transferRate,0,Y
+College of Southern Maryland,CoSM,Certificate,transferRate,0.9,N
+College of Southern Maryland,CoSM,Non-credit Certificate,transferRate,0,Y
 College of Southern Maryland,CoSM,AAS Degree,transferRate,0.421,N
 College of Southern Maryland,CoSM,Associate Degree,transferRate,0.222,N
 College of Southern Maryland,CoSM,Not Specified,transferRate,0.342,N
 Community College of Baltimore County,CCBC,Certificate,transferRate,0.065,N
-Community College of Baltimore County,CCBC,Non-credit Certificate [No Data],transferRate,0.050,Y
+Community College of Baltimore County,CCBC,Non-credit Certificate,transferRate,0,Y
 Community College of Baltimore County,CCBC,AAS Degree,transferRate,0.167,N
 Community College of Baltimore County,CCBC,Associate Degree,transferRate,0.357,N
-Frederick Community College,FCC,Certificate,transferRate,0.120,N
+Frederick Community College,FCC,Certificate,transferRate,0.12,N
 Frederick Community College,FCC,AAS Degree,transferRate,0.176,N
 Frederick Community College,FCC,Associate Degree,transferRate,0.274,N
-Garrett College,GC,Certificate,transferRate,0.200,N
+Garrett College,GC,Certificate,transferRate,0.2,N
 Garrett College,GC,Non-credit Certificate,transferRate,0.333,N
 Garrett College,GC,AAS Degree,transferRate,0.284,N
-Garrett College,GC,Associate Degree [No Data],transferRate,0.050,Y
+Garrett College,GC,Associate Degree,transferRate,0,Y
 Hagerstown Community College,HagCC,Certificate,transferRate,0.094,N
-Hagerstown Community College,HagCC,AAS Degree,transferRate,0.040,N
+Hagerstown Community College,HagCC,AAS Degree,transferRate,0.04,N
 Hagerstown Community College,HagCC,Associate Degree,transferRate,0.059,N
 Hagerstown Community College,HagCC,Not Specified,transferRate,0.032,N
 Harford Community College,HarCC,Certificate,transferRate,0.118,N
 Harford Community College,HarCC,Associate Degree,transferRate,0.076,N
 Harford Community College,HarCC,Not Specified,transferRate,0.091,N
 Howard Community College,HowCC,Certificate,transferRate,0.068,N
-Howard Community College,HowCC,Non-credit Certificate [No Data],transferRate,0.050,Y
+Howard Community College,HowCC,Non-credit Certificate,transferRate,0,Y
 Howard Community College,HowCC,AAS Degree,transferRate,0.036,N
 Howard Community College,HowCC,Associate Degree,transferRate,0.083,N
 Howard Community College,HowCC,Not Specified,transferRate,0.011,N
@@ -224,8 +224,103 @@ Montgomery College,MC,Certificate,transferRate,0.215,N
 Montgomery College,MC,AAS Degree,transferRate,0.453,N
 Montgomery College,MC,Associate Degree,transferRate,0.386,N
 Montgomery College,MC,Not Specified,transferRate,0.243,N
-Prince George's Community College,PGCC,Non-credit Certificate [No Data],transferRate,0.050,Y
-Wor-Wic Community College,WWCC,Certificate,transferRate,0.120,N
-Wor-Wic Community College,WWCC,AAS Degree,transferRate,0.250,N
-Wor-Wic Community College,WWCC,Associate Degree,transferRate,0.120,N
+Prince George's Community College,PGCC,Non-credit Certificate,transferRate,0,Y
+Wor-Wic Community College,WWCC,Certificate,transferRate,0.12,N
+Wor-Wic Community College,WWCC,AAS Degree,transferRate,0.25,N
+Wor-Wic Community College,WWCC,Associate Degree,transferRate,0.12,N
 Wor-Wic Community College,WWCC,Not Specified,transferRate,0.241,N
+Allegany Community College,ACC,Across All Credentials,employmentRate,0.346,N
+Baltimore City Community College,BCCC,Across All Credentials,employmentRate,0.766,N
+Carroll Community College,CCC,Across All Credentials,employmentRate,0.435,N
+College of Southern Maryland,CoSM,Across All Credentials,employmentRate,0.143,N
+Community College of Baltimore County,CCBC,Across All Credentials,employmentRate,0.524,N
+Frederick Community College,FCC,Across All Credentials,employmentRate,0.444,N
+Garrett College,GC,Across All Credentials,employmentRate,0.426,N
+Hagerstown Community College,HagCC,Across All Credentials,employmentRate,0.477,N
+Harford Community College,HarCC,Across All Credentials,employmentRate,0.492,N
+Howard Community College,HowCC,Across All Credentials,employmentRate,0.671,N
+Montgomery College,MC,Across All Credentials,employmentRate,0.376,N
+Prince George's Community College,PGCC,Across All Credentials,employmentRate,0.442,N
+Wor-Wic Community College,WWCC,Across All Credentials,employmentRate,0.596,N
+Allegany Community College,ACC,Across All Credentials,retentionRate,0.012,N
+Baltimore City Community College,BCCC,Across All Credentials,retentionRate,0.228,N
+Carroll Community College,CCC,Across All Credentials,retentionRate,0.192,N
+College of Southern Maryland,CoSM,Across All Credentials,retentionRate,0.143,N
+Community College of Baltimore County,CCBC,Across All Credentials,retentionRate,0.119,N
+Frederick Community College,FCC,Across All Credentials,retentionRate,0.133,N
+Garrett College,GC,Across All Credentials,retentionRate,0.255,N
+Hagerstown Community College,HagCC,Across All Credentials,retentionRate,0.349,N
+Harford Community College,HarCC,Across All Credentials,retentionRate,0.077,N
+Howard Community College,HowCC,Across All Credentials,retentionRate,0.329,N
+Montgomery College,MC,Across All Credentials,retentionRate,0.162,N
+Prince George's Community College,PGCC,Across All Credentials,retentionRate,0.186,N
+Wor-Wic Community College,WWCC,Across All Credentials,retentionRate,0.312,N
+Allegany Community College,ACC,Across All Credentials,medianEarning,29709,N
+Baltimore City Community College,BCCC,Across All Credentials,medianEarning,32925,N
+Carroll Community College,CCC,Across All Credentials,medianEarning,31632.5,N
+College of Southern Maryland,CoSM,Across All Credentials,medianEarning,15830.5,N
+Community College of Baltimore County,CCBC,Across All Credentials,medianEarning,25389,N
+Frederick Community College,FCC,Across All Credentials,medianEarning,25279,N
+Garrett College,GC,Across All Credentials,medianEarning,13467,N
+Hagerstown Community College,HagCC,Across All Credentials,medianEarning,24568,N
+Harford Community College,HarCC,Across All Credentials,medianEarning,31316,N
+Howard Community College,HowCC,Across All Credentials,medianEarning,26425,N
+Montgomery College,MC,Across All Credentials,medianEarning,40034,N
+Prince George's Community College,PGCC,Across All Credentials,medianEarning,31790.5,N
+Wor-Wic Community College,WWCC,Across All Credentials,medianEarning,24390.5,N
+Allegany Community College,ACC,Across All Credentials,graduationRate,0.551,N
+Baltimore City Community College,BCCC,Across All Credentials,graduationRate,0.522,N
+Carroll Community College,CCC,Across All Credentials,graduationRate,0.503,N
+College of Southern Maryland,CoSM,Across All Credentials,graduationRate,0.091,N
+Community College of Baltimore County,CCBC,Across All Credentials,graduationRate,0.299,N
+Frederick Community College,FCC,Across All Credentials,graduationRate,0.375,N
+Garrett College,GC,Across All Credentials,graduationRate,0.516,N
+Hagerstown Community College,HagCC,Across All Credentials,graduationRate,0.275,N
+Harford Community College,HarCC,Across All Credentials,graduationRate,0.382,N
+Howard Community College,HowCC,Across All Credentials,graduationRate,0.065,N
+Montgomery College,MC,Across All Credentials,graduationRate,0.332,N
+Prince George's Community College,PGCC,Across All Credentials,graduationRate,0.989,N
+Wor-Wic Community College,WWCC,Across All Credentials,graduationRate,0.605,N
+Allegany Community College,ACC,Across All Credentials,transferRate,0,Y
+Baltimore City Community College,BCCC,Across All Credentials,transferRate,0,Y
+Carroll Community College,CCC,Across All Credentials,transferRate,0.003,N
+College of Southern Maryland,CoSM,Across All Credentials,transferRate,0.416,N
+Community College of Baltimore County,CCBC,Across All Credentials,transferRate,0.11,N
+Frederick Community College,FCC,Across All Credentials,transferRate,0.144,N
+Garrett College,GC,Across All Credentials,transferRate,0.253,N
+Hagerstown Community College,HagCC,Across All Credentials,transferRate,0.05,N
+Harford Community College,HarCC,Across All Credentials,transferRate,0.109,N
+Howard Community College,HowCC,Across All Credentials,transferRate,0.064,N
+Montgomery College,MC,Across All Credentials,transferRate,0.323,N
+Prince George's Community College,PGCC,Across All Credentials,transferRate,0,Y
+Wor-Wic Community College,WWCC,Across All Credentials,transferRate,0.15,N
+All,All,Certificate,employmentRate,0.502,N
+All,All,Non-credit Certificate,employmentRate,0.614,N
+All,All,AAS Degree,employmentRate,0.375,N
+All,All,Associate Degree,employmentRate,0.495,N
+All,All,Not Specified,employmentRate,0.481,N
+All,All,Across All Credentials,employmentRate,0.499,N
+All,All,Certificate,retentionRate,0.177,N
+All,All,Non-credit Certificate,retentionRate,0.254,N
+All,All,AAS Degree,retentionRate,0.163,N
+All,All,Associate Degree,retentionRate,0.171,N
+All,All,Not Specified,retentionRate,0.241,N
+All,All,Across All Credentials,retentionRate,0.192,N
+All,All,Certificate,medianEarning,29315,N
+All,All,Non-credit Certificate,medianEarning,32925,N
+All,All,AAS Degree,medianEarning,23712,N
+All,All,Associate Degree,medianEarning,26121,N
+All,All,Not Specified,medianEarning,24355,N
+All,All,Across All Credentials,medianEarning,27577,N
+All,All,Certificate,graduationRate,0.314,N
+All,All,Non-credit Certificate,graduationRate,0.665,N
+All,All,AAS Degree,graduationRate,0.371,N
+All,All,Associate Degree,graduationRate,0.262,N
+All,All,Not Specified,graduationRate,0.127,N
+All,All,Across All Credentials,graduationRate,0.318,N
+All,All,Certificate,transferRate,0.112,N
+All,All,Non-credit Certificate,transferRate,0.014,N
+All,All,AAS Degree,transferRate,0.165,N
+All,All,Associate Degree,transferRate,0.117,N
+All,All,Not Specified,transferRate,0.122,N
+All,All,Across All Credentials,transferRate,0.123,N

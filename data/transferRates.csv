@@ -1,47 +1,66 @@
 College,Credential_level,Totals
+All,Certificate,11.20%
+All,Non-credit Certificate,1.40%
+All,AAS Degree,16.50%
+All,Associate Degree,11.70%
+All,Not Specified,12.20%
+All,Across All Credentials,12.30%
 Allegany Community College,Certificate [No Data],N/A
 Allegany Community College,AAS Degree [No Data],N/A
 Allegany Community College,Associate Degree [No Data],N/A
+Allegany Community College,Across All Credentials,N/A
 Baltimore City Community College,Non-credit Certificate [No Data],N/A
-Carroll Community College,Certificate,0.9%
+Baltimore City Community College,Across All Credentials,N/A
+Carroll Community College,Certificate,0.90%
 Carroll Community College,Non-credit Certificate [No Data],N/A
 Carroll Community College,AAS Degree [No Data],N/A
 Carroll Community College,Associate Degree [No Data],N/A
 Carroll Community College,Not Specified [No Data],N/A
-College of Southern Maryland,Certificate,90.0%
+Carroll Community College,Across All Credentials,0.30%
+College of Southern Maryland,Certificate,90.00%
 College of Southern Maryland,Non-credit Certificate [No Data],N/A
-College of Southern Maryland,AAS Degree,42.1%
-College of Southern Maryland,Associate Degree,22.2%
-College of Southern Maryland,Not Specified,34.2%
-Community College of Baltimore County,Certificate,6.5%
+College of Southern Maryland,AAS Degree,42.10%
+College of Southern Maryland,Associate Degree,22.20%
+College of Southern Maryland,Not Specified,34.20%
+College of Southern Maryland,Across All Credentials,41.60%
+Community College of Baltimore County,Certificate,6.50%
 Community College of Baltimore County,Non-credit Certificate [No Data],N/A
-Community College of Baltimore County,AAS Degree,16.7%
-Community College of Baltimore County,Associate Degree,35.7%
-Frederick Community College,Certificate,12.0%
-Frederick Community College,AAS Degree,17.6%
-Frederick Community College,Associate Degree,27.4%
-Garrett College,Certificate,20.0%
-Garrett College,Non-credit Certificate,33.3%
-Garrett College,AAS Degree,28.4%
+Community College of Baltimore County,AAS Degree,16.70%
+Community College of Baltimore County,Associate Degree,35.70%
+Community College of Baltimore County,Across All Credentials,11.00%
+Frederick Community College,Certificate,12.00%
+Frederick Community College,AAS Degree,17.60%
+Frederick Community College,Associate Degree,27.40%
+Frederick Community College,Across All Credentials,14.40%
+Garrett College,Certificate,20.00%
+Garrett College,Non-credit Certificate,33.30%
+Garrett College,AAS Degree,28.40%
 Garrett College,Associate Degree [No Data],N/A
-Hagerstown Community College,Certificate,9.4%
-Hagerstown Community College,AAS Degree,4.0%
-Hagerstown Community College,Associate Degree,5.9%
-Hagerstown Community College,Not Specified,3.2%
-Harford Community College,Certificate,11.8%
-Harford Community College,Associate Degree,7.6%
-Harford Community College,Not Specified,9.1%
-Howard Community College,Certificate,6.8%
+Garrett College,Across All Credentials,25.30%
+Hagerstown Community College,Certificate,9.40%
+Hagerstown Community College,AAS Degree,4.00%
+Hagerstown Community College,Associate Degree,5.90%
+Hagerstown Community College,Not Specified,3.20%
+Hagerstown Community College,Across All Credentials,5.00%
+Harford Community College,Certificate,11.80%
+Harford Community College,Associate Degree,7.60%
+Harford Community College,Not Specified,9.10%
+Harford Community College,Across All Credentials,10.90%
+Howard Community College,Certificate,6.80%
 Howard Community College,Non-credit Certificate [No Data],N/A
-Howard Community College,AAS Degree,3.6%
-Howard Community College,Associate Degree,8.3%
-Howard Community College,Not Specified,1.1%
-Montgomery College,Certificate,21.5%
-Montgomery College,AAS Degree,45.3%
-Montgomery College,Associate Degree,38.6%
-Montgomery College,Not Specified,24.3%
+Howard Community College,AAS Degree,3.60%
+Howard Community College,Associate Degree,8.30%
+Howard Community College,Not Specified,1.10%
+Howard Community College,Across All Credentials,6.40%
+Montgomery College,Certificate,21.50%
+Montgomery College,AAS Degree,45.30%
+Montgomery College,Associate Degree,38.60%
+Montgomery College,Not Specified,24.30%
+Montgomery College,Across All Credentials,32.30%
 Prince George's Community College,Non-credit Certificate [No Data],N/A
-Wor-Wic Community College,Certificate,12.0%
-Wor-Wic Community College,AAS Degree,25.0%
-Wor-Wic Community College,Associate Degree,12.0%
-Wor-Wic Community College,Not Specified,24.1%
+Prince George's Community College,Across All Credentials,N/A
+Wor-Wic Community College,Certificate,12.00%
+Wor-Wic Community College,AAS Degree,25.00%
+Wor-Wic Community College,Associate Degree,12.00%
+Wor-Wic Community College,Not Specified,24.10%
+Wor-Wic Community College,Across All Credentials,15.00%
