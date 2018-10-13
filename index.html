@@ -146,12 +146,15 @@
                            
                            
                             <table id ="table3">
+                            <thead>
                     <tr class="HeadRow">
                               <th>College</th>
                               <th>Program/(Credential Level)</th>
                               <th>Graduation Rates</th>
                               
                             </tr>
+                                </thead>
+                                <tbody></tbody>
                 </table>
                 
                 
@@ -164,11 +167,14 @@
         <div id="Collapse3" style="display: none;">
             <div class="Table">
                             <table id ="table4">
+                            <thead>
                     <tr class="HeadRow">
                                <th>College</th>
                               <th>Program/(Credential Level)</th>
                               <th>Employment Rates</th>
                             </tr>
+                            </thead>
+                                <tbody></tbody>
                 </table>
                 
                 
@@ -180,11 +186,14 @@
             <div id="Collapse4" style="display: none;">
             <div class="Table">
                             <table id ="table5">
+                            <thead>
                     <tr class="HeadRow">
                                <th>College</th>
                               <th>Program/(Credential Level)</th>
                               <th>Retention Rates</th>
                             </tr>
+                            </thead>
+                                <tbody></tbody>
                 </table>
                 
                 
@@ -196,11 +205,14 @@
             <div class="Table">
                            
                            <table id="table6">
+                            <thead>
                              <tr class="HeadRow">
                                <th>College</th>
                               <th>Program/(Credential Level)</th>
                               <th>Median Annual Earnings</th>
                             </tr>
+                              </thead>
+                                <tbody></tbody>
                                
                                
                            </table>
@@ -215,12 +227,14 @@
                 <div id="Collapse6" style="display: none;">
             <div class="Table">
                             <table id ="table7">
+                              <thead>
                     <tr class="HeadRow">
                                <th>College</th>
                               <th>Program/(Credential Level)</th>
                               <th>Transfer Rates</th>
                             </tr>
-                               
+                            </thead>
+                                <tbody></tbody> 
                                
                 </table>
                 
@@ -365,8 +379,11 @@ d3.csv("data/ccbccred.csv", function(error, data) {
 
    
 <script type="text/javascript"charset="utf-8">
-            d3.text("data/graduationrates.csv", function(data) {
-                var parsedCSV = d3.csv.parseRows(data);
+            d3.text("data/graduationrates.csv", function(consData) {
+                
+               
+                
+                var parsedCSV = d3.csv.parseRows(consData);
 
                 var container = d3.select("#table3")
                     //.append("table")
@@ -452,7 +469,13 @@ d3.csv("data/ccbccred.csv", function(error, data) {
                         .append("td")
                         .text(function(d) { return d; });
             });
+    
+       
+    
+        
         </script>
+               
+               
                 
 <!-- Table scripts -->
             

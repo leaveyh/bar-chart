@@ -3,7 +3,7 @@ var togNum1 = 1;
 var colnum = 0;
 var prognum = 0;
     d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTsO13zy6kr-Se4H08Lqb4-08yCdoan-B_gr1C_cF47LF13i52OEgwfpSqePFEWTmp1xxuKW9sjEQuR/pub?output=csv", function (data) {
-
+        //tableStart();
                 //chart 3 
                 
                 var svg3 = dimple.newSvg("#Chart3", "100%", 375);
@@ -622,6 +622,11 @@ function list(){
    var x1 = X.options[X.selectedIndex].value;
     
     
+    
+    
+    
+    
+    
    
     
    
@@ -639,6 +644,9 @@ function list(){
     var c11 = "Montgomery College";
     var c12 = "Prince George's Community College";
     var c13 = "Wor-Wic Community College";
+    
+    
+    
 
     //0 = all
     //1 = cert
@@ -653,80 +661,98 @@ function list(){
         document.getElementById("btn5").options[3].disabled = false;
         document.getElementById("btn5").options[4].disabled = false;
         document.getElementById("btn5").options[5].disabled = true;
+        tableThing(c1);
+        
     } else if(x1 == c2){
         document.getElementById("btn5").options[1].disabled = true;
         document.getElementById("btn5").options[2].disabled = false;
         document.getElementById("btn5").options[3].disabled = true;
         document.getElementById("btn5").options[4].disabled = true;
         document.getElementById("btn5").options[5].disabled = true;
+        tableThing(c2);
     } else if(x1 == c3){
         document.getElementById("btn5").options[1].disabled = false;
         document.getElementById("btn5").options[2].disabled = false;
         document.getElementById("btn5").options[3].disabled = false;
         document.getElementById("btn5").options[4].disabled = false;
         document.getElementById("btn5").options[5].disabled = false;
+        tableThing(c3);
     } else if(x1 == c4){
         document.getElementById("btn5").options[1].disabled = false;
         document.getElementById("btn5").options[2].disabled = true;
         document.getElementById("btn5").options[3].disabled = true;
         document.getElementById("btn5").options[4].disabled = false;
         document.getElementById("btn5").options[5].disabled = false;
+        tableThing(c4);
     } else if(x1 == c5){//
         document.getElementById("btn5").options[1].disabled = false;
         document.getElementById("btn5").options[2].disabled = true;
         document.getElementById("btn5").options[3].disabled = false;
         document.getElementById("btn5").options[4].disabled = false;
         document.getElementById("btn5").options[5].disabled = true;
+        tableThing(c5);
     } else if(x1 == c6){//
         document.getElementById("btn5").options[1].disabled = false;
         document.getElementById("btn5").options[2].disabled = true;
         document.getElementById("btn5").options[3].disabled = false;
         document.getElementById("btn5").options[4].disabled = false;
         document.getElementById("btn5").options[5].disabled = true;
+        tableThing(c6);
     } else if(x1 == c7){//
         document.getElementById("btn5").options[1].disabled = false;
         document.getElementById("btn5").options[2].disabled = true;
         document.getElementById("btn5").options[3].disabled = false;
         document.getElementById("btn5").options[4].disabled = false;
         document.getElementById("btn5").options[5].disabled = true;
+        tableThing(c7);
     } else if(x1 == c8){//
         document.getElementById("btn5").options[1].disabled = false;
         document.getElementById("btn5").options[2].disabled = true;
         document.getElementById("btn5").options[3].disabled = false;
         document.getElementById("btn5").options[4].disabled = false;
         document.getElementById("btn5").options[5].disabled = false;
+        tableThing(c8);
     } else if(x1 == c9){//
         document.getElementById("btn5").options[1].disabled = false;
         document.getElementById("btn5").options[2].disabled = true;
         document.getElementById("btn5").options[3].disabled = true;
         document.getElementById("btn5").options[4].disabled = false;
         document.getElementById("btn5").options[5].disabled = false;
+        tableThing(c9);
     } else if(x1 == c10){//
         document.getElementById("btn5").options[1].disabled = false;
         document.getElementById("btn5").options[2].disabled = true;
         document.getElementById("btn5").options[3].disabled = false;
         document.getElementById("btn5").options[4].disabled = false;
         document.getElementById("btn5").options[5].disabled = false;
+        tableThing(c10);
     } else if(x1 == c11){//
         document.getElementById("btn5").options[1].disabled = false;
         document.getElementById("btn5").options[2].disabled = true;
         document.getElementById("btn5").options[3].disabled = false;
         document.getElementById("btn5").options[4].disabled = false;
         document.getElementById("btn5").options[5].disabled = false;
+        tableThing(c11);
     } else if(x1 == c12){//
         document.getElementById("btn5").options[1].disabled = true;
         document.getElementById("btn5").options[2].disabled = false;
         document.getElementById("btn5").options[3].disabled = true;
         document.getElementById("btn5").options[4].disabled = true;
         document.getElementById("btn5").options[5].disabled = true;
+        tableThing(c12);
     } else if(x1 == c13){
         document.getElementById("btn5").options[1].disabled = false;
         document.getElementById("btn5").options[2].disabled = true;
         document.getElementById("btn5").options[3].disabled = false;
         document.getElementById("btn5").options[4].disabled = false;
         document.getElementById("btn5").options[5].disabled = false;
+        tableThing(c13);
     } else if (x1 == c0){
+        
+         tableThing(c0);
         for(var i = 0; i < 6; i++){
+            
+           
             document.getElementById("btn5").options[i].disabled = false;
         }
     }
@@ -736,4 +762,379 @@ function list(){
     
 }
 
+function tableThing(tableVar){
+    clearTables();
+    
+    var c0 = "All";
+    var c1 = "Allegany Community College";
+    var c2 = "Baltimore City Community College";
+    var c3 = "Carroll Community College";
+    var c4 = "College of Southern Maryland";
+    var c5 = "Community College of Baltimore County";
+    var c6 = "Frederick Community College";
+    var c7 = "Garrett College";
+    var c8 = "Hagerstown Community College";
+    var c9 = "Harford Community College";
+    var c10 = "Howard Community College";
+    var c11 = "Montgomery College";
+    var c12 = "Prince George's Community College";
+    var c13 = "Wor-Wic Community College";
+    
+        var table3 = document.getElementById("table3");
+        var table4 = document.getElementById("table4");
+        var table5 = document.getElementById("table5");
+        var table6 = document.getElementById("table6");
+        var table7 = document.getElementById("table7");
+        var tableChilds3 = table3.getElementsByTagName("tr");
+        var tableChilds4 = table4.getElementsByTagName("tr");
+        var tableChilds5 = table5.getElementsByTagName("tr");
+        var tableChilds6 = table6.getElementsByTagName("tr");
+        var tableChilds7 = table7.getElementsByTagName("tr");
+    
+    
+    if(tableVar == c0){
+        
+        
+        for(var i = 1; i < 7; i++){
+        var row3 = tableChilds3[i];
+            var row4 = tableChilds4[i];
+            var row5 = tableChilds5[i];
+            var row6 = tableChilds6[i];
+            var row7 = tableChilds7[i];
+        row3.style.display = "table-row";
+            row4.style.display = "table-row";
+            row5.style.display = "table-row";
+            row6.style.display = "table-row";
+            row7.style.display = "table-row";
+            
+            
+        }
+            
+            
+        
+    }
+    
+    if(tableVar == c1){
+        
+        for(var i = 7; i < 11; i++){
+        var row3 = tableChilds3[i];
+            var row4 = tableChilds4[i];
+            var row5 = tableChilds5[i];
+            var row6 = tableChilds6[i];
+            var row7 = tableChilds7[i];
+        row3.style.display = "table-row";
+            row4.style.display = "table-row";
+            row5.style.display = "table-row";
+            row6.style.display = "table-row";
+            row7.style.display = "table-row";
+            
+            
+        }
+            
+            
+        
+    }
+    
+    if(tableVar == c2){
+        
+        for(var i = 11; i < 13; i++){
+        var row3 = tableChilds3[i];
+            var row4 = tableChilds4[i];
+            var row5 = tableChilds5[i];
+            var row6 = tableChilds6[i];
+            var row7 = tableChilds7[i];
+        row3.style.display = "table-row";
+            row4.style.display = "table-row";
+            row5.style.display = "table-row";
+            row6.style.display = "table-row";
+            row7.style.display = "table-row";
+            
+            
+        }
+            
+            
+        
+    }
+    
+    if(tableVar == c3){
+        
+       for(var i = 13; i < 19; i++){
+        var row3 = tableChilds3[i];
+            var row4 = tableChilds4[i];
+            var row5 = tableChilds5[i];
+            var row6 = tableChilds6[i];
+            var row7 = tableChilds7[i];
+        row3.style.display = "table-row";
+            row4.style.display = "table-row";
+            row5.style.display = "table-row";
+            row6.style.display = "table-row";
+            row7.style.display = "table-row";
+            
+            
+        }
+            
+            
+        
+    }
+    
+    if(tableVar == c4){
+        
+        for(var i = 19; i < 25; i++){
+        var row3 = tableChilds3[i];
+            var row4 = tableChilds4[i];
+            var row5 = tableChilds5[i];
+            var row6 = tableChilds6[i];
+            var row7 = tableChilds7[i];
+        row3.style.display = "table-row";
+            row4.style.display = "table-row";
+            row5.style.display = "table-row";
+            row6.style.display = "table-row";
+            row7.style.display = "table-row";
+            
+            
+        }
+            
+            
+        
+    }
+    
+    if(tableVar == c5){
+        
+        for(var i = 25; i < 30; i++){
+        var row3 = tableChilds3[i];
+            var row4 = tableChilds4[i];
+            var row5 = tableChilds5[i];
+            var row6 = tableChilds6[i];
+            var row7 = tableChilds7[i];
+        row3.style.display = "table-row";
+            row4.style.display = "table-row";
+            row5.style.display = "table-row";
+            row6.style.display = "table-row";
+            row7.style.display = "table-row";
+            
+            
+        }
+            
+            
+        
+    }
+    
+    if(tableVar == c6){
+        
+        for(var i = 30; i < 34; i++){
+        var row3 = tableChilds3[i];
+            var row4 = tableChilds4[i];
+            var row5 = tableChilds5[i];
+            var row6 = tableChilds6[i];
+            var row7 = tableChilds7[i];
+        row3.style.display = "table-row";
+            row4.style.display = "table-row";
+            row5.style.display = "table-row";
+            row6.style.display = "table-row";
+            row7.style.display = "table-row";
+            
+            
+        }
+            
+            
+        
+    }
+    
+    if(tableVar == c7){
+        
+        for(var i = 34; i < 39; i++){
+        var row3 = tableChilds3[i];
+            var row4 = tableChilds4[i];
+            var row5 = tableChilds5[i];
+            var row6 = tableChilds6[i];
+            var row7 = tableChilds7[i];
+        row3.style.display = "table-row";
+            row4.style.display = "table-row";
+            row5.style.display = "table-row";
+            row6.style.display = "table-row";
+            row7.style.display = "table-row";
+            
+            
+        }
+            
+            
+        
+    }
+    
+    if(tableVar == c8){
+        
+        for(var i = 39; i < 44; i++){
+        var row3 = tableChilds3[i];
+            var row4 = tableChilds4[i];
+            var row5 = tableChilds5[i];
+            var row6 = tableChilds6[i];
+            var row7 = tableChilds7[i];
+        row3.style.display = "table-row";
+            row4.style.display = "table-row";
+            row5.style.display = "table-row";
+            row6.style.display = "table-row";
+            row7.style.display = "table-row";
+            
+            
+        }
+            
+            
+        
+    }
+    
+    if(tableVar == c9){
+        
+        for(var i = 44; i < 48; i++){
+        var row3 = tableChilds3[i];
+            var row4 = tableChilds4[i];
+            var row5 = tableChilds5[i];
+            var row6 = tableChilds6[i];
+            var row7 = tableChilds7[i];
+        row3.style.display = "table-row";
+            row4.style.display = "table-row";
+            row5.style.display = "table-row";
+            row6.style.display = "table-row";
+            row7.style.display = "table-row";
+            
+            
+        }
+            
+            
+        
+    }
+    
+    if(tableVar == c10){
+        
+        for(var i = 48; i < 54; i++){
+        var row3 = tableChilds3[i];
+            var row4 = tableChilds4[i];
+            var row5 = tableChilds5[i];
+            var row6 = tableChilds6[i];
+            var row7 = tableChilds7[i];
+        row3.style.display = "table-row";
+            row4.style.display = "table-row";
+            row5.style.display = "table-row";
+            row6.style.display = "table-row";
+            row7.style.display = "table-row";
+            
+            
+        }
+            
+            
+        
+    }
+    
+    if(tableVar == c11){
+        
+        for(var i = 54; i < 59; i++){
+        var row3 = tableChilds3[i];
+            var row4 = tableChilds4[i];
+            var row5 = tableChilds5[i];
+            var row6 = tableChilds6[i];
+            var row7 = tableChilds7[i];
+        row3.style.display = "table-row";
+            row4.style.display = "table-row";
+            row5.style.display = "table-row";
+            row6.style.display = "table-row";
+            row7.style.display = "table-row";
+            
+            
+        }
+            
+            
+        
+    }
+    
+    if(tableVar == c12){
+        
+        for(var i = 59; i < 61; i++){
+        var row3 = tableChilds3[i];
+            var row4 = tableChilds4[i];
+            var row5 = tableChilds5[i];
+            var row6 = tableChilds6[i];
+            var row7 = tableChilds7[i];
+        row3.style.display = "table-row";
+            row4.style.display = "table-row";
+            row5.style.display = "table-row";
+            row6.style.display = "table-row";
+            row7.style.display = "table-row";
+            
+            
+        }
+            
+            
+        
+    }
+    
+    if(tableVar == c13){
+        
+        for(var i = 61; i < 66; i++){
+        var row3 = tableChilds3[i];
+            var row4 = tableChilds4[i];
+            var row5 = tableChilds5[i];
+            var row6 = tableChilds6[i];
+            var row7 = tableChilds7[i];
+        row3.style.display = "table-row";
+            row4.style.display = "table-row";
+            row5.style.display = "table-row";
+            row6.style.display = "table-row";
+            row7.style.display = "table-row";
+            
+            
+        }
+            
+            
+        
+    }
+    
+    
+    
+    
+}
 
+function clearTables(){
+    var tableElm = document.getElementById("table7");
+        var tableChilds = tableElm.getElementsByTagName("tr");
+        for(var i = 1; i < 66; i++){
+        var row3 = tableChilds[i];
+        row3.style.display = "none"
+        }
+    
+    var tableElm = document.getElementById("table6");
+        var tableChilds = tableElm.getElementsByTagName("tr");
+        for(var i = 1; i < 66; i++){
+        var row3 = tableChilds[i];
+        row3.style.display = "none";
+        }
+    
+    var tableElm = document.getElementById("table5");
+        var tableChilds = tableElm.getElementsByTagName("tr");
+        for(var i = 1; i < 66; i++){
+        var row3 = tableChilds[i];
+        row3.style.display = "none";
+        }
+    
+    var tableElm = document.getElementById("table4");
+        var tableChilds = tableElm.getElementsByTagName("tr");
+        for(var i = 1; i < 66; i++){
+        var row3 = tableChilds[i];
+        row3.style.display = "none";
+        }
+    
+    var tableElm = document.getElementById("table3");
+        var tableChilds = tableElm.getElementsByTagName("tr");
+        for(var i = 1; i < 66; i++){
+        var row3 = tableChilds[i];
+        row3.style.display = "none";
+        }
+}
+
+
+
+
+
+setTimeout(function() {
+    var c0 = "All";
+    tableThing(c0); 
+
+}, 100);
